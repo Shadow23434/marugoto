@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="1" num="1">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>あいさつを します</ja>
+			<ro>Aisatsu o shimasu</ro>
+			<en>Exchange greetings</en>
+			<es>Intercambia saludos</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/01/manual1.png"/>
+		<img src="swf/can-do/asset/01/manual2.png"/>
+		<img src="swf/can-do/asset/01/manual3.png"/>
+	</top>
+	<!--ここまでトップ-->
+	
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>あいさつ</ja>
+			<en>Greetings</en>
+			<es>Saludos</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/01/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/01/p_thumb3.jpg" src="./asset/01/practice3_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>すみません(1)</first></ja>
+				<ro><first>Sumimasen(1)</first></ro>
+				<en><first>Use of "sumimasen"(1)</first></en>
+				<es><first>Uso del "sumimasen"(1)</first></es>
+			</cue>
+
+			
+			<cue time="8.0" person="A">
+				<ja><first>A) おんなのひと:</first><second>あのう…</second></ja>
+				<ro><first>A) Onna-no-hito:</first><second>Anoo…</second></ro>
+				<en><first>A) Woman:</first><second>Excuse me…</second></en>
+				<es><first>A) Mujer:</first><second>Perdón...</second></es>
+			</cue>
+
+			
+			<cue time="9.0" person="B">
+				<ja><first>B) おとこのひと:</first><second>はい。</second></ja>
+				<ro><first>B) Otoko-no-hito:</first><second>Hai.</second></ro>
+				<en><first>B) Man:</first><second>Yes?</second></en>
+				<es><first>B) Hombre:</first><second>¿Sí?</second></es>
+			</cue>
+
+			
+			<cue time="11.0" person="A">
+				<ja><first>A) おんなのひと:</first><second>ハンカチ、おとしましたよ。</second></ja>
+				<ro><first>A) Onna-no-hito:</first><second>Hankachi, otoshimashita yo.</second></ro>
+				<en><first>A) Woman:</first><second>You dropped your handkerchief.</second></en>
+				<es><first>A) Mujer:</first><second>Se le ha caído el pañuelo.</second></es>
+			</cue>
+
+			
+			<cue time="14.0" person="B">
+				<ja><first>B) おとこのひと:</first><second>すみません。</second></ja>
+				<ro><first>B) Otoko-no-hito:</first><second>Sumimasen.</second></ro>
+				<en><first>B) Man:</first><second>Thank you.</second></en>
+				<es><first>B) Hombre:</first><second>Gracias.</second></es>
+			</cue>
+
+			
+			<cue time="15.0" person="A">
+				<ja><first>A) おんなのひと:</first><second>いいえ。</second></ja>
+				<ro><first>A) Onna-no-hito:</first><second>Iie.</second></ro>
+				<en><first>A) Woman:</first><second>You're welcome.</second></en>
+				<es><first>A) Mujer:</first><second>No hay de qué. </second></es>
+			</cue>
+
+			<cue time="17.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="18.0" person="">
+				<ja><first>すみません(2)</first></ja>
+				<ro><first>Sumimasen(2)</first></ro>
+				<en><first>Use of "sumimasen"(2)</first></en>
+				<es><first>Uso del "sumimasen"(2)</first></es>
+			</cue>
+
+			
+			<cue time="28.4" person="A">
+				<ja><first>A) おんなのひと 1:</first><second>あ、すみません。</second></ja>
+				<ro><first>A) Onna-no-hito 1:</first><second>A, sumimasen.</second></ro>
+				<en><first>A) Woman 1:</first><second>Oh, I'm sorry.</second></en>
+				<es><first>A) Mujer 1:</first><second>Oh, lo siento.</second></es>
+			</cue>
+
+			
+			<cue time="30.5" person="B">
+				<ja><first>B) おんなのひと 2:</first><second>すみません。</second></ja>
+				<ro><first>B) Onna-no-hito 2:</first><second>Sumimasen.</second></ro>
+				<en><first>A) Woman 2:</first><second>Ah, pardon me.</second></en>
+				<es><first>B) Mujer 2:</first><second>Ah, perdón.</second></es>
+			</cue>
+
+			<cue time="34.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="38.0" person="">
+				<ja><first>すみません(3)</first></ja>
+				<ro><first>Sumimasen(3)</first></ro>
+				<en><first>Use of "sumimasen"(3)</first></en>
+				<es><first>Uso del "sumimasen"(3)</first></es>
+			</cue>
+
+			<cue time="44.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="47.0" person="A">
+				<ja><first>A) アントン:</first><second>すみません。</second></ja>
+				<ro><first>A) Anton:</first><second>Sumimasen.</second></ro>
+				<en><first>A) Anton:</first><second>Excuse me.</second></en>
+				<es><first>A) Anton:</first><second>Perdone.</second></es>
+			</cue>
+
+			
+			<cue time="48.6" person="B">
+				<ja><first>B) まつもと:</first><second>はい。</second></ja>
+				<ro><first>B) Matsumoto:</first><second>Hai.</second></ro>
+				<en><first>B) Matsumoto:</first><second>Yes?</second></en>
+				<es><first>B) Matsumoto:</first><second>¿Sí?</second></es>
+			</cue>
+
+			
+			<cue time="49.5" person="A">
+				<ja><first>A) アントン:</first><second>きょうしつは…?</second></ja>
+				<ro><first>A) Anton:</first><second>Kyooshitsu wa…?</second></ro>
+				<en><first>A) Anton:</first><second>Where's the classroom…?</second></en>
+				<es><first>A) Anton:</first><second>¿Dónde es la aula?</second></es>
+			</cue>
+
+			<cue time="53.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	<!--ここまでれんしゅう-->
+	
+	
+	<!--ここからチャレンジ-->
+	<challenge type="basic">
+		<video src="./asset/01/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="A">
+				<ja><first>にほんごの　クラスに　いきます。せんせいや　ともだちに　あいさつを　しましょう。</first></ja>
+				<ro><first>Nihongo no kurasu ni ikimasu. Sensee ya tomodachi ni aisatsu o shimashoo.</first></ro>
+				<en><first>You're going to your Japanese class. Greet your teacher and friends.</first></en>
+				<es><first>Vas a ir a la clase de japonés. Saluda a la profesora y a los amigos. </first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="14.8" person="A">
+				<ja><first>おはようございます。</first></ja>
+				<ro><first>Ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="17.5" person="B">
+				<ja><first>おはようございます。</first></ja>
+				<ro><first>Ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="23.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="36.0" person="A">
+				<ja><first>おはよう。</first></ja>
+				<ro><first>Ohayoo.</first></ro>
+				<en><first>Morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="38.0" person="B">
+				<ja><first>おはよう(ございます)。</first></ja>
+				<ro><first>Ohayoo (gozaimasu).</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="42.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="41.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

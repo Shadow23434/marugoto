@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="2" num="8">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>かぞくの しゃしんを みて はなします</ja>
+			<ro>Kazoku no shashin o mite hanashimasu</ro>
+			<en>Tell about your family, using a family photo</en>
+			<es>Describe a tu familia utilizando una foto</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/08/manual1.png"/>
+		<img src="swf/can-do/asset/08/manual2.png"/>
+		<img src="swf/can-do/asset/08/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>かぞくについて　はなす</ja>
+			<en>Talking about your family</en>
+			<es>Hablar sobre tu familia</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/08/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/08/p_thumb1.jpg" src="./asset/08/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>きょうは　じゅぎょうで　かぞくを　しょうかいします。</first></ja>
+				<ro><first>Kyoo wa jugyoo de kazoku o shookai-shimasu.</first></ro>
+				<en><first>Today's lesson is about "Introducing your family".</first></en>
+				<es><first>En la clase de hoy vamos a presentar a nuestras familias.</first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) ダン:</first><second>わたしの　かぞくは　4にんです。しゃしんを　みて　ください。</second></ja>
+				<ro><first>A) Dan:</first><second>Watashi no kazoku wa yo-nin desu. Shashin o mite kudasai.</second></ro>
+				<en><first>A) Dan:</first><second>There are 4 people in my family. Please take a look at this photo.</second></en>
+				<es><first>A) Dan:</first><second>Somos cuatro en la familia. Mira esta foto, por favor. </second></es>
+			</cue>
+
+			
+			<cue time="10.5" person="A">
+				<ja><first>A) ダン:</first><second>ちちと　ははです。</second></ja>
+				<ro><first>A) Dan:</first><second>Chichi to haha desu.</second></ro>
+				<en><first>A) Dan:</first><second>This is my father and my mother.</second></en>
+				<es><first>A) Dan:</first><second>Son mi padre y mi madre. </second></es>
+			</cue>
+
+			
+			<cue time="12.5" person="B">
+				<ja><first>B) アントン:</first><second>わかいですね ! おいくつですか。</second></ja>
+				<ro><first>B) Anton:</first><second>Wakai desu ne! Oikutsu desu ka.</second></ro>
+				<en><first>B) Anton:</first><second>They both look so young! How old are they?</second></en>
+				<es><first>B) Anton:</first><second>Se les ve muy jóvenes. ¿Cuántos años tienen?</second></es>
+			</cue>
+
+			
+			<cue time="16.6" person="A">
+				<ja><first>A) ダン:</first><second>ちちは　53さいです。ははは　54さいです。</second></ja>
+				<ro><first>A) Dan:</first><second>Chichi wa gojuu-san-sai desu. Haha wa gojuu-yon-sai desu.</second></ro>
+				<en><first>A) Dan:</first><second>My father is 53 years old. And my mother is 54.</second></en>
+				<es><first>A) Dan:</first><second>Mi padre tiene 53 años. Mi madre tiene 54 años. </second></es>
+			</cue>
+
+			
+			<cue time="21.4" person="B">
+				<ja><first>B) アントン:</first><second>ふーん。おしごとは?</second></ja>
+				<ro><first>B) Anton:</first><second>Fuun. Oshigoto wa?</second></ro>
+				<en><first>B) Anton:</first><second>Ooh. What do they do for a living?</second></en>
+				<es><first>B) Anton:</first><second>Ah, sí. ¿A qué se dedican?</second></es>
+			</cue>
+
+			
+			<cue time="24.2" person="A">
+				<ja><first>A) ダン:</first><second>ちちは　きょうしです。ははは　ほいくしです。</second></ja>
+				<ro><first>A) Dan:</first><second>Chichi wa kyooshi desu. Haha wa hoikushi desu.</second></ro>
+				<en><first>A) Dan:</first><second>Dad is a teacher and Mum is a childcare worker.</second></en>
+				<es><first>A) Dan:</first><second>Mi padre es profesor y mi madre es puericultora. </second></es>
+			</cue>
+
+			
+			<cue time="28.1" person="B">
+				<ja><first>B) アントン:</first><second>はー。この　ひとは　おねえさんですか、いもうとさんですか。</second></ja>
+				<ro><first>B) Anton:</first><second>Haa. Kono hito wa oneesan desu ka, imootosan desu ka.</second></ro>
+				<en><first>B) Anton:</first><second>Oh. Is this your elder sister? Or younger sister?</second></en>
+				<es><first>B) Anton:</first><second>Así. ¿Es esta tu hermana mayor o hermana menor?</second></es>
+			</cue>
+
+			
+			<cue time="34.5" person="A">
+				<ja><first>A) ダン:</first><second>いもうとです。</second></ja>
+				<ro><first>A) Dan:</first><second>Imooto desu.</second></ro>
+				<en><first>A) Dan:</first><second>She's my younger sister.</second></en>
+				<es><first>A) Dan:</first><second>Es mi hermana menor.</second></es>
+			</cue>
+
+			
+			<cue time="35.8" person="B">
+				<ja><first>B) アントン:</first><second>はは。かわいいですね。</second></ja>
+				<ro><first>B) Anton:</first><second>Haha. Kawaii desu ne.</second></ro>
+				<en><first>B) Anton:</first><second>She's cute isn't she?</second></en>
+				<es><first>B) Anton:</first><second>Es muy mona, ¿no?</second></es>
+			</cue>
+
+					
+			<cue time="38.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/08/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>しゃしんを　みながら、まいさんと　はなしましょう。</first></ja>
+				<ro><first>Shashin o mi nagara, Mai-san to hanashimashoo.</first></ro>
+				<en><first>Talk to Mai as you look at some photos.</first></en>
+				<es><first>Habla con Mai viendo unas fotos.</first></es>
+			</cue>
+
+			
+			<cue time="9.0" person="A">
+				<ja><first>だれ?</first></ja>
+				<ro><first>Dare?</first></ro>
+				<en><first>Who's the boy? Let's ask.</first></en>
+				<es><first>¿Quién es este chico? Vamos a preguntar.</first></es>
+			</cue>
+
+			
+			<cue time="14.0" person="B">
+				<ja><first>(この　こは)だれですか。</first></ja>
+				<ro><first>(Kono ko wa) dare desu ka.</first></ro>
+				<en><first>Who's this (child)?</first></en>
+				<es><first>¿Quién es éste (este chico)? </first></es>
+			</cue>
+
+			
+			<cue time="20.0" person="A">
+				<ja><first>おとうとです。11さいです。</first></ja>
+				<ro><first>Otooto desu. Juu-issai desu.</first></ro>
+				<en><first>It's my younger brother. He's eleven.</first></en>
+				<es><first>Es mi hermano menor. Tiene 11 años.</first></es>
+			</cue>
+
+			
+			<cue time="23.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="26.0" person="A">
+				<ja><first>コメントしましょう。</first></ja>
+				<ro><first>Komento-shimashoo.</first></ro>
+				<en><first>Make a comment on the boy in the photo.</first></en>
+				<es><first>Comenta sobre el chico en la foto.</first></es>
+			</cue>
+
+			
+			<cue time="30.8" person="B">
+				<ja><first>れい: かわいいですね。/ かっこいいですね。</first></ja>
+				<ro><first>Ree: Kawaii desu ne./Kakkoii desu ne.</first></ro>
+				<en><first>E.g: He's cute/cool.</first></en>
+				<es><first>Ejm: Es muy mono/guapo.</first></es>
+			</cue>
+
+			
+			<cue time="35.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

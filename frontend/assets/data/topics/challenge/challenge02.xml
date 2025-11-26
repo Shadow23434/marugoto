@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="1" num="2">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>にほんごを よみます</ja>
+			<ro>Nihongo o yomimasu</ro>
+			<en>Read Japanese scripts</en>
+			<es>Lee textos en japonés</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/02/manual1.png"/>
+		<img src="swf/can-do/asset/02/manual2.png"/>
+		<img src="swf/can-do/asset/02/manual3.png"/>
+	</top>
+	<!--ここまでトップ-->
+	
+	
+	<kakunin type="pics" checkbox="true">
+		
+		<pic>
+			<midashi>
+				<ja>にほんごのもじ</ja>
+				<en>Japanese writing</en>
+				<es>Escritura del japonés</es>
+			</midashi>
+			<path>swf/can-do/asset/02/kakunin_</path>
+		</pic>
+		
+	</kakunin>
+	
+
+	
+	<!--ここかられんしゅう-->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/02/renshu1_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/02/renshu2_</base>
+		</page>
+		
+	</renshu>
+	
+	
+	
+
+	
+	<!--ここからチャレンジ-->
+	<challenge type="basic">
+		<video src="./asset/02/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="A">
+				<ja><first>いろいろな　ことばの　クラスが　あります。にほんごの　クラスは　どこですか。</first></ja>
+				<ro><first>Iroirona kotoba no kurasu ga arimasu. Nihongo no kurasu wa doko desu ka.</first></ro>
+				<en><first>There are various language classes. Where is the Japanese class held?</first></en>
+				<es><first>Hay varias clases de idiomas. ¿Dónde es la clase de japonés?</first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="B">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

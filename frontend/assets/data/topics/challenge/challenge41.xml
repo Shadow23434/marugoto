@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="8" num="41">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>みせに ある ものについて どう おもうか いいます</ja>
+			<ro>Mise ni aru mono ni tsuite doo omoo ka iimasu</ro>
+			<en>Make a brief comment on things in a shop</en>
+			<es>Haz comentarios sencillos sobre los objetos de una tienda</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/41/manual1.png"/>
+		<img src="swf/can-do/asset/41/manual2.png"/>
+		<img src="swf/can-do/asset/41/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>いんしょうを　言う</ja>
+			<en>Giving your impression(s)</en>
+			<es>Comentar tu impresión</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/41/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/41/p_thumb1.jpg" src="./asset/41/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>わださんが　おみやげを　見て　います。</first></ja>
+				<ro><first>Wada-san ga omiyage o mite imasu.</first></ro>
+				<en><first>Mr Wada is looking at souvenirs.</first></en>
+				<es><first>Sr. Wada está mirando unos recuerdos. </first></es>
+			</cue>
+
+			
+			<cue time="7.5" person="A">
+				<ja><first>A) ダン:</first><second>わー、きれいですね。だれに　あげますか。</second></ja>
+				<ro><first>A) Dan:</first><second>Waa, kiree desu ne. Dare ni agemasu ka.</second></ro>
+				<en><first>A) Dan:</first><second>Ooh, that's pretty, isn't it? Who'll you give it to?</second></en>
+				<es><first>A) Dan:</first><second>Oh, ¡qué bonito! ¿A quién se lo vas a regalar?</second></es>
+			</cue>
+
+			
+			<cue time="11.3" person="B">
+				<ja><first>B) わだ:</first><second>えっ、ともだちですよ。</second></ja>
+				<ro><first>B) Wada:</first><second>E, tomodachi desu yo.</second></ro>
+				<en><first>B) Wada:</first><second>To...To a friend.</second></en>
+				<es><first>B) Wada:</first><second>Pues, a un amigo.</second></es>
+			</cue>
+
+			
+			<cue time="14.0" person="A">
+				<ja><first>A) ダン:</first><second>へえー。</second></ja>
+				<ro><first>A) Dan:</first><second>Hee.</second></ro>
+				<en><first>A) Dan:</first><second>Aah.</second></en>
+				<es><first>A) Dan:</first><second>Ya veo.</second></es>
+			</cue>
+					
+			<cue time="17.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/41/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさんの　おすすめの　シャツです。どうですか。</first></ja>
+				<ro><first>Mai-san no osusume no shatsu desu. Doo desu ka.</first></ro>
+				<en><first>Mai suggests you try this shirt. What do you think of it?</first></en>
+				<es><first>Mai te sugiere una camisa. ¿Qué te parece?</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="12.8" person="A">
+				<ja><first>あ、これ、いいですね。</first></ja>
+				<ro><first>A, kore, ii desu ne.</first></ro>
+				<en><first>Ah, this one looks good!</first></en>
+				<es><first>Ah, esta parece bien.</first></es>
+			</cue>
+
+			
+			<cue time="15.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="28.0" person="A">
+				<ja><first>どうですか。</first></ja>
+				<ro><first>Doo desu ka.</first></ro>
+				<en><first>What do you think?</first></en>
+				<es><first>¿Qué te parece?</first></es>
+			</cue>
+
+			
+			<cue time="30.7" person="B">
+				<ja><first>れい: かわいいですね。 / ほしいな。 / たかいですね。</first></ja>
+				<ro><first>Ree: Kawaii desu ne./Hoshii na./Takai desu ne.</first></ro>
+				<en><first>E.g: Cute, isn't it!/I want it./Expensive, isn't it.</first></en>
+				<es><first>Ejm: Bonita, ¿no?/ Me la quiero llevar. / Cara, ¿no?</first></es>
+			</cue>
+
+			
+			<cue time="35.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="6" num="30">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>イベントの ポスターや カレンダーを よみます</ja>
+			<ro>Ibento no posutaa ya karendaa o yomimasu</ro>
+			<en>Read posters and calendars for events</en>
+			<es>Lee pósters y calendarios de eventos</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/30/manual1.png"/>
+		<img src="swf/can-do/asset/30/manual2.png"/>
+		<img src="swf/can-do/asset/30/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="pics" checkbox="true">
+		
+		<pic>
+			<midashi>
+				<ja>イベントの　じょうほう</ja>
+				<en>Event information</en>
+				<es>Información sobre eventos</es>
+			</midashi>
+			<path>swf/can-do/asset/30/kakunin1_</path>
+		</pic>
+		
+		<pic>
+			<midashi>
+				<ja>イベントの　じょうほう</ja>
+				<en>Event information</en>
+				<es>Información sobre eventos</es>
+			</midashi>
+			<path>swf/can-do/asset/30/kakunin2_</path>
+		</pic>
+		
+	</kakunin>
+	
+
+	<!-- ここかられんしゅう -->
+	
+<!-- ページ送りタイプ -->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/30/renshu1_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/30/renshu2_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/30/renshu3_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/30/renshu4_</base>
+		</page>
+		
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/30/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさんが　イベントを　しょうかいして　くれました。</first></ja>
+				<ro><first>Mai-san ga ibento o shookai-shite kuremashita.</first></ro>
+				<en><first>Mai told you about an upcoming event.</first></en>
+				<es><first>Mai te ha hablado de un evento que va a haber.</first></es>
+			</cue>
+
+			
+			<cue time="5.5" person="B">
+				<ja><first>なんの　イベントが　いつ　ありますか。</first></ja>
+				<ro><first>Nan no ibento ga itsu arimasu ka.</first></ro>
+				<en><first>What is the event and when is it?</first></en>
+				<es><first>¿Qué evento es? ¿Cuándo es?</first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="A">
+				<ja><first>そういえば…</first></ja>
+				<ro><first>Soo ieba…</first></ro>
+				<en><first>Speaking of days off…</first></en>
+				<es><first>Hablando de días libres... </first></es>
+			</cue>
+
+			
+			<cue time="12.0" person="B">
+				<ja><first>これこれ。こんど　きものショーが　あります。</first></ja>
+				<ro><first>Kore kore. Kondo kimono-shoo ga arimasu.</first></ro>
+				<en><first>Here it is. There's a kimono show soon.</first></en>
+				<es><first>Aquí está. Va a haber un espectáculo de quimonos pronto. </first></es>
+			</cue>
+
+			
+			<cue time="17.5" person="A">
+				<ja><first>いっしょに　いきませんか。</first></ja>
+				<ro><first>Issho ni ikimasen ka.</first></ro>
+				<en><first>Do you want to go with us?</first></en>
+				<es><first>¿No quieres ir con nosotros?</first></es>
+			</cue>
+
+			
+			<cue time="20.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

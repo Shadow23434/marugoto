@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="1" num="3">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>きょうしつの ことばを はなします</ja>
+			<ro>Kyooshitsu no kotoba o hanashimasu</ro>
+			<en>Use basic classroom expressions</en>
+			<es>Usa expresiones básicas para la clase</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル画像-->
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/03/manual1.png"/>
+		<img src="swf/can-do/asset/03/manual2.png"/>
+		<img src="swf/can-do/asset/03/manual3.png"/>
+	</top>
+	<!--ここまでトップ-->
+	
+	
+	<!--ここからチャレンジ-->
+	<challenge type="basic">
+		<video src="./asset/03/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="0.2" person="">
+				<ja><first>クラスでは　にほんごを　はなしましょう。</first></ja>
+				<ro><first>Kurasu de wa Nihongo o hanashimashoo.</first></ro>
+				<en><first>Let's speak Japanese in class.</first></en>
+				<es><first>Vamos a hablar japonés en la clase.</first></es>
+			</cue>
+
+			<cue time="8.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="12.8" person="A">
+				<ja><first>みなさん、おはようございます。</first></ja>
+				<ro><first>Minasan, ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning, everyone.</first></en>
+				<es><first>Buenos días a todos.</first></es>
+			</cue>
+
+			
+			<cue time="18.0" person="B">
+				<ja><first>いいですか。きいて　ください。</first></ja>
+				<ro><first>Ii desu ka. Kiite kudasai.</first></ro>
+				<en><first>Ready? Please listen.</first></en>
+				<es><first>¿Preparados? Atención, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="21.0" person="A">
+				<ja><first>ここに　なまえと　くにを　かいて　ください。</first></ja>
+				<ro><first>Koko ni namae to kuni o kaite kudasai.</first></ro>
+				<en><first>Please write your name and country here.</first></en>
+				<es><first>Escribid aquí vuestros nombres y el país, por favor.  </first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="70.0" person="A">
+				<ja><first>*　*　*　*　*　*　*　*　*　*</first></ja>
+				<ro><first>* * * * * * * * * *</first></ro>
+				<en><first>* * * * * * * * * *</first></en>
+				<es><first>* * * * * * * * * *</first></es>
+			</cue>
+
+			<cue time="75.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="76.0" person="A">
+				<ja><first>もうすこし　ゆっくり　いって　もらいましょう。</first></ja>
+				<ro><first>Moo sukoshi yukkuri itte moraimashoo.</first></ro>
+				<en><first>Let's ask her to say it more slowly.</first></en>
+				<es><first>Vamos a pedirle que hable un poco más despacio.</first></es>
+			</cue>
+
+			
+			<cue time="81.0" person="B">
+				<ja><first>すみません、もうすこし　ゆっくり　いって　ください。</first></ja>
+				<ro><first>Sumimasen, moo sukoshi yukkuri itte kudasai.</first></ro>
+				<en><first>Excuse me, could you say that a little slower please?</first></en>
+				<es><first>Perdón, ¿podría decirlo un poco más despacio?</first></es>
+			</cue>
+
+			
+			<cue time="89.0" person="A">
+				<ja><first>はい。　わかりました。</first></ja>
+				<ro><first>Hai. Wakarimashita.</first></ro>
+				<en><first>Yes. Okay.</first></en>
+				<es><first>Sí. Vale.</first></es>
+			</cue>
+
+			
+			<cue time="91.0" person="B">
+				<ja><first>4ページを　あけて　ください。</first></ja>
+				<ro><first>Yon-peeji o akete kudasai.</first></ro>
+				<en><first>Please open your books to page 4.</first></en>
+				<es><first>Abrid la página 4. </first></es>
+			</cue>
+
+			<cue time="97.0" person="A">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

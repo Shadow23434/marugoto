@@ -1,0 +1,65 @@
+spring:
+  application:
+    name: marugoto
+
+  # Database PostgreSQL
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dev_marugoto
+    username: postgres
+    password: 1
+    driver-class-name: org.postgresql.Driver
+    hikari: # Connection Pool
+      maximum-pool-size: 20
+      minimum-idle: 10
+      connection-timeout: 30000
+
+  jpa:
+    hibernate:
+      ddl-auto: update # Convert to 'validate' in production
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  cache:
+    type: redis
+    redis:
+      time-to-live: 600000 # 10 minutes
+
+  # Redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+      timeout: 60000
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+
+    # Elasticsearch
+    elasticsearch:
+      uris: http://localhost:9200
+
+# JWT Configuration
+jwt:
+  secret: your-256-bit-secret-key-change-this-in-production
+  expiration: 86400000 # 24 hours
+
+# Server
+server:
+  port: 8080
+
+# File Upload
+spring.servlet.multipart:
+  max-file-size: 50MB
+  max-request-size: 50MB
+
+# Logging
+logging:
+  level:
+    com.elearning.platform: DEBUG
+    org.springframework.security: DEBUG

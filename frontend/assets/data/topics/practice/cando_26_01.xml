@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="5" num="26">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>パーティーを いつに するか はなします</ja>
+			<ro>Paathii o itsu ni suru ka hanashimasu</ro>
+			<en>Talk about when to have a party</en>
+			<es>Discute cuándo celebrar una fiesta</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/26/manual1.png"/>
+		<img src="swf/can-do/asset/26/manual2.png"/>
+		<img src="swf/can-do/asset/26/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>パーティーの　そうだん</ja>
+			<en>Discussing plans for a party</en>
+			<es>Hacer planes de una fiesta</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/26/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/26/p_thumb1.jpg" src="./asset/26/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>もうすぐ　アントンさんの　たんじょうびです。</first></ja>
+				<ro><first>Moo sugu Anton-san no tanjoobi desu.</first></ro>
+				<en><first>Anton's birthday is coming up soon.</first></en>
+				<es><first>Ya viene el cumpleaños de Anton. </first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) ダン:</first><second>らいしゅう　アントンさんの　バースデーパーティーを　します。</second></ja>
+				<ro><first>A) Dan:</first><second>Raishuu Anton-san no baasudee-paathii o shimasu.</second></ro>
+				<en><first>A) Dan:</first><second>Next week we'll have a birthday party for Anton.</second></en>
+				<es><first>A) Dan:</first><second>La próxima semana, vamos a hacer una fiesta de cumpleaños para Anton. </second></es>
+			</cue>
+
+			
+			<cue time="9.7" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="10.0" person="A">
+				<ja><first>A) ダン:</first><second>わたしは　土よう日と　日よう日が　だいじょうぶです。かわさきせんせいは?</second></ja>
+				<ro><first>A) Dan:</first><second>Watashi wa doyoobi to nichiyoobi ga daijoobu desu. Kawasaki-sensee wa?</second></ro>
+				<en><first>A) Dan:</first><second>Saturday and Sunday are okay for me. How about you, Ms Kawasaki?</second></en>
+				<es><first>A) Dan:</first><second>A mí me viene bien el sábado y el domingo. ¿Qué tal lo tiene usted, Sra. Kawasaki?</second></es>
+			</cue>
+
+			
+			<cue time="17.0" person="B">
+				<ja><first>B) かわさき:</first><second>日よう日は　だめです。すみません。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Nichiyoobi wa dame desu. Sumimasen.</second></ro>
+				<en><first>B) Kawasaki:</first><second>Sunday is no good for me. Sorry.</second></en>
+				<es><first>B) Kawasaki:</first><second>No puedo el domingo, lo siento.</second></es>
+			</cue>
+
+			
+			<cue time="20.0" person="A">
+				<ja><first>A) ダン:</first><second>じゃあ、土よう日が　いいですね。</second></ja>
+				<ro><first>A) Dan:</first><second>Jaa, doyoobi ga ii desu ne.</second></ro>
+				<en><first>A) Dan:</first><second>Okay, so Saturday is best.</second></en>
+				<es><first>A) Dan:</first><second>Vale. Entonces, el sábado le viene bien, ¿no?</second></es>
+			</cue>
+
+			
+			<cue time="22.5" person="B">
+				<ja><first>B) かわさき:</first><second>はい。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Hai.</second></ro>
+				<en><first>B) Kawasaki:</first><second>Yes.</second></en>
+				<es><first>B) Kawasaki:</first><second>Sí. </second></es>
+			</cue>
+
+					
+			<cue time="24.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/26/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>パーティーの　ひを　きめます。ともだちに　よていを　ききましょう。</first></ja>
+				<ro><first>Paathii no hi o kimemasu. Tomodachi ni yotee o kikimashoo.</first></ro>
+				<en><first>You'll decide on a day for the party. Ask your friend about their scheduled plans.</first></en>
+				<es><first>Vas a decidir la fecha para la fiesta. Pregunta a tus amigos sobre sus planes.</first></es>
+			</cue>
+
+			
+			<cue time="10.5" person="A">
+				<ja><first>らいしゅう　たいちの　バースデーパーティーを　します。スケジュールは　どうですか。</first></ja>
+				<ro><first>Raishuu Taichi no baasudee-paathii o shimasu. Sukejuuru wa doo desu ka.</first></ro>
+				<en><first>Next week we'll have a birthday party for Taichi. How's your schedule looking?</first></en>
+				<es><first>La próxima semana celebramos el cumpleaños de Taichi. ¿Cómo tienes tu agenda?</first></es>
+			</cue>
+
+			
+			<cue time="18.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="20.6" person="A">
+				<ja><first>月よう日は?</first></ja>
+				<ro><first>Getsuyoobi wa?</first></ro>
+				<en><first>How about Monday?</first></en>
+				<es><first>¿Qué tal el lunes [Monday]?</first></es>
+			</cue>
+
+			
+			<cue time="23.8" person="B">
+				<ja><first>月よう日は　8時から　えいごを　べんきょうします。</first></ja>
+				<ro><first>Getsuyoobi wa hachi-ji kara Eego o benkyoo-shimasu.</first></ro>
+				<en><first>On Monday I'm studying English from 8 o'clock.</first></en>
+				<es><first>El lunes estudio inglés desde las 8. </first></es>
+			</cue>
+
+			
+			<cue time="29.8" person="A">
+				<ja><first>水よう日は?</first></ja>
+				<ro><first>Suiyoobi wa?</first></ro>
+				<en><first>How about Wednesday?</first></en>
+				<es><first>¿Qué tal el miércoles [Wednesday]?</first></es>
+			</cue>
+
+			
+			<cue time="33.3" person="B">
+				<ja><first>水よう日は　6時半から　かいものに　いきます。</first></ja>
+				<ro><first>Suiyoobi wa roku-ji-han kara kaimono ni ikimasu.</first></ro>
+				<en><first>I'm going shopping from 6:30 on Wednesday.</first></en>
+				<es><first>Voy a ir de compras desde las 6:30 el miércoles.</first></es>
+			</cue>
+
+			
+			<cue time="38.8" person="A">
+				<ja><first>金よう日は?</first></ja>
+				<ro><first>Kin'yoobi wa?</first></ro>
+				<en><first>How about Friday?</first></en>
+				<es><first>¿Qué tal el viernes [Friday]?</first></es>
+			</cue>
+
+			
+			<cue time="41.8" person="B">
+				<ja><first>金よう日は　7時から　ともだちと　しょくじに　いきます。</first></ja>
+				<ro><first>Kin'yoobi wa shichi-ji kara tomodachi to shokuji ni ikimasu.</first></ro>
+				<en><first>On Friday I'm going for a meal with a friend from 7pm.</first></en>
+				<es><first>El viernes voy a cenar con un amigo desde las 7. </first></es>
+			</cue>
+
+			
+			<cue time="45.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="50.5" person="A">
+				<ja><first>そうですか。じゃ、土よう日か　日よう日に　しましょう。</first></ja>
+				<ro><first>Soo desu ka. Ja, doyoobi ka nichiyoobi ni shimashoo.</first></ro>
+				<en><first>Okay. Well then, let's do it either on Saturday or Sunday.</first></en>
+				<es><first>Vale. Entonces, vamos a hacerlo el sábado o el domingo.</first></es>
+			</cue>
+
+			
+			<cue time="57.0" person="A">
+				<ja><first>あ、エマさんの　スケジュールは　どうでしょうか。でんわして　ください。</first></ja>
+				<ro><first>A, Ema-san no sukejuuru wa doo deshoo ka. Denwa-shite kudasai.</first></ro>
+				<en><first>Ah, I wonder how Ema's schedule is. Can you ring her, please?</first></en>
+				<es><first>Ah, no sé cómo andará Ema con su agenda. ¿Podrías llamarla por teléfono?</first></es>
+			</cue>
+
+			
+			<cue time="64.3" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="71.0" person="A">
+				<ja><first>もしもし。</first></ja>
+				<ro><first>Moshimoshi.</first></ro>
+				<en><first>Hello?</first></en>
+				<es><first>¿Dígame?</first></es>
+			</cue>
+
+			
+			<cue time="74.0" person="A">
+				<ja><first>あなたの　なまえを　いいましょう。</first></ja>
+				<ro><first>Anata no namae o iimashoo.</first></ro>
+				<en><first>Say your name.</first></en>
+				<es><first>Di tu nombre.</first></es>
+			</cue>
+
+			
+			<cue time="79.1" person="B">
+				<ja><first>もしもし、 (なまえ) です。</first></ja>
+				<ro><first>Moshimoshi. (Namae) desu.</first></ro>
+				<en><first>Hello. It's (name).</first></en>
+				<es><first>Oiga. Soy (nombre).</first></es>
+			</cue>
+
+			
+			<cue time="85.0" person="A">
+				<ja><first>こんにちは。</first></ja>
+				<ro><first>Konnichiwa.</first></ro>
+				<en><first>Hello.</first></en>
+				<es><first>Hola.</first></es>
+			</cue>
+
+			
+			<cue time="89.3" person="A">
+				<ja><first>ようけんを　はなしましょう。</first></ja>
+				<ro><first>Yooken o hanashimashoo.</first></ro>
+				<en><first>Say why you are calling.</first></en>
+				<es><first>Explica el motivo de la llamada.</first></es>
+			</cue>
+
+			
+			<cue time="94.7" person="B">
+				<ja><first>らいしゅう　たいちくんの　バースデーパーティーを　します。いつが　いいですか。</first></ja>
+				<ro><first>Raishuu Taichi-kun no baasudee-paathii o shimasu. Itsu ga ii desu ka.</first></ro>
+				<en><first>Next week we're going to have a birthday party for Taichi. When is a good day?</first></en>
+				<es><first>La próxima semana celebramos cumpleaños para Taichi. ¿Cúando te viene bien?</first></es>
+			</cue>
+
+			
+			<cue time="105.1" person="A">
+				<ja><first>土よう日が　いいです。</first></ja>
+				<ro><first>Doyoobi ga ii desu.</first></ro>
+				<en><first>Saturday's good.</first></en>
+				<es><first>El sábado me viene bien.</first></es>
+			</cue>
+
+			
+			<cue time="108.8" person="A">
+				<ja><first>パーティーは　いつが　いいですか。</first></ja>
+				<ro><first>Paathii wa itsu ga ii desu ka.</first></ro>
+				<en><first>When's a good day for the party?</first></en>
+				<es><first>¿Cuándo te convendría hacer la fiesta?</first></es>
+			</cue>
+
+			
+			<cue time="113.8" person="B">
+				<ja><first>土よう日が　いいです。</first></ja>
+				<ro><first>Doyoobi ga ii desu.</first></ro>
+				<en><first>Saturday's good.</first></en>
+				<es><first>El sábado está bien.</first></es>
+			</cue>
+
+			
+			<cue time="120.0" person="A">
+				<ja><first>そうしましょう!</first></ja>
+				<ro><first>Soo shimashoo!</first></ro>
+				<en><first>Let's do it then!</first></en>
+				<es><first>Entonces, quedamos así. </first></es>
+			</cue>
+
+			
+			<cue time="122.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

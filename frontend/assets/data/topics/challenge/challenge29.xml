@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="6" num="29">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>やすみの ひに なにを するか はなします</ja>
+			<ro>Yasumi no hi ni nani o suru ka hanashimasu</ro>
+			<en>Talk about what you do on your days off</en>
+			<es>Cuenta lo que haces en tus días libres</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/29/manual1.png"/>
+		<img src="swf/can-do/asset/29/manual2.png"/>
+		<img src="swf/can-do/asset/29/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>やすみの　ひの　すごしかた</ja>
+			<en>How you spend your days off</en>
+			<es>¿Cómo pasas tus días libres?</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/29/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/29/p_thumb1.jpg" src="./asset/29/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>うえださんに　やすみの　ひの　すごしかたを　聞きます。</first></ja>
+				<ro><first>Ueda-san ni yasumi no hi no sugoshi kata o kikimasu.</first></ro>
+				<en><first>Asking Ms Ueda how she spends her days off.</first></en>
+				<es><first>Preguntar a la Sra. Ueda cómo ella pasa los días libres. </first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) ききて:</first><second>うえださん、やすみの　ひに　なにを　しますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Ueda-san, yasumi no hi ni nani o shimasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>What do you do on your days off, Ms Ueda?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Qué hace usted en los día libres, Sra. Ueda?</second></es>
+			</cue>
+
+			
+			<cue time="9.8" person="B">
+				<ja><first>B) うえだ:</first><second>やすみの　ひですか。やすみの　ひは、よく　ともだちと　でかけます。</second></ja>
+				<ro><first>B) Ueda:</first><second>Yasumi no hi desu ka. Yasumi no hi wa, yoku tomodachi to dekakemasu.</second></ro>
+				<en><first>B) Ueda:</first><second>My days off? I usually go out with friends on my days off.</second></en>
+				<es><first>B) Ueda:</first><second>¿En mis días libres? En los días libres salgo a menudo con mis amigas.</second></es>
+			</cue>
+
+			
+			<cue time="17.0" person="B">
+				<ja><first>B) うえだ:</first><second>おてらを　見に　いきます。</second></ja>
+				<ro><first>B) Ueda:</first><second>Otera o mi ni ikimasu.</second></ro>
+				<en><first>B) Ueda:</first><second>We go to look at temples.</second></en>
+				<es><first>B) Ueda:</first><second>Vamos a ver los templos. </second></es>
+			</cue>
+
+			
+			<cue time="18.8" person="A">
+				<ja><first>A) ききて:</first><second>いいですね。</second></ja>
+				<ro><first>A) Kikite:</first><second>Ii desu ne.</second></ro>
+				<en><first>A) Interviewer:</first><second>Sounds good!</second></en>
+				<es><first>A) Entrevistadora:</first><second>¡Qué bueno!</second></es>
+			</cue>
+
+			
+			<cue time="21.0" person="B">
+				<ja><first>B) うえだ:</first><second>わたしは　古い　おてらが　だいすきです。</second></ja>
+				<ro><first>B) Ueda:</first><second>Watashi wa furui otera ga daisuki desu.</second></ro>
+				<en><first>B) Ueda:</first><second>I love old temples.</second></en>
+				<es><first>B) Ueda:</first><second>Me encantan los templos antiguos.</second></es>
+			</cue>
+
+					
+			<cue time="25.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/29/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>やすみの　ひは　どう　すごすか　話しましょう。</first></ja>
+				<ro><first>Yasumi no hi wa doo sugosu ka hanashimashoo.</first></ro>
+				<en><first>Talk about how you spend your days off.</first></en>
+				<es><first>Habla sobre cómo pasas los días de descanso.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		
+			<cue time="8.8" person="A">
+				<ja><first>やすみの　ひに　なにを　しますか。</first></ja>
+				<ro><first>Yasumi no hi ni nani o shimasu ka.</first></ro>
+				<en><first>What do you do on your days off?</first></en>
+				<es><first>¿Qué haces los días libres?</first></es>
+			</cue>
+
+			
+			<cue time="14.0" person="B">
+				<ja><first>れい: ときどき　サッカーを　します。 / うちで　ゆっくり　します。</first></ja>
+				<ro><first>Ree: Tokidoki sakkaa o shimasu./Uchi de yukkuri-shimasu.</first></ro>
+				<en><first>E.g: Sometimes I play soccer./I relax at home.</first></en>
+				<es><first>Ejm: A veces juego al fútbol./Descanso en casa.</first></es>
+			</cue>
+
+			
+			<cue time="20.0" person="A">
+				<ja><first>そうですか。わたしは　よく　テニスを　します。</first></ja>
+				<ro><first>Soo desu ka. Watashi wa yoku tenisu o shimasu.</first></ro>
+				<en><first>Oh, really? I often play tennis.</first></en>
+				<es><first>¿Ah, sí? Yo juego al tenis bastante a menudo. </first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

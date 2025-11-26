@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="2" num="6">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>めいしを よみます</ja>
+			<ro>Meeshi o yomimasu</ro>
+			<en>Read a business card</en>
+			<es>Lee una tarjeta de visita</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/06/manual1.png"/>
+		<img src="swf/can-do/asset/06/manual2.png"/>
+		<img src="swf/can-do/asset/06/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="pics" checkbox="false">
+		
+		<pic>
+			<midashi>
+				<ja>にほんの　めいし</ja>
+				<en>Japanese business cards</en>
+				<es>Tarjetas de visita japonesas</es>
+			</midashi>
+			<path>swf/can-do/asset/06/kakunin_</path>
+			
+			<btn x="404" y="460" href="https://www.erin.ne.jp/jp/lesson01/letstry/game.html">swf/can-do/asset/06/button_jp.png</btn>
+			<btn x="404" y="460" href="https://www.erin.ne.jp/en/lesson01/letstry/game.html">swf/can-do/asset/06/button_en.png</btn>
+			<btn x="404" y="460" href="https://www.erin.ne.jp/es/lesson01/letstry/game.html">swf/can-do/asset/06/button_es.png</btn>
+		</pic>
+		
+	</kakunin>
+	
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+	
+<!-- ページ送りタイプ -->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/06/renshu1_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/06/renshu2_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/06/renshu3_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/06/renshu4_</base>
+		</page>
+		
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/06/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="">
+				<ja><first>めいしを　もらいました。よんで　みましょう。</first></ja>
+				<ro><first>Meeshi o moraimashita. Yonde mimashoo.</first></ro>
+				<en><first>You received a business card. Let's try reading it.</first></en>
+				<es><first>Has recibido una tarjeta de visita. Vamos a intentar leerlo.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="A">
+				<ja><first>はじめまして。きむらこういちです。どうぞ　よろしく。</first></ja>
+				<ro><first>Hajimemashite. Kimura Kooichi desu. Doozo yoroshiku.</first></ro>
+				<en><first>Hello. I'm Koichi Kimura. Nice to meet you.</first></en>
+				<es><first>Hola. Me llamo Koichi Kimura. Mucho gusto.</first></es>
+			</cue>
+
+			
+			<cue time="10.5" person="B">
+				<ja><first>木村　浩一　(きむら　こういち)</first></ja>
+				<ro><first>Kimura Kooichi</first></ro>
+				<en><first>Kimura Koichi</first></en>
+				<es><first>Koichi Kimura</first></es>
+			</cue>
+
+			
+			<cue time="14.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

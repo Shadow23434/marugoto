@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="5" num="24">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>いちにちの せいかつを はなします</ja>
+			<ro>Ichinichi no seekatsu o hanashimasu</ro>
+			<en>Talk about your daily routine</en>
+			<es>Habla acerca de tu rutina diaria</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/24/manual1.png"/>
+		<img src="swf/can-do/asset/24/manual2.png"/>
+		<img src="swf/can-do/asset/24/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>いちにちの　せいかつ</ja>
+			<en>A typical day</en>
+			<es>Un día típico</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/24/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/24/p_thumb1.jpg" src="./asset/24/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>まいさんに　いちにちの　せいかつを　ききます。</first></ja>
+				<ro><first>Mai-san ni ichi-nichi no seekatsu o kikimasu.</first></ro>
+				<en><first>Asking Mai about a typical day for her.</first></en>
+				<es><first>Preguntar a Mai sobre un día típico de ella. </first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) ききて:</first><second>まいさん、まいにち　なんじに　おきますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Mai-san, mainichi nanji ni okimasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>What time do you get up every day, Mai?</second></en>
+				<es><first>A) Entrevistadora:</first><second>Mai, ¿a qué hora te levantas todos los días?</second></es>
+			</cue>
+
+			
+			<cue time="8.8" person="B">
+				<ja><first>B) まい:</first><second>まいにち　7時に　おきます。</second></ja>
+				<ro><first>B) Mai:</first><second>Mainichi shichi-ji ni okimasu.</second></ro>
+				<en><first>B) Mai:</first><second>I get up at 7 o'clock.</second></en>
+				<es><first>B) Mai:</first><second>Me levanto a las 7. </second></es>
+			</cue>
+
+			
+			<cue time="12.1" person="A">
+				<ja><first>A) ききて:</first><second>そうですか。それから　なにを　しますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Soo desu ka. Sorekara nani o shimasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>Oh? What do you do after that?</second></en>
+				<es><first>A) Entrevistadora:</first><second>Ah, sí. Después, ¿qué haces?</second></es>
+			</cue>
+
+			
+			<cue time="16.3" person="B">
+				<ja><first>B) まい:</first><second>8時に　がっこうに　いきます。5時ごろ　うちに　かえります。</second></ja>
+				<ro><first>B) Mai:</first><second>Hachi-ji ni gakkoo ni ikimasu. Go-ji goro uchi ni kaerimasu.</second></ro>
+				<en><first>B) Mai:</first><second>I go to school at 8 o'clock. I get home at 5 o'clock.</second></en>
+				<es><first>B) Mai:</first><second>Me voy al colegio a las 8. Vuelvo hacia las 5. </second></es>
+			</cue>
+
+			
+			<cue time="22.3" person="A">
+				<ja><first>A) ききて:</first><second>よるは　なにを　しますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Yoru wa nani o shimasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>What do you do in the evening?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Qué haces por la noche?</second></es>
+			</cue>
+
+			
+			<cue time="25.0" person="B">
+				<ja><first>B) まい:</first><second>べんきょうします。ときどきですけど…</second></ja>
+				<ro><first>B) Mai:</first><second>Benkyoo-shimasu. Tokidoki desu kedo…</second></ro>
+				<en><first>B) Mai:</first><second>I study. Only sometimes, though…</second></en>
+				<es><first>B) Mai:</first><second>Estudio, solo de vez en cuando....</second></es>
+			</cue>
+
+					
+			<cue time="29.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/24/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="A">
+				<ja><first>かずおさんは　はやく　ねます。あなたの　1日を　はなしましょう。</first></ja>
+				<ro><first>Kazuo-san wa hayaku nemasu. Anata no ichinichi o hanashimashoo.</first></ro>
+				<en><first>Kazuo goes to bed early. Talk about a day in your life.</first></en>
+				<es><first>Kazuo se acuesta temprano. Comenta sobre cómo es un día tuyo. </first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="14.0" person="A">
+				<ja><first>さて、ちょっと　しつれい。</first></ja>
+				<ro><first>Sate, chotto shitsuree.</first></ro>
+				<en><first>Right, excuse me.</first></en>
+				<es><first>Bueno, con vuestro permiso.</first></es>
+			</cue>
+
+			
+			<cue time="16.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="19.0" person="A">
+				<ja><first>ちちは　まいにち　4時に　おきます。</first></ja>
+				<ro><first>Chichi wa mainichi yo-ji ni okimasu.</first></ro>
+				<en><first>My father gets up at four o'clock every day.</first></en>
+				<es><first>Mi padre se levanta a las 4 todas las mañanas.</first></es>
+			</cue>
+
+			
+			<cue time="22.0" person="A">
+				<ja><first>はやいですね。</first></ja>
+				<ro><first>Hayai desu ne.</first></ro>
+				<en><first>That's early!</first></en>
+				<es><first>¡Tan temprano!</first></es>
+			</cue>
+
+			
+			<cue time="24.5" person="A">
+				<ja><first>まいにち　なんじに　おきますか。</first></ja>
+				<ro><first>Mainichi nanji ni okimasu ka.</first></ro>
+				<en><first>What time do you get up every day?</first></en>
+				<es><first>¿A qué hora te levantas todos los días?</first></es>
+			</cue>
+
+			
+			<cue time="28.4" person="B">
+				<ja><first>れい: 7時に　おきます。</first></ja>
+				<ro><first>Ree: Shichi-ji ni okimasu.</first></ro>
+				<en><first>E.g: I get up at seven o'clock.</first></en>
+				<es><first>Ejm: Yo me levanto a las 7.</first></es>
+			</cue>
+
+			
+			<cue time="34.1" person="A">
+				<ja><first>そうですか。じゃあ、なんじに　ねますか。</first></ja>
+				<ro><first>Soo desu ka. Jaa, nanji ni nemasu ka.</first></ro>
+				<en><first>Oh. So, what time do you go to bed?</first></en>
+				<es><first>Oh, entonces, ¿a qué hora te acuestas?</first></es>
+			</cue>
+
+			
+			<cue time="40.0" person="B">
+				<ja><first>れい: 11時に　ねます。</first></ja>
+				<ro><first>Ree: Juu-ichi-ji ni nemasu.</first></ro>
+				<en><first>E.g: I go to bed at eleven o'clock.</first></en>
+				<es><first>Ejm: Me acuesto a las 11.</first></es>
+			</cue>
+
+			
+			<cue time="45.2" person="A">
+				<ja><first>そうですか。</first></ja>
+				<ro><first>Soo desu ka.</first></ro>
+				<en><first>Oh.</first></en>
+				<es><first>¿Ah, sí?</first></es>
+			</cue>
+
+			
+			<cue time="47.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

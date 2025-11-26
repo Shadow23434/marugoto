@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="9" num="48">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>かんたんな Eメールを よみます</ja>
+			<ro>Kantanna E-meeru o yomimasu</ro>
+			<en>Read a simple E-mail</en>
+			<es>Lee un email sencillo</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/48/manual1.png"/>
+		<img src="swf/can-do/asset/48/manual2.png"/>
+		<img src="swf/can-do/asset/48/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="pics" checkbox="true">
+		
+		<pic>
+			<midashi>
+				<ja>りょこうの　けいけん (1)</ja>
+				<en>Experiences on a trip (1)</en>
+				<es>Experiencias de un viaje (1)</es>
+			</midashi>
+			<path>swf/can-do/asset/48/kakunin1_</path>
+		</pic>
+		
+		<pic>
+			<midashi>
+				<ja>りょこうの　けいけん (2)</ja>
+				<en>Experiences on a trip (2)</en>
+				<es>Experiencias de un viaje (2)</es>
+			</midashi>
+			<path>swf/can-do/asset/48/kakunin2_</path>
+		</pic>
+		
+	</kakunin>
+	
+
+	<!-- ここかられんしゅう -->
+	
+<!-- ページ送りタイプ -->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/48/exception48.swf</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/48/renshu2_</base>
+		</page>	
+		<page>
+			<base>swf/can-do/asset/48/renshu3_</base>
+		</page>
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/48/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="B">
+				<ja><first>ともだちの　サラさんからの　メールを　読みましょう。</first></ja>
+				<ro><first>Tomodachi no Sara-san kara no meeru o yomimashoo.</first></ro>
+				<en><first>Let's read an email from your friend Sara.</first></en>
+				<es><first>Vamos a leer un correo electrónico de tu amiga Sara.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="A">
+				<ja><first>こんにちは。</first></ja>
+				<ro><first>Konnichiwa.</first></ro>
+				<en><first>Hello.</first></en>
+				<es><first>Hola. </first></es>
+			</cue>
+
+			
+			<cue time="9.0" person="B">
+				<ja><first>わたしは　せんしゅう　ならに　行きました。とても　たのしかったです。</first></ja>
+				<ro><first>Watashi wa senshuu Nara ni ikimashita. Totemo tanoshikatta desu.</first></ro>
+				<en><first>I went to Nara last week. It was really fun.</first></en>
+				<es><first>Fui a Nara la semana pasada. Fue muy divertido. </first></es>
+			</cue>
+
+			
+			<cue time="15.0" person="A">
+				<ja><first>ブログを　書きました。見て　ください。http://sara.blob.jp　サラ</first></ja>
+				<ro><first>Burogu o kakimashita. Mite kudasai. http://sara.blob.jp  Sara</first></ro>
+				<en><first>I wrote about it on my blog. Please take a look. http://sara.blob.jp  Sara</first></en>
+				<es><first>Escribí sobre el viaje en mi blog. Échale un vistazo. http://sara.blob.jp  Sara</first></es>
+			</cue>
+
+			
+			<cue time="21.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

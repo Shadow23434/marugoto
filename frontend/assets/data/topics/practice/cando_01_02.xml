@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="1" num="1">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>あいさつを します</ja>
+			<ro>Aisatsu o shimasu</ro>
+			<en>Exchange greetings</en>
+			<es>Intercambia saludos</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/01/manual1.png"/>
+		<img src="swf/can-do/asset/01/manual2.png"/>
+		<img src="swf/can-do/asset/01/manual3.png"/>
+	</top>
+	<!--ここまでトップ-->
+	
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>あいさつ</ja>
+			<en>Greetings</en>
+			<es>Saludos</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/01/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/01/p_thumb2.jpg" src="./asset/01/practice2_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+	
+			<cue time="0.2" person="">
+				<ja><first>かんしゃ: どうりょうに…</first></ja>
+				<ro><first>Kansha: Dooryoo ni…</first></ro>
+				<en><first>Giving thanks: To a colleague…</first></en>
+				<es><first>Agradecer: A los colegas...</first></es>
+			</cue>
+
+			
+			<cue time="7.8" person="A">
+				<ja><first>A) まつもと:</first><second>かわさきせんせい、どうぞ。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Kawasaki-sensee, doozo.</second></ro>
+				<en><first>A) Matsumoto:</first><second>Ms. Kawasaki, here you are.</second></en>
+				<es><first>A) Matsumoto:</first><second>Sra. Kawasaki, tenga esto. </second></es>
+			</cue>
+
+			
+			<cue time="10.0" person="B">
+				<ja><first>B) かわさき:</first><second>あ、ありがとう。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>A, arigatoo.</second></ro>
+				<en><first>B) Kawasaki:</first><second>Ah, thank you.</second></en>
+				<es><first>B) Kawasaki:</first><second>Ah, gracias. </second></es>
+			</cue>
+
+			
+			<cue time="12.5" person="A">
+				<ja><first>A) まつもと:</first><second>いいえ。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Iie.</second></ro>
+				<en><first>A) Matsumoto:</first><second>Don't mention it.</second></en>
+				<es><first>A) Matsumoto:</first><second>No hay de qué. </second></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	
+
+	</renshu>
+	<!--ここまでれんしゅう-->
+	
+	
+	<!--ここからチャレンジ-->
+	<challenge type="basic">
+		<video src="./asset/01/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="A">
+				<ja><first>にほんごの　クラスに　いきます。せんせいや　ともだちに　あいさつを　しましょう。</first></ja>
+				<ro><first>Nihongo no kurasu ni ikimasu. Sensee ya tomodachi ni aisatsu o shimashoo.</first></ro>
+				<en><first>You're going to your Japanese class. Greet your teacher and friends.</first></en>
+				<es><first>Vas a ir a la clase de japonés. Saluda a la profesora y a los amigos. </first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="14.8" person="A">
+				<ja><first>おはようございます。</first></ja>
+				<ro><first>Ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="17.5" person="B">
+				<ja><first>おはようございます。</first></ja>
+				<ro><first>Ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="23.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="36.0" person="A">
+				<ja><first>おはよう。</first></ja>
+				<ro><first>Ohayoo.</first></ro>
+				<en><first>Morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="38.0" person="B">
+				<ja><first>おはよう(ございます)。</first></ja>
+				<ro><first>Ohayoo (gozaimasu).</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="42.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="41.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

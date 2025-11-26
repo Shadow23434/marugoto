@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="7" num="36">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>ちずを みながら もくてきちまで どうやって いくか はなします</ja>
+			<ro>Chizu o mi nagara mokutekichi made doo yatte iku ka hanashimasu</ro>
+			<en>Say how to get to a destination, using a map</en>
+			<es>Explica cómo llegar a un lugar determinado usando un mapa</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/36/manual1.png"/>
+		<img src="swf/can-do/asset/36/manual2.png"/>
+		<img src="swf/can-do/asset/36/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>みちあんない</ja>
+			<en>Directions</en>
+			<es>Direcciones</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/36/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/36/p_thumb1.jpg" src="./asset/36/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>ダンさんは　ゆうびんきょくを　さがして　います。</first></ja>
+				<ro><first>Dan-san wa yuubinkyoku o sagashite imasu.</first></ro>
+				<en><first>Dan is looking for a post office.</first></en>
+				<es><first>Dan está buscando una oficina de correos.</first></es>
+			</cue>
+
+			
+			<cue time="10.3" person="A">
+				<ja><first>A) ダン:</first><second>すみません、ちかくに　ゆうびんきょくは　ありますか。</second></ja>
+				<ro><first>A) Dan:</first><second>Sumimasen, chikaku ni yuubinkyoku wa arimasu ka.</second></ro>
+				<en><first>A) Dan:</first><second>Excuse me, is there a post office near here?</second></en>
+				<es><first>A) Dan:</first><second>Perdón, ¿hay alguna oficina de correos cerca de aquí?</second></es>
+			</cue>
+
+			
+			<cue time="14.0" person="B">
+				<ja><first>B) おとこの　ひと:</first><second>ゆうびんきょくですか。ありますよ。</second></ja>
+				<ro><first>B) Otoko no hito:</first><second>Yuubinkyoku desu ka. Arimasu yo.</second></ro>
+				<en><first>B) Passerby:</first><second>A post office? Yes, there is.</second></en>
+				<es><first>B) Transeúnte:</first><second>¿Una oficina de correos? Sí, hay una. </second></es>
+			</cue>
+
+			
+			<cue time="16.0" person="A">
+				<ja><first>A) ダン:</first><second>どこですか。</second></ja>
+				<ro><first>A) Dan:</first><second>Doko desu ka.</second></ro>
+				<en><first>A) Dan:</first><second>Where is it?</second></en>
+				<es><first>A) Dan:</first><second>¿Dónde queda?</second></es>
+			</cue>
+
+			
+			<cue time="18.0" person="B">
+				<ja><first>B) おとこの　ひと:</first><second>わたしたちは　いま　ここです。ゆうびんきょくは　ここです。</second></ja>
+				<ro><first>B) Otoko no hito:</first><second>Watashitachi wa ima koko desu. Yuubinkyoku wa koko desu.</second></ro>
+				<en><first>B) Passerby:</first><second>We're here now. The post office is here.</second></en>
+				<es><first>B) Transeúnte:</first><second>Nosotros estamos aquí. Correos está aquí. </second></es>
+			</cue>
+
+			
+					
+			<cue time="22.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="22.8" person="B">
+				<ja><first>B) おとこの　ひと:</first><second>まっすぐ　いきます。そして、みぎに　いきます。</second></ja>
+				<ro><first>B) Otoko no hito:</first><second>Massugu ikimasu. Soshite, migi ni ikimasu.</second></ro>
+				<en><first>B) Passerby:</first><second>Go straight, then go right.</second></en>
+				<es><first>B) Transeúnte:</first><second>Vas derecho, y luego giras a la derecha. </second></es>
+			</cue>
+
+			
+			<cue time="26.8" person="A">
+				<ja><first>A) ダン:</first><second>わかりました。ありがとうございます。</second></ja>
+				<ro><first>A) Dan:</first><second>Wakarimashita. Arigatoo gozaimasu.</second></ro>
+				<en><first>A) Dan:</first><second>Got it. Thank you very much.</second></en>
+				<es><first>A) Dan:</first><second>Vale. Muchas gracias. </second></es>
+			</cue>
+
+					
+			<cue time="30.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/36/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>みちに　まよったら、だれかに　おしえて　もらいましょう。</first></ja>
+				<ro><first>Michi ni mayottara, dareka ni oshiete moraimashoo.</first></ro>
+				<en><first>If you're not sure of the way, ask someone for help.</first></en>
+				<es><first>Si te pierdes, pregunta a alguien que te enseñe el camino.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="A">
+				<ja><first>あ、そうだ。</first></ja>
+				<ro><first>A, sooda.</first></ro>
+				<en><first>Ah, I know!</first></en>
+				<es><first>Ah, ahora caigo. </first></es>
+			</cue>
+
+			
+			<cue time="8.0" person="A">
+				<ja><first>ちかくに　おいしい　レストランが　あります。いきましょう。</first></ja>
+				<ro><first>Chikaku ni oishii resutoran ga arimasu. Ikimashoo.</first></ro>
+				<en><first>There's a good restaurant nearby. Let's go.</first></en>
+				<es><first>Hay un restaurante bueno aquí cerca. Vamos. </first></es>
+			</cue>
+
+			
+			<cue time="12.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="21.0" person="A">
+				<ja><first>あれ?</first></ja>
+				<ro><first>Are?</first></ro>
+				<en><first>Uh?</first></en>
+				<es><first>¿Ah?</first></es>
+			</cue>
+
+			
+			<cue time="23.0" person="A">
+				<ja><first>うーん。</first></ja>
+				<ro><first>Uun.</first></ro>
+				<en><first>Hmm.</first></en>
+				<es><first>Humm.</first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="34.5" person="A">
+				<ja><first>この　ひとに　聞きましょう。</first></ja>
+				<ro><first>Kono hito ni kikimashoo.</first></ro>
+				<en><first>Let's ask this person.</first></en>
+				<es><first>Vamos a preguntar a esta persona. </first></es>
+			</cue>
+
+			
+			<cue time="39.0" person="B">
+				<ja><first>すみません、この　レストランは　どこですか。</first></ja>
+				<ro><first>Sumimasen, kono resutoran wa doko desu ka.</first></ro>
+				<en><first>Excuse me, where is this restaurant?</first></en>
+				<es><first>Perdón, ¿dónde está este restaurante?</first></es>
+			</cue>
+
+			
+			<cue time="44.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="50.0" person="A">
+				<ja><first>わたしたちは　いま　ここです。レストランは　ここです。</first></ja>
+				<ro><first>Watashitachi wa ima koko desu. Resutoran wa koko desu.</first></ro>
+				<en><first>We're here now. The restaurant is here.</first></en>
+				<es><first>Nosotros ahora estamos aquí. El restaurante está aquí. </first></es>
+			</cue>
+
+			
+			<cue time="58.0" person="A">
+				<ja><first>まっすぐ　いきます。そして、ひだりに　いきます。</first></ja>
+				<ro><first>Massugu ikimasu. Soshite, hidari ni ikimasu.</first></ro>
+				<en><first>Go straight. Then go left.</first></en>
+				<es><first>Andáis todo derecho y vais a la izquierda.</first></es>
+			</cue>
+
+			
+			<cue time="64.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="67.0" person="B">
+				<ja><first>どうも　ありがとうございます。</first></ja>
+				<ro><first>Doomo arigatoo gozaimasu.</first></ro>
+				<en><first>Thank you so much.</first></en>
+				<es><first>Muchísimas gracias.</first></es>
+			</cue>
+
+			
+			<cue time="71.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

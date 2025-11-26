@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="7" num="33">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>えきや タクシーの サインを よみます</ja>
+			<ro>Eki ya takushii no sain o yomimasu</ro>
+			<en>Recognise station and taxi signs</en>
+			<es>Reconoce los símbolos de estaciones y taxis</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/33/manual1.png"/>
+		<img src="swf/can-do/asset/33/manual2.png"/>
+		<img src="swf/can-do/asset/33/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="pics" checkbox="true">
+		
+		<pic>
+			<midashi>
+				<ja>いろいろな　サイン</ja>
+				<en>Various signs</en>
+				<es>Varias señales</es>
+			</midashi>
+			<path>swf/can-do/asset/33/kakunin1_</path>
+		</pic>
+		
+	</kakunin>
+	
+
+	<!-- ここかられんしゅう -->
+	
+<!-- ページ送りタイプ -->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/33/renshu1_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/33/renshu2_</base>
+		</page>
+		
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/33/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>なんの　サインですか。</first></ja>
+				<ro><first>Nan no sain desu ka.</first></ro>
+				<en><first>What is the sign for?</first></en>
+				<es><first>¿Qué representa la señal?</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="11.0" person="A">
+				<ja><first>はい、どうぞ。</first></ja>
+				<ro><first>Hai, doozo.</first></ro>
+				<en><first>Okay, please get in.</first></en>
+				<es><first>Bueno, suba, por favor. </first></es>
+			</cue>
+
+			
+			<cue time="15.5" person="B">
+				<ja><first>どちらまでですか。</first></ja>
+				<ro><first>Dochira made desu ka.</first></ro>
+				<en><first>Where would you like to go?</first></en>
+				<es><first>¿Hasta dónde va?</first></es>
+			</cue>
+
+			
+			<cue time="17.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

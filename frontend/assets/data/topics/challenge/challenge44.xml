@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="9" num="44">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>みじかい ブログを よみます </ja>
+			<ro>Mijikai burogu o yomimasu</ro>
+			<en>Read a short blog</en>
+			<es>Lee una entrada corta de blog</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/44/manual1.png"/>
+		<img src="swf/can-do/asset/44/manual2.png"/>
+		<img src="swf/can-do/asset/44/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="scroll" x="420" page_base="swf/can-do/asset/44/kakunin_base.png">
+		
+			<midashi>
+				<ja>かんそうの　ひょうげん</ja>
+				<en>Expressing thoughts/reactions</en>
+				<es>Expresar opiniones</es>
+			</midashi>
+			<data>
+				<path>swf/can-do/asset/44/scroll_</path>		
+			</data>
+		
+	</kakunin>
+	
+	
+	
+	
+
+	<!-- ここかられんしゅう -->
+	
+<!-- ページ送りタイプ -->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/44/exception44.swf</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/44/exception44_2.swf</base>
+		</page>
+	
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/44/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>ともだちの　ブログを　読みましょう。</first></ja>
+				<ro><first>Tomodachi no burogu o yomimashoo.</first></ro>
+				<en><first>Let's read your friend's blog.</first></en>
+				<es><first>Vamos a leer el blog de un amigo tuyo.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="B">
+				<ja><first>「ならりょこう」</first></ja>
+				<ro><first>"Nara-ryokoo"</first></ro>
+				<en><first>"Nara trip"</first></en>
+				<es><first>"Viaje a Nara"</first></es>
+			</cue>
+
+			
+			<cue time="9.0" person="A">
+				<ja><first>ならに　行きました。しかが　たくさん　いました。</first></ja>
+				<ro><first>Nara ni ikimashita. Shika ga takusan imashita.</first></ro>
+				<en><first>I went to Nara. There are many deer.</first></en>
+				<es><first>He ido a Nara. Había muchos venados. </first></es>
+			</cue>
+
+			
+			<cue time="13.5" person="B">
+				<ja><first>ならこうえんは　とても　きれいでした。</first></ja>
+				<ro><first>Nara-Kooen wa totemo kiree deshita.</first></ro>
+				<en><first>Nara park was very beautiful.</first></en>
+				<es><first>El parque Nara era muy bonito. </first></es>
+			</cue>
+
+			
+			<cue time="18.0" person="A">
+				<ja><first>古い　まちを　さんぽしました。たのしかったです!</first></ja>
+				<ro><first>Furui machi o sanpo-shimashita. Tanoshikatta desu.</first></ro>
+				<en><first>I took a walk around the old town. It was fun!</first></en>
+				<es><first>Di un paseo por el casco antiguo. Me divertí mucho. </first></es>
+			</cue>
+
+			
+			<cue time="23.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

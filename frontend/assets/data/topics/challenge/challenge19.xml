@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="4" num="19">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>ものを どこかに おくのを てつだいます / たのみます</ja>
+			<ro>Mono o doko ka ni oku no o tetsudaimasu/tanomimasu</ro>
+			<en>Ask/Help someone to put things on somewhere</en>
+			<es>Pide/Ayuda a alguien a poner cosas en algún lugar</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/19/manual1.png"/>
+		<img src="swf/can-do/asset/19/manual2.png"/>
+		<img src="swf/can-do/asset/19/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>ばしょを　しじする</ja>
+			<en>Indicating places for things</en>
+			<es>Indicar lugares para cosas</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/19/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/19/p_thumb1.jpg" src="./asset/19/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>かわさきせんせいが　かたづけを　して　います。</first></ja>
+				<ro><first>Kawasaki-sensee ga katazuke o shite imasu.</first></ro>
+				<en><first>Ms Kawasaki is putting things away.</first></en>
+				<es><first>Sra. Kawasaki está ordenando las cosas.</first></es>
+			</cue>
+
+			
+			<cue time="8.0" person="A">
+				<ja><first>A) まつもと:</first><second>かわさきせんせい、この　ファイルは　どこですか。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Kawasaki-sensee, kono fairu wa doko desu ka.</second></ro>
+				<en><first>A) Matsumoto:</first><second>Ms Kawasaki, where should I put this file?</second></en>
+				<es><first>A) Matsumoto:</first><second>Sra. Kawasaki, ¿dónde pongo esta carpeta?</second></es>
+			</cue>
+
+			
+			<cue time="12.0" person="B">
+				<ja><first>B) かわさき:</first><second>この　たなの　なかに　おねがいします。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Kono tana no naka ni onegaishimasu.</second></ro>
+				<en><first>B) Kawasaki:</first><second>In these shelves please.</second></en>
+				<es><first>B) Kawasaki:</first><second>En estos estantes, por favor. </second></es>
+			</cue>
+
+			
+			<cue time="14.3" person="A">
+				<ja><first>A) まつもと:</first><second>ここですね。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Koko desu ne.</second></ro>
+				<en><first>A) Matsumoto:</first><second>Ah, just here?</second></en>
+				<es><first>A) Matsumoto:</first><second>Ah, aquí, vale.</second></es>
+			</cue>
+
+					
+			<cue time="16.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/19/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさんに　てつだって　もらいましょう。</first></ja>
+				<ro><first>Mai-san ni tetsudatte moraimashoo.</first></ro>
+				<en><first>Ask Mai to help you.</first></en>
+				<es><first>Pídele a Mai que te ayude.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="9.5" person="B">
+				<ja><first>この　カップは　どこですか。</first></ja>
+				<ro><first>Kono kappu wa doko desu ka.</first></ro>
+				<en><first>Where does this cup go?</first></en>
+				<es><first>¿Dónde pongo esta taza?</first></es>
+			</cue>
+
+			
+			<cue time="13.0" person="A">
+				<ja><first>たなの　うえに　おいて　もらいましょう。</first></ja>
+				<ro><first>Tana no ue ni oite moraimashoo.</first></ro>
+				<en><first>Ask her to place it on the rack.</first></en>
+				<es><first>Vamos a pedirle que la ponga en el estante.</first></es>
+			</cue>
+
+			
+			<cue time="18.5" person="B">
+				<ja><first>たなの　うえに　おねがいします。</first></ja>
+				<ro><first>Tana no ue ni onegaishimasu.</first></ro>
+				<en><first>On the rack, please.</first></en>
+				<es><first>En el estante, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="A">
+				<ja><first>はい。</first></ja>
+				<ro><first>Hai.</first></ro>
+				<en><first>Okay.</first></en>
+				<es><first>Vale.</first></es>
+			</cue>
+
+			
+			<cue time="30.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

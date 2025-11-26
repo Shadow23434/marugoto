@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="8" num="40">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>ほしい ものが どこで かえるか はなします</ja>
+			<ro>Hoshii mono ga doko de kaeru ka hanashimasu</ro>
+			<en>Talk about where to shop for something you want</en>
+			<es>Habla sobre dónde comprar algo que quieres</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/40/manual1.png"/>
+		<img src="swf/can-do/asset/40/manual2.png"/>
+		<img src="swf/can-do/asset/40/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>かいものが　できる　ばしょを　おしえる</ja>
+			<en>Telling someone where best to go shopping</en>
+			<es>Enseñar un buen lugar para comprar</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/40/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/40/p_thumb1.jpg" src="./asset/40/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>まいさんと　ダンさんは　いっしょに　ひるごはんを　食べました。</first></ja>
+				<ro><first>Mai-san to Dan-san wa issho ni hiru-gohan o tabemashita.</first></ro>
+				<en><first>Mai and Dan ate lunch together.</first></en>
+				<es><first>Mai y Dan han ido a comer juntos. </first></es>
+			</cue>
+
+			
+			<cue time="10.7" person="A">
+				<ja><first>A) まい:</first><second>じかんは　だいじょうぶですか。</second></ja>
+				<ro><first>A) Mai</first><second>Jikan wa daijoobu desu ka.</second></ro>
+				<en><first>A) Mai:</first><second>Are you okay for time?</second></en>
+				<es><first>A) Mai:</first><second>¿Tienes tiempo todavía?</second></es>
+			</cue>
+
+			
+			<cue time="12.6" person="B">
+				<ja><first>B) ダン:</first><second>はい。</second></ja>
+				<ro><first>B) Dan:</first><second>Hai.</second></ro>
+				<en><first>B) Dan:</first><second>Yes.</second></en>
+				<es><first>B) Dan:</first><second>Sí. </second></es>
+			</cue>
+
+			
+			<cue time="13.5" person="A">
+				<ja><first>A) まい:</first><second>じゃあ、いっしょに　かいものに　いきませんか。</second></ja>
+				<ro><first>A) Mai</first><second>Jaa, issho ni kaimono ni ikimasen ka.</second></ro>
+				<en><first>A) Mai:</first><second>Well then, do you want to shopping together?</second></en>
+				<es><first>A) Mai:</first><second>Entonces, ¿qué te parece si vamos de compras juntos?</second></es>
+			</cue>
+
+			
+			<cue time="16.6" person="B">
+				<ja><first>B) ダン:</first><second>あ、ぼく、新しい　かばんが　ほしいです。どこで　買えますか。</second></ja>
+				<ro><first>B) Dan:</first><second>A, boku, atarashii kaban ga hoshii desu. Doko de kaemasu ka.</second></ro>
+				<en><first>B) Dan:</first><second>Ah, I want a new bag. Where can I buy one?</second></en>
+				<es><first>B) Dan:</first><second>Ah, yo quiero un bolso nuevo. ¿Dónde lo puedo comprar?</second></es>
+			</cue>
+
+			
+			<cue time="21.6" person="A">
+				<ja><first>A) まい:</first><second>かばんですか。じゃあ、デパートに　いきましょう。</second></ja>
+				<ro><first>A) Mai</first><second>Kaban desu ka. Jaa, depaato ni ikimashoo.</second></ro>
+				<en><first>A) Mai:</first><second>A bag? Okay, let's go to a department store.</second></en>
+				<es><first>A) Mai:</first><second>Un bolso... Entonces, vamos a unos grandes almacenes. </second></es>
+			</cue>
+
+			
+			<cue time="25.3" person="B">
+				<ja><first>B) ダン:</first><second>はい!</second></ja>
+				<ro><first>B) Dan:</first><second>Hai!</second></ro>
+				<en><first>B) Dan:</first><second>Okay!</second></en>
+				<es><first>B) Dan:</first><second>Vale. </second></es>
+			</cue>
+
+					
+			<cue time="27.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/40/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>シャツは　どこで　買えるでしょうか。まいさんに　聞いて　みましょう。</first></ja>
+				<ro><first>Shatsu wa doko de kaeru deshoo ka. Mai-san ni kiite mimashoo.</first></ro>
+				<en><first>Where can you buy a shirt? Let's try asking Mai.</first></en>
+				<es><first>¿Dónde se podrá comprar una camisa? Vamos a preguntar a Mai.</first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="m">
+				<ja><first>シャツ…</first></ja>
+				<ro><first>Shatsu…</first></ro>
+				<en><first>A shirt…</first></en>
+				<es><first>Una camisa...</first></es>
+			</cue>
+
+			
+			<cue time="13.0" person="A">
+				<ja><first>どこで　買えるか　聞きましょう。</first></ja>
+				<ro><first>Doko de kaeru ka kikimashoo.</first></ro>
+				<en><first>Ask her where you can buy one.</first></en>
+				<es><first>Pregúntale dónde se puede comprar una camisa. </first></es>
+			</cue>
+
+			
+			<cue time="17.8" person="B">
+				<ja><first>どこで　買えますか。</first></ja>
+				<ro><first>Doko de kaemasu ka.</first></ro>
+				<en><first>Where can I buy one?</first></en>
+				<es><first>¿Dónde puedo comprar una camisa?</first></es>
+			</cue>
+
+			
+			<cue time="24.8" person="A">
+				<ja><first>あの　みせが　いいですよ。</first></ja>
+				<ro><first>Ano mise ga ii desu yo.</first></ro>
+				<en><first>That shop's good.</first></en>
+				<es><first>Esa tienda es buena. </first></es>
+			</cue>
+
+			
+			<cue time="27.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

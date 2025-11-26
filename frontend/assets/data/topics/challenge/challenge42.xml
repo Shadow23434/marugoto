@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="8" num="42">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>しょうひんの ねだんを よみます</ja>
+			<ro>Shoohin no nedan o yomimasu</ro>
+			<en>Read prices</en>
+			<es>Lee los precios</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/42/manual1.png"/>
+		<img src="swf/can-do/asset/42/manual2.png"/>
+		<img src="swf/can-do/asset/42/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="pics" checkbox="false">
+		
+		<pic>
+			<midashi>
+				<ja>ねだんの　かきかた</ja>
+				<en>How prices are written</en>
+				<es>Cómo se escriben los precios</es>
+			</midashi>
+			<path>swf/can-do/asset/42/kakunin_</path>
+		</pic>
+		
+	</kakunin>
+	
+
+	<!-- ここかられんしゅう -->
+	
+<!-- ページ送りタイプ -->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/42/renshu1_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/42/renshu2_</base>
+		</page>	
+		<page>
+			<base>swf/can-do/asset/42/renshu3_</base>
+		</page>	
+		<page>
+			<base>swf/can-do/asset/42/renshu4_</base>
+		</page>		
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/42/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>すてきな　シャツが　ありました。いくらですか。</first></ja>
+				<ro><first>Suteki na shatsu ga arimashita. Ikura desu ka.</first></ro>
+				<en><first>You found a nice shirt. How much is it?</first></en>
+				<es><first>Has encontrado una camisa preciosa. ¿Cuánto cuesta?</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="9.8" person="A">
+				<ja><first>あ、これ、いいですね。</first></ja>
+				<ro><first>A, kore, ii desu ne.</first></ro>
+				<en><first>Ah, this one looks good!</first></en>
+				<es><first>Ah, esta parece bien.</first></es>
+			</cue>
+
+			
+			<cue time="13.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

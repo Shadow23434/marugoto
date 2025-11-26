@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="5" num="23">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>ある ことを する じかんを はなします</ja>
+			<ro>Aru koto o suru jikan o hanashimasu</ro>
+			<en>Tell the time you do something</en>
+			<es>Di la hora a la que haces algo</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/23/manual1.png"/>
+		<img src="swf/can-do/asset/23/manual2.png"/>
+		<img src="swf/can-do/asset/23/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>じかんについて　はなす</ja>
+			<en>Talking about time</en>
+			<es>Hablar sobre la hora</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/23/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/23/p_thumb1.jpg" src="./asset/23/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>あさです。もうすぐ　じゅぎょうが　はじまります。</first></ja>
+				<ro><first>Asa desu. Moo sugu jugyoo ga hajimarimasu.</first></ro>
+				<en><first>It's morning. The lesson will begin soon.</first></en>
+				<es><first>Es la mañana. Ya la clase está al empezar. </first></es>
+			</cue>
+
+			
+			<cue time="5.5" person="B">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="8.0" person="A">
+				<ja><first>A) ダン:</first><second>おはよう。</second></ja>
+				<ro><first>A) Dan:</first><second>Ohayoo.</second></ro>
+				<en><first>A) Dan:</first><second>Good morning.</second></en>
+				<es><first>A) Dan:</first><second>Buenos días.</second></es>
+			</cue>
+
+			
+			<cue time="9.0" person="B">
+				<ja><first>B) アントン:</first><second>おはよう。</second></ja>
+				<ro><first>B) Anton:</first><second>Ohayoo.</second></ro>
+				<en><first>B) Anton:</first><second>Good morning.</second></en>
+				<es><first>B) Anton:</first><second>Buenos días.</second></es>
+			</cue>
+
+			
+			<cue time="11.0" person="A">
+				<ja><first>A) ダン:</first><second>まいにち　なんじに　おきますか。</second></ja>
+				<ro><first>A) Dan:</first><second>Mainichi nanji ni okimasu ka.</second></ro>
+				<en><first>A) Dan:</first><second>What time do you get up every day?</second></en>
+				<es><first>A) Dan:</first><second>¿A qué hora te levantas cada mañana?</second></es>
+			</cue>
+
+			
+			<cue time="13.5" person="B">
+				<ja><first>B) アントン:</first><second>4時に　おきます。</second></ja>
+				<ro><first>B) Anton:</first><second>Yo-ji ni okimasu.</second></ro>
+				<en><first>B) Anton:</first><second>I get up at 4 o'clock.</second></en>
+				<es><first>B) Anton:</first><second>Me levanto a las 4. </second></es>
+			</cue>
+
+			
+			<cue time="15.2" person="A">
+				<ja><first>A) ダン:</first><second>えー、はやいですね。じゃ、なんじに　ねますか。</second></ja>
+				<ro><first>A) Dan:</first><second>Ee, hayai desu ne. Ja, nanji ni nemasu ka.</second></ro>
+				<en><first>A) Dan:</first><second>Wow, that's early! So, what time do you go to bed?</second></en>
+				<es><first>A) Dan:</first><second>¡Hala, tan temprano! Entonces, ¿A qué hora te acuestas?</second></es>
+			</cue>
+
+			
+			<cue time="20.3" person="B">
+				<ja><first>B) アントン:</first><second>9時ごろ　ねます。</second></ja>
+				<ro><first>B) Anton:</first><second>Ku-ji goro nemasu.</second></ro>
+				<en><first>B) Anton:</first><second>I go to bed at around 9 o'clock.</second></en>
+				<es><first>B) Anton:</first><second>Me acuesto a las 9 más o menos. </second></es>
+			</cue>
+
+			
+			<cue time="23.0" person="A">
+				<ja><first>A) ダン:</first><second>そうですか。はやいですね。</second></ja>
+				<ro><first>A) Dan:</first><second>Soo desu ka. Hayai desu ne.</second></ro>
+				<en><first>A) Dan:</first><second>Oh, okay. That's early.</second></en>
+				<es><first>A) Dan:</first><second>Ah, sí, temprano, ¿no?</second></es>
+			</cue>
+
+					
+			<cue time="26.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/23/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>かずおさんは　はやく　ねます。あなたが　なんじに　なにを　するか　はなしましょう。</first></ja>
+				<ro><first>Kazuo-san wa hayaku nemasu. Anata ga nanji ni nani o suru ka hanashimashoo.</first></ro>
+				<en><first>Kazuo goes to bed early. Talk about things you do and what time you do them.</first></en>
+				<es><first>Kazuo se acuesta temprano. Comenta qué cosas haces y a qué hora las haces.</first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="14.0" person="A">
+				<ja><first>さて、ちょっと　しつれい。</first></ja>
+				<ro><first>Sate, chotto shitsuree.</first></ro>
+				<en><first>Right, excuse me.</first></en>
+				<es><first>Bueno, con vuestro permiso.</first></es>
+			</cue>
+
+			
+			<cue time="16.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="19.0" person="A">
+				<ja><first>ちちは　まいにち　4時に　おきます。</first></ja>
+				<ro><first>Chichi wa mainichi yo-ji ni okimasu.</first></ro>
+				<en><first>My father gets up at four o'clock every day.</first></en>
+				<es><first>Mi padre se levanta a las 4 todas las mañanas.</first></es>
+			</cue>
+
+			
+			<cue time="22.0" person="A">
+				<ja><first>はやいですね。</first></ja>
+				<ro><first>Hayai desu ne.</first></ro>
+				<en><first>That's early!</first></en>
+				<es><first>¡Tan temprano!</first></es>
+			</cue>
+
+			
+			<cue time="24.5" person="A">
+				<ja><first>まいにち　なんじに　おきますか。</first></ja>
+				<ro><first>Mainichi nanji ni okimasu ka.</first></ro>
+				<en><first>What time do you get up every day?</first></en>
+				<es><first>¿A qué hora te levantas todos los días?</first></es>
+			</cue>
+			
+			<cue time="28.4" person="B">
+				<ja><first>れい: 7時に　おきます。</first></ja>
+				<ro><first>Ree: Shichi-ji ni okimasu.</first></ro>
+				<en><first>E.g: I get up at seven o'clock.</first></en>
+				<es><first>Ejm: Yo me levanto a las 7.</first></es>
+			</cue>
+			
+			<cue time="34.1" person="A">
+				<ja><first>そうですか。じゃあ、なんじに　ねますか。</first></ja>
+				<ro><first>Soo desu ka. Jaa, nanji ni nemasu ka.</first></ro>
+				<en><first>Oh. So, what time do you go to bed?</first></en>
+				<es><first>Oh, entonces, ¿a qué hora te acuestas?</first></es>
+			</cue>
+			
+			<cue time="40.0" person="B">
+				<ja><first>れい: 11時に　ねます。</first></ja>
+				<ro><first>Ree: Juu-ichi-ji ni nemasu.</first></ro>
+				<en><first>E.g: I go to bed at eleven o'clock.</first></en>
+				<es><first>Ejm: Me acuesto a las 11.</first></es>
+			</cue>
+			
+			<cue time="45.2" person="A">
+				<ja><first>そうですか。</first></ja>
+				<ro><first>Soo desu ka.</first></ro>
+				<en><first>Oh.</first></en>
+				<es><first>¿Ah, sí?</first></es>
+			</cue>
+			
+			<cue time="47.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

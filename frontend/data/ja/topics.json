@@ -1,0 +1,507 @@
+{
+  "totalTopics": 9,
+  "topics": [
+    {
+      "heading": {
+        "no": 1,
+        "title": "にほんご",
+        "romaji": "Nihongo",
+        "meaning": "Japanese"
+      },
+      "color": "#b41e22",
+      "topicImageUrl": "https://a1.marugotoweb.jp/ja/assets/images/index/topic_image01.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "1",
+            "title": "こんにちは"
+          },
+          "candos": [
+            {
+              "no": 1,
+              "title": "あいさつを します",
+              "link": "https://a1.marugotoweb.jp/ja/can-do1.php"
+            },
+            {
+              "no": 2,
+              "title": "にほんごを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do2.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "2",
+            "title": "もういちど おねがいします"
+          },
+          "candos": [
+            {
+              "no": 3,
+              "title": "きょうしつの ことばを はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do3.php"
+            },
+            {
+              "no": 4,
+              "title": "なまえと くにを かきます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do4.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 2,
+        "title": "わたし",
+        "romaji": "Watashi",
+        "meaning": "Myself"
+      },
+      "color": "#054a95",
+      "topicImageUrl": "https://a1.marugotoweb.jp/ja/assets/images/index/topic_image02.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "3",
+            "title": "どうぞ よろしく"
+          },
+          "candos": [
+            {
+              "no": 5,
+              "title": "じぶんの ことを かんたんに はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do5.php"
+            },
+            {
+              "no": 6,
+              "title": "めいしを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do6.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "4",
+            "title": "かぞくは 3にんです"
+          },
+          "candos": [
+            {
+              "no": 7,
+              "title": "かぞくの ことを かんたんに はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do7.php"
+            },
+            {
+              "no": 8,
+              "title": "かぞくの しゃしんを みて はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do8.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 3,
+        "title": "たべもの",
+        "romaji": "Tabemono",
+        "meaning": "Food"
+      },
+      "color": "#3b8a53",
+      "topicImageUrl": "https://a1.marugotoweb.jp/ja/assets/images/index/topic_image03.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "5",
+            "title": "なにが すきですか"
+          },
+          "candos": [
+            {
+              "no": 9,
+              "title": "すきな たべものが なにか はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do9.php"
+            },
+            {
+              "no": 10,
+              "title": "ほかの ひとに のみものを すすめます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do10.php"
+            },
+            {
+              "no": 11,
+              "title": "あさごはんの しゅうかんについて はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do11.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "6",
+            "title": "どこで たべますか"
+          },
+          "candos": [
+            {
+              "no": 12,
+              "title": "すきな りょうりを いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do12.php"
+            },
+            {
+              "no": 13,
+              "title": "ひるごはんを どこで いっしょに たべるか ともだちと はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do13.php"
+            },
+            {
+              "no": 14,
+              "title": "メニューを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do14.php"
+            },
+            {
+              "no": 15,
+              "title": "ハンバーガーの みせで かんたんな ちゅうもんを します",
+              "link": "https://a1.marugotoweb.jp/ja/can-do15.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 4,
+        "title": "いえ",
+        "romaji": "Ie",
+        "meaning": "Home"
+      },
+      "color": "#dd7222",
+      "topicImageUrl": "https://a1.marugotoweb.jp/ja/assets/images/index/topic_image04.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "7",
+            "title": "へやが 3つ あります"
+          },
+          "candos": [
+            {
+              "no": 16,
+              "title": "どんな いえに すんで いるか いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do16.php"
+            },
+            {
+              "no": 17,
+              "title": "いえに なにが あるか いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do17.php"
+            },
+            {
+              "no": 18,
+              "title": "ともだちを いえに しょうたいする Eメールを かきます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do18.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "8",
+            "title": "いい へやですね"
+          },
+          "candos": [
+            {
+              "no": 19,
+              "title": "ものを へやの どこに おくか ききます ／ いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do19.php"
+            },
+            {
+              "no": 20,
+              "title": "いえを ほうもんします ／ いえに ともだちを むかえます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do20.php"
+            },
+            {
+              "no": 21,
+              "title": "いえの なかを あんないします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do21.php"
+            },
+            {
+              "no": 22,
+              "title": "そとで なまえや じゅうしょを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do22.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 5,
+        "title": "せいかつ",
+        "romaji": "Seekatsu",
+        "meaning": "Daily Life"
+      },
+      "color": "#d16093",
+      "topicImageUrl": "https://a1.marugotoweb.jp/ja/assets/images/index/topic_image05.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "9",
+            "title": "なんじに おきますか"
+          },
+          "candos": [
+            {
+              "no": 23,
+              "title": "なにかを する じかんを いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do23.php"
+            },
+            {
+              "no": 24,
+              "title": "いちにちの せいかつを はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do24.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "10",
+            "title": "いつが いいですか"
+          },
+          "candos": [
+            {
+              "no": 25,
+              "title": "いっしゅうかんの スケジュールについて はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do25.php"
+            },
+            {
+              "no": 26,
+              "title": "パーティーを いつに するか はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do26.php"
+            },
+            {
+              "no": 27,
+              "title": "バースデーカードを　かきます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do27.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 6,
+        "title": "やすみのひ1",
+        "romaji": "Yasumi no hi 1",
+        "meaning": "Holidays and Days off 1"
+      },
+      "color": "#5f2e82",
+      "topicImageUrl": "https://a1.marugotoweb.jp/ja/assets/images/index/topic_image06.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "11",
+            "title": "しゅみは なんですか"
+          },
+          "candos": [
+            {
+              "no": 28,
+              "title": "しゅみについて はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do28.php"
+            },
+            {
+              "no": 29,
+              "title": "やすみの ひに なにを するか はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do29.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "12",
+            "title": "いっしょに いきませんか"
+          },
+          "candos": [
+            {
+              "no": 30,
+              "title": "イベントの ポスターや カレンダーを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do30.php"
+            },
+            {
+              "no": 31,
+              "title": "イベントに いくか どうか いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do31.php"
+            },
+            {
+              "no": 32,
+              "title": "ともだちと いっしょに でかけるか どうか はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do32.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 7,
+        "title": "まち",
+        "romaji": "Machi",
+        "meaning": "Town"
+      },
+      "color": "#2a7980",
+      "topicImageUrl": "https://a1.marugotoweb.jp/ja/assets/images/index/topic_image07.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "13",
+            "title": "どうやって　いきますか"
+          },
+          "candos": [
+            {
+              "no": 33,
+              "title": "えきや タクシーの サインを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do33.php"
+            },
+            {
+              "no": 34,
+              "title": "タクシーに のって メモを みせて いきさきを いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do34.php"
+            },
+            {
+              "no": 35,
+              "title": "もくてきちまで どうやって いくか はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do35.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "14",
+            "title": "ゆうめいな　おてらです"
+          },
+          "candos": [
+            {
+              "no": 36,
+              "title": "ちずを みながら もくてきちまで どうやって いくか はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do36.php"
+            },
+            {
+              "no": 37,
+              "title": "いま どこに いるか でんわで はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do37.php"
+            },
+            {
+              "no": 38,
+              "title": "みせの じかんを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do38.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 8,
+        "title": "かいもの",
+        "romaji": "Kaimono",
+        "meaning": "Shopping"
+      },
+      "color": "#903b2a",
+      "topicImageUrl": "https://a1.marugotoweb.jp/ja/assets/images/index/topic_image08.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "15",
+            "title": "かわいい！"
+          },
+          "candos": [
+            {
+              "no": 39,
+              "title": "かいたい ものについて はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do39.php"
+            },
+            {
+              "no": 40,
+              "title": "ほしい ものが どこで かえるか はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do40.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "16",
+            "title": "これ、ください"
+          },
+          "candos": [
+            {
+              "no": 41,
+              "title": "みせに ある ものについて どう おもうか いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do41.php"
+            },
+            {
+              "no": 42,
+              "title": "しょうひんの ねだんを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do42.php"
+            },
+            {
+              "no": 43,
+              "title": "みせで かいものを します",
+              "link": "https://a1.marugotoweb.jp/ja/can-do43.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 9,
+        "title": "やすみのひ２",
+        "romaji": "Yasumi no hi 2",
+        "meaning": "Holidays and Days off 2"
+      },
+      "color": "#a02b64",
+      "topicImageUrl": "https://a1.marugotoweb.jp/ja/assets/images/index/topic_image09.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "17",
+            "title": "たのしかったです"
+          },
+          "candos": [
+            {
+              "no": 44,
+              "title": "みじかい ブログを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do44.php"
+            },
+            {
+              "no": 45,
+              "title": "やすみに なにを したか はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do45.php"
+            },
+            {
+              "no": 46,
+              "title": "どう おもったか かんたんに いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do46.php"
+            },
+            {
+              "no": 47,
+              "title": "やすみの ひの ことについて みじかい ブログを かきます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do47.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "18",
+            "title": "つぎは きょうとに いきたいです"
+          },
+          "candos": [
+            {
+              "no": 48,
+              "title": "かんたんな Eメールを よみます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do48.php"
+            },
+            {
+              "no": 49,
+              "title": "りょこうの とき なにを したか はなします",
+              "link": "https://a1.marugotoweb.jp/ja/can-do49.php"
+            },
+            {
+              "no": 50,
+              "title": "つぎの りょこうは どこに いきたいか いいます",
+              "link": "https://a1.marugotoweb.jp/ja/can-do50.php"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

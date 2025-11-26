@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="3" num="11">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>あさごはんの しゅうかんについて はなします</ja>
+			<ro>Asa-gohan no shuukan ni tsuite hanashimasu</ro>
+			<en>Talk about your breakfast</en>
+			<es>Habla sobre tu desayuno</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/11/manual1.png"/>
+		<img src="swf/can-do/asset/11/manual2.png"/>
+		<img src="swf/can-do/asset/11/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>あさごはんの　しゅうかん</ja>
+			<en>Breakfast habits</en>
+			<es>Costumbres del desayuno</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/11/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/11/p_thumb1.jpg" src="./asset/11/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>まいさんに　あさごはんの　しゅうかんを　ききます。</first></ja>
+				<ro><first>Mai-san ni asa-gohan no shuukan o kikimasu.</first></ro>
+				<en><first>Asking Mai about her breakfast habits.</first></en>
+				<es><first>Preguntar a Mai sobre su costumbre para desayunar.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="A">
+				<ja><first>A) ききて:</first><second>まいさん、まいにち　あさごはんを　食べますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Mai-san, mainichi asa-gohan o tabemasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>Mai, do you eat breakfast every day?</second></en>
+				<es><first>A) Entrevistadora:</first><second>Mai, ¿tú desayunas todos los días?</second></es>
+			</cue>
+
+			
+			<cue time="9.6" person="B">
+				<ja><first>B) まい:</first><second>はい、もちろん　食べます。</second></ja>
+				<ro><first>B) Mai:</first><second>Hai, mochiron tabemasu.</second></ro>
+				<en><first>B) Mai:</first><second>Yes, of course.</second></en>
+				<es><first>B) Mai:</first><second>Sí, por supuesto.</second></es>
+			</cue>
+
+			
+			<cue time="12.5" person="A">
+				<ja><first>A) ききて:</first><second>そうですか。なにを　食べますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Soo desu ka. Nani o tabemasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>I see. What do you eat?</second></en>
+				<es><first>A) Entrevistadora:</first><second>Ya veo. ¿Qué desayunas?</second></es>
+			</cue>
+
+			
+			<cue time="16.0" person="B">
+				<ja><first>B) まい:</first><second>うーん、そうですね。パン、やさい…。それから　卵を　いつも　食べます。</second></ja>
+				<ro><first>B) Mai:</first><second>Uun, soo desu ne. Pan, yasai…. Sorekara tamago o itsumo tabemasu.</second></ro>
+				<en><first>B) Mai:</first><second>Hmm, well… Bread, vegetables…. And I always have eggs.</second></en>
+				<es><first>B) Mai:</first><second>Humm, pues... Pan, verduras..., y siempre como huevos.</second></es>
+			</cue>
+
+			
+			<cue time="25.6" person="A">
+				<ja><first>A) ききて:</first><second>なにを　飲みますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Nani o nomimasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>What do you drink?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Y qué bebes?</second></es>
+			</cue>
+
+			
+			<cue time="27.5" person="B">
+				<ja><first>B) まい:</first><second>こうちゃを　飲みます。</second></ja>
+				<ro><first>B) Mai:</first><second>Koocha o nomimasu.</second></ro>
+				<en><first>B) Mai:</first><second>I drink black tea.</second></en>
+				<es><first>B) Mai:</first><second>Bebo té negro.</second></es>
+			</cue>
+
+					
+			<cue time="30.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/11/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="m">
+				<ja><first>きむらさんの　いえの　あさです。あさごはんについて　はなしましょう。</first></ja>
+				<ro><first>Kimura-san no ie no asa desu. Asa-gohan ni tsuite hanashimashoo.</first></ro>
+				<en><first>It's morning in the Kimura family's house. Let's talk about breakfast.</first></en>
+				<es><first>Es por la mañana en la casa de la familia Kimura. Vamos a hablar sobre el desayuno.</first></es>
+			</cue>
+
+			
+			<cue time="11.0" person="A">
+				<ja><first>いつも　あさごはんを　食べますか。</first></ja>
+				<ro><first>Itsumo asa-gohan o tabemasu ka.</first></ro>
+				<en><first>Do you always eat breakfast?</first></en>
+				<es><first>¿Desayunas siempre?</first></es>
+			</cue>
+
+			
+			<cue time="14.7" person="B">
+				<ja><first>れい: はい、食べます。パンを　食べます。 / いいえ、あまり　食べません。</first></ja>
+				<ro><first>Ree: Hai, tabemasu. Pan o tabemasu./Iie, amari tabemasen.</first></ro>
+				<en><first>E.g: Yes, I do. I eat bread./No, I don't usually eat breakfast.</first></en>
+				<es><first>Ejm: Sí, desayuno, con pan./No, normalmente no desayuno.</first></es>
+			</cue>
+
+			
+			<cue time="24.0" person="m">
+				<ja><first>そうですか。</first></ja>
+				<ro><first>Soo desu ka.</first></ro>
+				<en><first>Oh?</first></en>
+				<es><first>¿Ah sí?</first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="A">
+				<ja><first>わたしは　コーヒーを　飲みます。なにも　食べません。</first></ja>
+				<ro><first>Watashi wa koohii o nomimasu. Nani mo tabemasen.</first></ro>
+				<en><first>I drink coffee. I don't have anything to eat.</first></en>
+				<es><first>Yo tomo café. No como nada.</first></es>
+			</cue>
+
+					
+			<cue time="30.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

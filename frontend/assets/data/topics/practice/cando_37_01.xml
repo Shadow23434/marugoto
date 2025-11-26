@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="7" num="37">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>いま どこに いるか でんわで はなします</ja>
+			<ro>Ima doko ni iru ka denwa de hanashimasu</ro>
+			<en>Say where you are now over the phone</en>
+			<es>Explica por teléfono dónde estás ahora mismo </es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/37/manual1.png"/>
+		<img src="swf/can-do/asset/37/manual2.png"/>
+		<img src="swf/can-do/asset/37/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>いる　ばしょを　おしえる</ja>
+			<en>Telling someone where you are</en>
+			<es>Enseñar a alguien dónde estás</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/37/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/37/p_thumb1.jpg" src="./asset/37/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>まちあわせを　して　います。やまださんが　まだ　きません。</first></ja>
+				<ro><first>Machiawase o shite imasu. Yamada-san ga mada kimasen.</first></ro>
+				<en><first>Meeting up with friends. Ms Yamada hasn't arrived yet.</first></en>
+				<es><first>Tienes una cita con unos amigos. La Srta. Yamada todavía no viene.  </first></es>
+			</cue>
+
+			
+			<cue time="8.2" person="A">
+				<ja><first>A) やまざき:</first><second>やまださん、おそいですね。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Yamada-san, osoi desu ne.</second></ro>
+				<en><first>A) Yamazaki:</first><second>Ms Yamada's late, isn't she?</second></en>
+				<es><first>A) Yamazaki:</first><second>La Srta Yamada llega tarde, ¿no?</second></es>
+			</cue>
+
+			
+			<cue time="12.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="16.4" person="A">
+				<ja><first>A) やまざき:</first><second>はい、もしもし。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Hai, moshimoshi.</second></ro>
+				<en><first>A) Yamazaki:</first><second>Hello?</second></en>
+				<es><first>A) Yamazaki:</first><second>¿Sí?</second></es>
+			</cue>
+
+			
+			<cue time="18.0" person="B">
+				<ja><first>B) やまだ:</first><second>あ、やまざきさん。すみません、いま　どこですか。</second></ja>
+				<ro><first>B) Yamada:</first><second>A, Yamazaki-san. Sumimasen, ima doko desu ka.</second></ro>
+				<en><first>B) Yamada:</first><second>Ah, Mr Yamazaki. Sorry, but where are you now?</second></en>
+				<es><first>B) Yamada:</first><second>Ah, Sr. Yamazaki. Perdón, ¿dónde están ustedes ahora?</second></es>
+			</cue>
+
+			<cue time="24.0" person="A">
+				<ja><first>A) やまざき:</first><second>えきの　南に　きっさてんが　ありますね。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Eki no minami ni kissaten ga arimasu ne.</second></ro>
+				<en><first>A) Yamazaki:</first><second>There's a coffee shop south of the station, yes?</second></en>
+
+				<es><first>A) Yamazaki:</first><second>Hay una cafetería al lado sur de la estación, ¿verdad?</second></es>
+			</cue>
+
+			<cue time="29.2" person="">
+			
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="29.5" person="A">
+				<ja><first>A) やまざき:</first><second>きっさてんに　います。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Kissaten ni imasu.</second></ro>
+				<en><first>A) Yamazaki:</first><second>We're at that coffee shop.</second></en>
+				<es><first>A) Yamazaki:</first><second>Pues estamos en esa cafetería. </second></es>
+			</cue>
+
+			
+			<cue time="30.9" person="B">
+				<ja><first>B) やまだ:</first><second>あ、わかりました。いま　いきます。</second></ja>
+				<ro><first>B) Yamada:</first><second>A, wakarimashita. Ima ikimasu.</second></ro>
+				<en><first>B) Yamada:</first><second>Okay, got it! I'll go there now.</second></en>
+				<es><first>B) Yamada:</first><second>Vale. Ahora voy. </second></es>
+			</cue>
+
+			
+			<cue time="36.5" person="A">
+				<ja><first>A) やまざき:</first><second>はい、きを　つけて。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Hai, ki o tsukete.</second></ro>
+				<en><first>A) Yamazaki:</first><second>Okay, take care.</second></en>
+				<es><first>A) Yamazaki:</first><second>Sí, cuídese. </second></es>
+			</cue>
+
+			
+			<cue time="39.3" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="39.6" person="A">
+				<ja><first>A) やまざき:</first><second>もうすぐ　きますよ。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Moo sugu kimasu yo.</second></ro>
+				<en><first>A) Yamazaki:</first><second>She'll be here soon.</second></en>
+				<es><first>A) Yamazaki:</first><second>Ya viene. </second></es>
+			</cue>
+
+					
+			<cue time="42.7" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/37/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まちあわせの　ばしょに　きました。でも、まいさんたちが　いません。</first></ja>
+				<ro><first>Machiawase no basho ni kimashita. Demo, Mai-santachi ga imasen.</first></ro>
+				<en><first>You've come to the meeting place. But Mai and Toshiko aren't there.</first></en>
+				<es><first>Has llegado al lugar de la cita. Pero, no encuentras a Mai ni a Toshiko.</first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="12.0" person="A">
+				<ja><first>おそいですねぇ。</first></ja>
+				<ro><first>Osoi desu nee.</first></ro>
+				<en><first>Hmm. It's getting late isn't it.</first></en>
+				<es><first>No viene, ¿no?</first></es>
+			</cue>
+
+			
+			<cue time="16.5" person="A">
+				<ja><first>あ、まいです。いま　どこですか。</first></ja>
+				<ro><first>A, Mai desu. Ima doko desu ka.</first></ro>
+				<en><first>Ah, it's Mai. Where are you now?</first></en>
+				<es><first>Ah, soy Mai. ¿Dónde estás ahora?</first></es>
+			</cue>
+
+			
+			<cue time="20.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="23.0" person="A">
+				<ja><first>ホールの　まえに　つきました。</first></ja>
+				<ro><first>Hooru no mae ni tsukimashita.</first></ro>
+				<en><first>You've been dropped off by the taxi in front of the hall. </first></en>
+				<es><first>El taxi te ha dejado en frente del Hall. </first></es>
+			</cue>
+
+			
+			<cue time="28.5" person="B">
+				<ja><first>ホールの　まえに　います。</first></ja>
+				<ro><first>Hooru no mae ni imasu.</first></ro>
+				<en><first>I'm in front of the hall.</first></en>
+				<es><first>Yo estoy en frente del Hall. </first></es>
+			</cue>
+
+			
+			<cue time="34.5" person="A">
+				<ja><first>わかりました。いま　いきます。</first></ja>
+				<ro><first>Wakarimashita. Ima ikimasu.</first></ro>
+				<en><first>Okay. I'll come and find you.</first></en>
+				<es><first>Vale. Ahí voy. </first></es>
+			</cue>
+
+			
+			<cue time="38.3" person="B">
+				<ja><first>おねがいします。</first></ja>
+				<ro><first>Onegaishimasu.</first></ro>
+				<en><first>Please do.</first></en>
+				<es><first>Por favor. </first></es>
+			</cue>
+
+			
+			<cue time="43.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="48.0" person="A">
+				<ja><first>じゃ、いきましょう。</first></ja>
+				<ro><first>Ja, ikimashoo.</first></ro>
+				<en><first>Right, let's go.</first></en>
+				<es><first>Bueno, vamos. </first></es>
+			</cue>
+
+			
+			<cue time="51.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

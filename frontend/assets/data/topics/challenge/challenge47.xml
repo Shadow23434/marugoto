@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="9" num="47">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="write"><!-- write,speak,read -->
+			<ja>やすみの ひの ことについて みじかい ブログを かきます</ja>
+			<ro>Yasumi no hi no koto ni tsuite mijikai burogu o kakimasu</ro>
+			<en>Write a short blog about your holiday</en>
+			<es>Escribe una breve entrada de blog sobre tus vacaciones</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/47/manual1.png"/>
+		<img src="swf/can-do/asset/47/manual2.png"/>
+		<img src="swf/can-do/asset/47/manual3.png"/>
+		
+	</top>
+	<!--ここまでトップ-->
+	
+	
+	<kakunin type="pics" checkbox="true">
+		<pic>
+			<midashi>
+				<ja>ブログの　タイトル ( れい )</ja>
+				<en>Blog titles (examples)</en>
+				<es>Títulos de un blog (ejemplos)</es>
+			</midashi>
+			<path>swf/can-do/asset/47/kakunin1_</path>
+		</pic>
+		<pic>
+			<midashi>
+				<ja>休みの　日に　したこと (1)</ja>
+				<en>What you did on your day off (1)</en>
+				<es>Lo que hiciste en un día libre (1)</es>
+			</midashi>
+			<path>swf/can-do/asset/47/kakunin2_</path>
+		</pic>
+		<pic>
+			<midashi>
+				<ja>休みの　日に　したこと (2)</ja>
+				<en>What you did on your day off (2)</en>
+				<es>Lo que hiciste en un día libre (2)</es>
+			</midashi>
+			<path>swf/can-do/asset/47/kakunin3_</path>
+		</pic>
+		<pic>
+			<midashi>
+				<ja>かんそうの　ひょうげん</ja>
+				<en>Expressing thoughts/reactions</en>
+				<es>Expresar opiniones</es>
+			</midashi>
+			<path>swf/can-do/asset/47/kakunin4_</path>
+		</pic>
+		
+	</kakunin>
+	
+	
+	<!--ここかられんしゅう-->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/47/renshu1_</base>
+			<icon type="download" href="./pdf/blog_format_" x="192" y="346" />
+		</page>
+		<page>
+			<base>swf/can-do/asset/47/renshu2_</base>
+		</page>
+		
+	</renshu>
+	
+	
+	
+	<!--ここまでれんしゅう-->
+	
+	
+	<!--ここからチャレンジ-->
+	<challenge type="basic">
+		<video src="./asset/47/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>ならりょこうについて　ブログを　書きましょう。</first></ja>
+				<ro><first>Nara-ryokoo ni tsuite burogu o kakimashoo.</first></ro>
+				<en><first>Let's write a blog about your trip to Nara.</first></en>
+				<es><first>Vamos a escribir un blog sobre tu viaje a Nara.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="B">
+
+				<ja><first>「ならりょこう」</first></ja>
+
+				<ro><first>"Nara-ryokoo"</first></ro>
+				<en><first>"Nara trip"</first></en>
+				<es><first>"Viaje a Nara"</first></es>
+			</cue>
+
+			
+			<cue time="8.5" person="A">
+				<ja><first>ならに　行きました。しかに　おかしを　あげました。たのしかったです。</first></ja>
+				<ro><first>Nara ni ikimashita. Shika ni okashi o agemashita. Tanoshikatta desu.</first></ro>
+				<en><first>I went to Nara. I gave some snacks to the deer. It was fun.</first></en>
+				<es><first>He ido a Nara. Di unas galletas a los venados. Fue divertido. </first></es>
+			</cue>
+
+			
+			<cue time="16.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

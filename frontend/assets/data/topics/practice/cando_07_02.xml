@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="2" num="7">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>かぞくの ことを かんたんに はなします</ja>
+			<ro>Kazoku no koto o kantanni hanashimasu</ro>
+			<en>Talk briefly about your family</en>
+			<es>Habla sobre tu familia en pocas palabras</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/07/manual1.png"/>
+		<img src="swf/can-do/asset/07/manual2.png"/>
+		<img src="swf/can-do/asset/07/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>かぞくの　しょうかい</ja>
+			<en>Introducing your family</en>
+			<es>Presentar a tu familia</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/07/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+	
+		<video thumb="swf/can-do/asset/07/p_thumb2.jpg" src="./asset/07/practice2_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>ダンさんに　かぞくの　はなしを　ききます。</first></ja>
+				<ro><first>Dan-san ni kazoku no hanashi o kikimasu.</first></ro>
+				<en><first>Asking Dan about his family.</first></en>
+				<es><first>Preguntar a Dan sobre su familia. </first></es>
+			</cue>
+
+			
+			<cue time="5.2" person="A">
+				<ja><first>A) ききて:</first><second>ダンさん、かぞくは　なんにんですか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Dan-san, kazoku wa nannin desu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>How many people are there in your family, Dan?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Cuántos son ustedes en la familia, Dan?</second></es>
+			</cue>
+
+			
+			<cue time="9.0" person="B">
+				<ja><first>B) ダン:</first><second>4にんかぞくです。</second></ja>
+				<ro><first>B) Dan:</first><second>Yo-nin kazoku desu.</second></ro>
+				<en><first>B) Dan:</first><second>There are four people in my family.</second></en>
+				<es><first>B) Dan:</first><second>Somos cuatro en la familia. </second></es>
+			</cue>
+
+			
+			<cue time="11.0" person="B">
+				<ja><first>B) ダン:</first><second>ちちは　スウェーデンじん、ははは　にほんじんです。いもうとも　います。</second></ja>
+				<ro><first>B) Dan:</first><second>Chichi wa Suweedenjin, haha wa Nihonjin desu. Imooto mo imasu.</second></ro>
+				<en><first>B) Dan:</first><second>My father is Swedish and my mother is Japanese. I also have a younger sister.</second></en>
+				<es><first>B) Dan:</first><second>Mi padre es sueco, y mi madre es japonesa. También tengo una hermana menor. </second></es>
+			</cue>
+
+			
+			<cue time="15.5" person="A">
+				<ja><first>A) ききて:</first><second>へえ、どこに　すんで　いますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Hee, doko ni sunde imasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>Ooh, where do they live?</second></en>
+				<es><first>A) Entrevistadora:</first><second>Oh, ¿dónde viven ellos?</second></es>
+			</cue>
+
+			
+			<cue time="19.0" person="B">
+				<ja><first>B) ダン:</first><second>ならです。</second></ja>
+				<ro><first>B) Dan:</first><second>Nara desu.</second></ro>
+				<en><first>B) Dan:</first><second>In Nara.</second></en>
+				<es><first>B) Dan:</first><second>En Nara.</second></es>
+			</cue>
+
+			
+			<cue time="20.8" person="A">
+				<ja><first>A) ききて:</first><second>いもうとさんは　がくせいですか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Imootosan wa gakusee desu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>Is your sister a student?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Tu hermana es estudiante?</second></es>
+			</cue>
+
+			
+			<cue time="23.2" person="B">
+				<ja><first>B) ダン:</first><second>はい、そうです。</second></ja>
+				<ro><first>B) Dan:</first><second>Hai, soo desu.</second></ro>
+				<en><first>B) Dan:</first><second>Yes, she is.</second></en>
+				<es><first>B) Dan:</first><second>Sí. Así es. </second></es>
+			</cue>
+
+			
+			<cue time="25.9" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/07/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさんと　かぞくについて　はなしましょう。</first></ja>
+				<ro><first>Mai-san to kazoku ni tsuite hanashimashoo.</first></ro>
+				<en><first>Talk about your family with Mai.</first></en>
+				<es><first>Habla con Mai sobre tu familia.</first></es>
+			</cue>
+
+			
+			<cue time="7.7" person="A">
+				<ja><first>ごかぞくは　なんにんですか。</first></ja>
+				<ro><first>Gokazoku wa nannin desu ka.</first></ro>
+				<en><first>How many people are there in your family?</first></en>
+				<es><first>¿Cuántos sois en la familia?</first></es>
+			</cue>
+
+			
+			<cue time="11.5" person="B">
+				<ja><first>れい: 4にんです。ちちと　ははと　いもうとと　わたしです。</first></ja>
+				<ro><first>Ree: Yo-nin desu. Chichi to haha to imooto to watashi desu.</first></ro>
+				<en><first>E.g: Four people. My father, mother and younger sister and me.</first></en>
+				<es><first>Ejm: Somos cuatro. Mi padre, mi madre, mi hermana menor y yo.  </first></es>
+			</cue>
+
+			
+			<cue time="20.0" person="A">
+				<ja><first>そうですか。どこに　すんで　いますか。</first></ja>
+				<ro><first>Soo desu ka. Doko ni sunde imasu ka.</first></ro>
+				<en><first>Oh. Where do they live?</first></en>
+				<es><first>¿Ah, sí? ¿Dónde viven?</first></es>
+			</cue>
+
+			
+			<cue time="24.5" person="B">
+				<ja><first>れい: ケルンに　すんで　います。</first></ja>
+				<ro><first>Ree: Kerun ni sunde imasu.</first></ro>
+				<en><first>E.g: In Cologne.</first></en>
+				<es><first>Ejm: En Colonia.</first></es>
+			</cue>
+
+			
+			<cue time="30.5" person="A">
+				<ja><first>へえ。</first></ja>
+				<ro><first>Hee.</first></ro>
+				<en><first>Wow.</first></en>
+				<es><first>¡Anda!</first></es>
+			</cue>
+
+			
+			<cue time="32.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

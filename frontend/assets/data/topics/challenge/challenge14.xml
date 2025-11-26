@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="3" num="14">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>メニューを よみます</ja>
+			<ro>Menyuu o yomimasu</ro>
+			<en>Read a menu</en>
+			<es>Lee un menú</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/14/manual1.png"/>
+		<img src="swf/can-do/asset/14/manual2.png"/>
+		<img src="swf/can-do/asset/14/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="pics" checkbox="true">
+		
+		<pic>
+			<midashi>
+				<ja>ハンバーガーショップの　ことば</ja>
+				<en>Words for things at a hamburger shop</en>
+				<es>Palabras para cosas que hay en una hamburguesería</es>
+			</midashi>
+			<path>swf/can-do/asset/14/kakunin1_</path>
+		</pic>
+		
+		<pic>
+			<midashi>
+				<ja>ハンバーガーショップの　ことば</ja>
+				<en>Words for things at a hamburger shop</en>
+				<es>Palabras para cosas que hay en una hamburguesería</es>
+			</midashi>
+			<path>swf/can-do/asset/14/kakunin2_</path>
+		</pic>
+		
+	</kakunin>
+	
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+	
+<!-- ページ送りタイプ -->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/14/renshu1_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/14/renshu2_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/14/renshu3_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/14/renshu4_</base>
+		</page>
+		
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/14/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>ファーストフードてんで　食べましょう。メニューが　わかりますか。</first></ja>
+				<ro><first>Faasuto-fuudo-ten de tabemashoo. Menyuu ga wakarimasu ka.</first></ro>
+				<en><first>Let's eat at a fast food restaurant. Do you understand the menu?</first></en>
+				<es><first>Vamos a comer en un restaurante de comida rápida. ¿Comprendes la carta?</first></es>
+			</cue>
+
+			
+			<cue time="11.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="18.0" person="A">
+				<ja><first>いらっしゃいませ。</first></ja>
+				<ro><first>Irasshaimase.</first></ro>
+				<en><first>Welcome.</first></en>
+				<es><first>Bienvenido.</first></es>
+			</cue>
+
+			<cue time="21.0" person="B">
+				<ja><first>なにを　食べますか。この　みせは　チーズバーガーが　おいしいですよ。</first></ja>
+				<ro><first>Nani o tabemasu ka. Kono mise wa chiizu-baagaa ga oishii desu yo.</first></ro>
+				<en><first>What will you have to eat? The cheeseburger here is really tasty.</first></en>
+				<es><first>¿Qué vas a comer? La hamburguesa de queso de aquí es muy rica.</first></es>
+			</cue>
+
+			<cue time="28.0" person="">
+				<ja></ja>
+			
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+			
+				<es></es>
+			</cue>
+
+
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

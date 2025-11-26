@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="5" num="27">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="write"><!-- write,speak,read -->
+			<ja>バースデーカードを かきます</ja>
+			<ro>Baasudee kaado o kakimasu</ro>
+			<en>Write a birthday card</en>
+			<es>Escribe una tarjeta de felicitación de cumpleaños</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/27/manual1.png"/>
+		<img src="swf/can-do/asset/27/manual2.png"/>
+		<img src="swf/can-do/asset/27/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+<!-- テキストタイプ -->
+	
+	<kakunin type="text">
+		<midashi>
+			<ja>おいわいの　メッセージ</ja>
+			<en>Congratulatory message</en>
+			<es>Mensajes de felicitación</es>
+		</midashi>
+		<set>
+			<ja>おたんじょうび　おめでとう(ございます)</ja>
+			<ro>Otanjoobi omedetoo (gozaimasu)</ro>
+			<en>Happy Birthday!</en>
+			<es>¡Feliz Cumpleaños!</es>
+		</set>
+		
+		<set>
+			<ja>ごけっこん　おめでとう(ございます)</ja>
+			<ro>Gokekkon omedetoo (gozaimasu)</ro>
+			<en>Congratulations on your wedding!</en>
+			<es>¡Felicidades por tu matrimonio!</es>
+		</set>
+		
+		<set>
+			<ja>あけまして　おめでとう(ございます)</ja>
+			<ro>Akemashite omedetoo (gozaimasu)</ro>
+			<en>Happy New Year!</en>
+			<es>¡Feliz Año Nuevo!</es>
+		</set>
+
+	</kakunin>
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/27/renshu1_</base>
+			<icon type="download" href="./pdf/birthdaycard_" x="110" y="390" />
+		</page>
+		<page>
+			<base>swf/can-do/asset/27/renshu2_</base>
+		</page>
+		
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/27/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="A">
+				<ja><first>たいちくんに　バースデーカードを　かきましょう。</first></ja>
+				<ro><first>Taichi-kun ni baasudee kaado o kakimashoo.</first></ro>
+				<en><first>Let's write a birthday card for Taichi.</first></en>
+				<es><first>Vamos a escribir una tarjeta de cumpleaños para Taichi.</first></es>
+			</cue>
+
+			
+			<cue time="6.5" person="B">
+				<ja><first>これ、たいちの　バースデーカードです。かいてください。</first></ja>
+				<ro><first>Kore, Taichi no baasudee-kaado desu. Kaite kudasai.</first></ro>
+				<en><first>This is Taichi's birthday card. Please write a message.</first></en>
+				<es><first>Esta es la tarjeta de cumpleaños de Taichi. Escribe un mensaje, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="13.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="18.0" person="A">
+				<ja><first>たいちくん　おたんじょうび　おめでとう!</first></ja>
+				<ro><first>Taichi-kun Otanjoobi omedetoo!</first></ro>
+				<en><first>Happy birthday, Taichi!</first></en>
+				<es><first>¡Feliz cumpleaños, Taichi!</first></es>
+			</cue>
+
+			
+			<cue time="29.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="8" num="39">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>かいたい ものについて はなします</ja>
+			<ro>Kaitai mono ni tsuite hanashimasu</ro>
+			<en>Talk about what you want to buy</en>
+			<es>Habla sobre lo que quieres comprar</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/39/manual1.png"/>
+		<img src="swf/can-do/asset/39/manual2.png"/>
+		<img src="swf/can-do/asset/39/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>買いたい　もの</ja>
+			<en>Things you want to buy</en>
+			<es>Cosas que quieres comprar</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/39/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/39/p_thumb1.jpg" src="./asset/39/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>ダンさんが　ともだちと　おおさかに　きました。</first></ja>
+				<ro><first>Dan-san ga tomodachi to Oosaka ni kimashita.</first></ro>
+				<en><first>Dan has come to Osaka with a friend.</first></en>
+				<es><first>Dan ha venido a Osaka con un amigo. </first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) ダン:</first><second>あ、おみやげ、ほしいです。</second></ja>
+				<ro><first>A) Dan:</first><second>A, omiyage, hoshii desu.</second></ro>
+				<en><first>A) Dan:</first><second>Ah, I want to get a souvenir.</second></en>
+				<es><first>A) Dan:</first><second>Ah, quiero comprar unos recuerdos. </second></es>
+			</cue>
+
+			
+			<cue time="7.8" person="B">
+				<ja><first>B) わだ:</first><second>だれに　あげますか。</second></ja>
+				<ro><first>B) Wada:</first><second>Dare ni agemasu ka.</second></ro>
+				<en><first>B) Wada:</first><second>Who for?</second></en>
+				<es><first>B) Wada:</first><second>¿Para quién?</second></es>
+			</cue>
+
+			
+			<cue time="9.0" person="A">
+				<ja><first>A) ダン:</first><second>いもうとに　あげます。</second></ja>
+				<ro><first>A) Dan:</first><second>Imooto ni agemasu.</second></ro>
+				<en><first>A) Dan:</first><second>I'll give it to my little sister.</second></en>
+				<es><first>A) Dan:</first><second>Para mi hermana menor. </second></es>
+			</cue>
+
+			
+			<cue time="10.7" person="B">
+				<ja><first>B) わだ:</first><second>なにを　あげますか。</second></ja>
+				<ro><first>B) Wada:</first><second>Nani o agemasu ka.</second></ro>
+				<en><first>B) Wada:</first><second>What will you give her?</second></en>
+				<es><first>B) Wada:</first><second>¿Qué piensas regalarle?</second></es>
+			</cue>
+
+			
+			<cue time="12.1" person="A">
+				<ja><first>A) ダン:</first><second>おおさかの　おみやげ、あげます。</second></ja>
+				<ro><first>A) Dan:</first><second>Oosaka no omiyage, agemasu.</second></ro>
+				<en><first>A) Dan:</first><second>I'll give her a souvenir of Osaka.</second></en>
+				<es><first>A) Dan:</first><second>Voy a regalarle algunos recuerdos de Osaka. </second></es>
+			</cue>
+
+			
+			<cue time="14.0" person="B">
+				<ja><first>B) わだ:</first><second>じゃあ、ここが　いいですよ。</second></ja>
+				<ro><first>B) Wada:</first><second>Jaa, koko ga ii desu yo.</second></ro>
+				<en><first>B) Wada:</first><second>Well then, this shop's good!</second></en>
+				<es><first>B) Wada:</first><second>Entonces, aquí está bien. </second></es>
+			</cue>
+
+					
+			<cue time="16.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/39/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさんと　買いものに　きました。シャツが　ほしいです。</first></ja>
+				<ro><first>Mai-san to kaimono ni kimashita. Shatsu ga hoshii desu.</first></ro>
+				<en><first>You have come shopping with Mai. You want a shirt.</first></en>
+				<es><first>Has venido de compras con Mai. Tú quieres comprar una camisa.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="15.0" person="A">
+				<ja><first>なにが　ほしいですか。</first></ja>
+				<ro><first>Nani ga hoshii desu ka.</first></ro>
+				<en><first>What do you want?</first></en>
+				<es><first>¿Qué buscas?</first></es>
+			</cue>
+
+			
+			<cue time="18.0" person="B">
+				<ja><first>シャツが　ほしいです。</first></ja>
+				<ro><first>Shatsu ga hoshii desu.</first></ro>
+				<en><first>I want a shirt.</first></en>
+				<es><first>Quiero una camisa. </first></es>
+			</cue>
+
+			
+			<cue time="22.5" person="A">
+				<ja><first>シャツ…</first></ja>
+				<ro><first>Shatsu…</first></ro>
+				<en><first>A shirt…</first></en>
+				<es><first>Una camisa...</first></es>
+			</cue>
+
+			
+			<cue time="26.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

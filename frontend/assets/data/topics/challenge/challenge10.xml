@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="3" num="10">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>ほかの ひとに のみものを すすめます</ja>
+			<ro>Hoka no hito ni nomimono o susumemasu</ro>
+			<en>Help somebody get a drink</en>
+			<es>Ayuda a alguien a pedir una bebida</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/10/manual1.png"/>
+		<img src="swf/can-do/asset/10/manual2.png"/>
+		<img src="swf/can-do/asset/10/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>のみものを　すすめる</ja>
+			<en>Offering someone a drink</en>
+			<es>Ofrecer una bebida a alguien</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/10/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/10/p_thumb1.jpg" src="./asset/10/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>しょくどうに　います。</first></ja>
+				<ro><first>Shokudoo ni imasu.</first></ro>
+				<en><first>In the cafeteria.</first></en>
+				<es><first>En la cafetería.</first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="A">
+				<ja><first>A) かわさき:</first><second>コーヒー、飲みますか。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Koohii, nomimasu ka.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Do you want a coffee?</second></en>
+				<es><first>A) Kawasaki:</first><second>¿Quieres un café?</second></es>
+			</cue>
+
+			
+			<cue time="12.2" person="B">
+				<ja><first>B) まつもと:</first><second>はい、おねがいします。</second></ja>
+				<ro><first>B) Matsumoto:</first><second>Hai, onegaishimasu.</second></ro>
+				<en><first>B) Matsumoto:</first><second>Yes, please.</second></en>
+				<es><first>B) Matsumoto:</first><second>Sí, por favor. </second></es>
+			</cue>
+
+			
+			<cue time="15.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="21.2" person="A">
+				<ja><first>A) かわさき:</first><second>はい、どうぞ。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Hai, doozo.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Here you are.</second></en>
+				<es><first>A) Kawasaki:</first><second>Aquí tienes. </second></es>
+			</cue>
+
+			
+			<cue time="23.1" person="B">
+				<ja><first>B) まつもと:</first><second>すみません。</second></ja>
+				<ro><first>B) Matsumoto:</first><second>Sumimasen.</second></ro>
+				<en><first>B) Matsumoto:</first><second>Thank you.</second></en>
+				<es><first>B) Matsumoto:</first><second>Gracias. </second></es>
+			</cue>
+
+					
+			<cue time="25.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	
+		<video thumb="swf/can-do/asset/10/p_thumb2.jpg" src="./asset/10/practice2_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>しょくどうに　います。</first></ja>
+				<ro><first>Shokudoo ni imasu.</first></ro>
+				<en><first>In the cafeteria.</first></en>
+				<es><first>En la cafetería.</first></es>
+			</cue>
+
+			
+			<cue time="8.7" person="A">
+				<ja><first>A) かわさき:</first><second>コーヒー、飲みますか。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Koohii, nomimasu ka.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Do you want a coffee?</second></en>
+				<es><first>A) Kawasaki:</first><second>¿Quieres un café?</second></es>
+			</cue>
+
+			
+			<cue time="10.6" person="B">
+				<ja><first>B) ダン:</first><second>いいえ、けっこうです。わたしは　こうちゃを　飲みます。</second></ja>
+				<ro><first>B) Dan:</first><second>Iie, kekkoo desu. Watashi wa koocha o nomimasu.</second></ro>
+				<en><first>B) Dan:</first><second>No, thank you. I'll have tea.</second></en>
+				<es><first>B) Dan:</first><second>No, gracias. Yo voy a tomar té negro.</second></es>
+			</cue>
+
+			
+			<cue time="16.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/10/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+			
+			<cue time="1.0" person="A">
+				<ja><first>きむらさんの　いえの　あさごはんです。</first></ja>
+				<ro><first>Kimura-san no ie no asa-gohan desu.</first></ro>
+				<en><first>Breakfast at the Kimura family's house.</first></en>
+				<es><first>Desayuno en la casa de la familia Kimura.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="9.5" person="A">
+				<ja><first>おはよう。</first></ja>
+				<ro><first>Ohayoo.</first></ro>
+				<en><first>Morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="10.8" person="B">
+				<ja><first>おはようございます。</first></ja>
+				<ro><first>Ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="11.8" person="A">
+				<ja><first>おはようございます。</first></ja>
+				<ro><first>Ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="13.5" person="B">
+				<ja><first>おはようございます。</first></ja>
+				<ro><first>Ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="18.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="19.0" person="A">
+				<ja><first>おはよう。コーヒー、飲みますか。</first></ja>
+				<ro><first>Ohayoo. Koohii, nomimasu ka.</first></ro>
+				<en><first>Morning. Do you want a coffee?</first></en>
+				<es><first>Buenos días. ¿Quieres un café?</first></es>
+			</cue>
+
+			
+			<cue time="27.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="26.0" person="A">
+				<ja><first>コーヒーを　もらいましょう。</first></ja>
+				<ro><first>Koohii o moraimashoo.</first></ro>
+				<en><first>That sounds good. Have a coffee.</first></en>
+				<es><first>Eso suena bien. Vamos a tomar café.</first></es>
+			</cue>
+
+			
+			<cue time="31.7" person="B">
+				<ja><first>はい、おねがいします。</first></ja>
+				<ro><first>Hai, onegaishimasu.</first></ro>
+				<en><first>Yes, please.</first></en>
+				<es><first>Sí, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="36.5" person="A">
+				<ja><first>はい、どうぞ。</first></ja>
+				<ro><first>Hai, doozo.</first></ro>
+				<en><first>Here you are.</first></en>
+				<es><first>Aquí lo tienes.</first></es>
+			</cue>
+
+			
+			<cue time="41.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

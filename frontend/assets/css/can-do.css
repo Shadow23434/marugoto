@@ -1,0 +1,1057 @@
+/* Navigation container */
+#can-do .nav_container {
+    background-color: #f0f0f0;
+}
+
+.topics_navi {
+    position: relative;
+}
+
+.topics_navi_btn {
+    display: inline-flex;
+    align-self: center; 
+    background-color: #fff;
+    border: 2px solid var(--bs-primary);
+    color: var(--bs-primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.9375rem;
+    align-items: center;
+    gap: 0.25rem;
+    line-height: 1;
+}
+
+.topics_navi_btn:hover,
+.topics_navi_btn:focus,
+.topics_navi_btn:active {
+    background-color: var(--bs-primary);
+    color: #fff;
+    opacity: 0.9;
+}
+.topics_navi_list {
+    opacity: 0;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 12px;
+    background-color: #fff;
+    min-width: 400px;
+    border: 2px solid var(--bs-primary);
+    cursor: default;
+    z-index: 100;
+    transform: translateY(-6px);
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+    pointer-events: none;
+}
+
+.topics_navi_btn:active + .topics_navi_list,
+.topics_navi_btn:focus + .topics_navi_list,
+.topics_navi_btn[aria-expanded="true"] + .topics_navi_list {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.topics_navi_list h3 {
+    color: var(--bs-primary)
+}
+
+.topics_navi_close {
+    background-image: url("/assets/images/topic/icon_close.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1rem 1rem;
+    background-color: transparent;
+    border: none;
+    color: var(--bs-primary); 
+    opacity: 1;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#can-do .nav_container .topics_navi .topics_navi_list ul li{
+    /* background-color: rgb(var(--accent-color-rgb) / 0.3); */
+    background-color: color-mix(in srgb, var(--accent-color) 25%, white);
+    color: var(--accent-color);
+    filter: brightness(1.05);
+}
+
+#can-do .nav_container .topics_navi .topics_navi_list ul li a {
+    padding: 0.3125rem 1.25rem 0.375rem 1.25rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: var(--accent-color);
+}
+
+#can-do .nav_container .topics_navi .topics_navi_list ul li a::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 25%;
+    right: 1.25rem;
+    flex-shrink: 0;
+    width: 1.875rem;
+    height: 1.875rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: transparent;
+    background-image: url("/assets/images/topic/icon_arrow.png");
+}
+
+#can-do .nav_container .topics_navi .topics_navi_list ul li a h4 {
+    font-size: 0.5rem;
+    font-weight: 600;
+    margin: 0 0.3125rem 0 0;
+    line-height: 0.9;
+    text-align: center;
+}
+
+#can-do .nav_container .topics_navi .topics_navi_list ul li a h4 span {
+    font-size: 2rem; 
+    font-weight: 700;
+}
+
+#can-do .nav_container .topics_navi .topics_navi_list ul li a > div > span {
+    display: block;
+    margin-top: 0.25rem;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+#can-do .nav_container .topics_navi .topics_navi_list ul li a > div > span i {
+    font-weight: 400;
+}
+
+@media (max-width: 576px){
+    #can-do .nav_container .topics_navi .topics_navi_list ul li a h4 span{
+        font-size: 1.25rem;
+    }
+    #can-do .nav_container .topics_navi .topics_navi_list ul li a::after{
+        width: 32px; height: 32px; background-size: 10px 10px;
+    }
+
+    .topics_navi_btn {
+        padding: 0.25rem 0.4875rem;
+    }
+}
+
+/* Cando navigation */
+.cando_navi_btn {
+    width: 100%;
+    padding: 0.625rem;
+    border: none;
+    font-size: 1.25rem;
+    transition: all 0.3s ease;
+}
+
+.cando_navi_btn span {
+    display: inline-block;
+    position: relative;
+    transition: opacity 0.2s ease;
+}
+
+.cando_navi_btn span.close {
+    display: none;
+}
+
+.cando_navi_btn span:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    top: 45%;
+    right: -20px;
+    width: 0.75rem;
+    height: 0.5rem;
+    margin-top: 0;
+    background-image: url(/assets/images/topic/icon_arrow_b.png);
+    transition: transform 0.3s ease;
+}
+
+.cando_navi_btn.active span:after {
+    transform: scale(1, -1);
+}
+
+section > .container .cando_navi_btn span::after {
+    background-image: url(/assets/images/topic/icon_arrow_bw.png);
+    height: 1rem;
+    top: 35%;
+}
+
+.cando_navi {
+    margin-top: 1.25rem;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+                opacity 0.4s ease,
+                transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cando_navi.show {
+    max-height: 2000px;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.cando_navi.hide {
+    max-height: 0;
+    opacity: 0;
+    transform: scaleY(0);
+}
+
+.cando_navi li ~ li {
+    margin-top: 0.625rem;
+}
+
+.cando_navi li.current a {
+    background-color: var(--accent-color);
+    opacity: 1;
+    cursor: default;
+}
+
+.cando_navi li a {
+    display: flex;
+    position: relative;
+    padding: 0.3125rem 3.125rem 0.3125rem 0.625rem;
+    border-radius: 5px;
+    background: linear-gradient(135deg,
+        color-mix(in srgb, var(--accent-color) 88%, white 12%) 0%,
+        color-mix(in srgb, var(--accent-color) 70%, black 30%) 100%);
+    opacity: 0.8;
+    color: #fff;
+    transition: opacity 0.3s ease;
+}
+
+.cando_navi li a:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    top: 50%;
+    right: 0.9375rem;
+}
+
+.cando_navi li a .number, 
+.cando_navi li a .title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 3.75rem;
+}
+
+.cando_navi li a .number {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 17.5rem;
+    font-size: 1.125rem;
+}
+
+.cando_navi li a .number span {
+    display: block;
+    line-height: 1.7;
+    font-size: 0.875rem;
+}
+
+.cando_navi li a .number strong {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    letter-spacing: 0px;
+}
+
+.cando_navi li a .number strong img {
+    width: 1.375rem;
+    height: 1.375rem;
+    margin-left: 0.3125rem;
+}
+
+.cando_navi li a .number strong .cando_no {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.625rem;
+    height: 1.625rem;
+    padding: 0 0.375rem;
+    border-radius: 999px;
+    margin-left: 0.375rem;
+    font-size: 0.9375rem;
+    font-weight: 800;
+    line-height: 1;
+    background-color: #fff;
+    color: var(--accent-color);
+    box-shadow: 0 1px 0 rgba(0,0,0,.04), 0 2px 6px rgba(0,0,0,.12);
+}
+
+.cando_navi li a .title {
+    padding-left: 1.875rem;
+    font-size: 1.25rem;
+}
+
+.cando_navi li a .title:before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    margin-right: 1.875rem;
+    background-color: #fff;
+}
+
+/* Step heading */
+h4.step_heading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    min-height: 80px;
+    margin-top: 60px;
+    border-bottom: 2px solid var(--accent-color);
+    border-bottom-width: 2px;
+    margin-bottom: 50px;
+    padding: 0 0 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+h4.step_heading:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-position: 0 0;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 50%;
+    background: url(/assets/images/topic/icon_step1.png) no-repeat center center;
+    background-color: var(--accent-color);
+    background-size: 4.375rem 4.375rem;
+}
+ 
+#step2 h4.step_heading:before {
+    background-image: url(/assets/images/topic/icon_step2.png);
+}
+
+h4.step_heading strong {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    min-height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    color: var(--accent-color);
+}
+
+h4.step_heading span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.25rem;
+    color: #666;
+    max-width: 40ch;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: auto;
+    text-wrap: balance;
+}
+
+@media (max-width: 576px) {
+    h4.step_heading {
+        text-align: left;
+        padding: 0 0 0 3.5rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+        min-height: 0;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    h4.step_heading:before {
+        width: 3rem;
+        height: 3rem;
+        background-size: 2.625rem;
+        top: -20%;
+    }
+
+    h4.step_heading strong {
+        top: auto;
+        left: auto;
+        min-height: 0;
+        line-height: 0.7;
+        font-size: 1rem;
+        margin: 0 0 0.125rem 0;
+    }
+
+    h4.step_heading span {
+        max-width: 100%;
+        text-align: left;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Cando movie */
+.cando_movie {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: center;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    margin-bottom: 1.25rem;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .cando_movie {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cando_movie .cando_movie_navi,
+    .cando_movie .cando_movie_player {
+        width: 100%;
+        max-width: 100%;
+    }
+    .cando_movie .cando_movie_player video {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+    }
+}
+
+.cando_movie .cando_movie_player {
+    position: relative;
+    width: 600px;
+}
+
+@media (max-width: 768px) {
+    .cando_movie .cando_movie_player {
+        width: 100%;
+    }
+}
+
+.cando_movie .cando_movie_player video {
+    min-height: 337px;
+    margin-bottom: 0px;
+}
+
+.cando_movie .cando_movie_player .playbutton
+ {
+    display: none !important;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.3%;
+    background-image: url(/assets/images/common/icon_play_a.png);
+    background-position: center center;
+    background-size: auto;
+    cursor: pointer;
+}
+
+.cando_movie .cando_movie_player .control {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    padding-top: 0px;
+    background-color: #666666;
+}
+
+/* Cando movie navigation */
+.cando_movie .cando_movie_navi {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 388px;
+}
+
+.cando_movie .cando_movie_navi.callenge {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control {
+    width: 90%;
+    font-size: 18px;
+    color: #666;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control dl {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control dl dt {
+    width: 50%;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control dl dd {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control dl dd:before {
+    content: '|';
+    margin-right: 20px;
+    color: #999;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control dl dd ~ dt, .cando_movie .cando_movie_navi .cando_movie_control dl dd ~ dd {
+    margin-top: 15px;
+    padding-top: 0px;
+    border-top: 2px solid #666;
+    border-top-width: 0px;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control dl dd ul {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control dl dd ul li ~ li {
+    margin-left: 20px;
+}
+
+.cando_movie .cando_movie_navi ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.cando_movie .cando_movie_navi.callenge ul {
+    display: block;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control .language {
+    margin-top: 15px;
+}
+
+.cando_movie .cando_movie_navi .cando_movie_control label {
+    cursor: pointer;
+}
+
+.cando_movie .cando_movie_navi input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.cando_movie .cando_movie_navi .mark {
+    display: inline-block;
+    margin-left: .5em;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    background-color: var(--bs-primary);
+}
+
+.cando_movie .cando_movie_navi input:checked+.mark {
+    background: url(/assets/images/topic/icon_check.png) no-repeat center center var(--bs-primary);
+    background-size: 10px 8px;
+}
+
+/* Movie changer */
+.cando_movie .cando_movie_changer {
+    width: 100%;
+}
+
+.cando_movie .cando_movie_changer ul {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.cando_movie .cando_movie_changer li {
+    position: relative;
+    width: 123px;
+}
+
+.cando_movie .cando_movie_changer li:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/common/icon_play.png);
+    background-position: center center;
+    background-size: 40px 41px;
+    cursor: pointer;
+    -webkit-transition: opacity 0.35s ease;
+    -o-transition: opacity 0.35s ease;
+    transition: opacity 0.35s ease;
+}
+
+.cando_movie .cando_movie_changer li.active:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid var(--accent-color);
+    background-image: none;
+    cursor: default;
+}
+
+/* Movie captions */
+.cando_movie_captions {
+    min-height: 10.0625rem;
+    margin-bottom: 3.75rem;
+    padding: 1.25rem;
+    background-color: #f0f0f0;
+}
+
+.cando_movie_captions p .speaker {
+    display: inline-block;
+    margin-right: 3em;
+}
+
+.cando_movie_captions p:last-child {
+    margin-bottom: 0;
+}
+.cando_movie_captions p {
+    min-height: 1.15em;
+    margin-bottom: 0.65em;
+    display: none;
+    font-size: 19px;
+    color: #666;
+}
+
+/* Cando questions */
+.cando_question {
+    margin-bottom: 60px
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question {
+        margin-bottom:60px;
+        margin-bottom: 8vw
+    }
+}
+
+/* Legacy list-based slider (kept for backward compatibility)
+   Carousel-based layout below overrides behavior */
+.cando_question > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cando_question > ul:not(.slick-initialized) > li {
+    display: none;
+}
+.cando_question > ul:not(.slick-initialized) > li:first-child {
+    display: block;
+}
+
+/* Bootstrap Carousel styling for question/answer slides */
+.cando_question .carousel {
+    width: 100%;
+}
+.cando_question .carousel-inner {
+    width: 100%;
+}
+.cando_question .carousel-item {
+    /* ensure slide content centers */
+    text-align: center;
+}
+.cando_question .carousel-item .contents {
+    /* reuse existing width rules */
+    margin: 0 auto;
+}
+
+/* Make controls more visible on light backgrounds */
+.cando_question .carousel-control-prev,
+.cando_question .carousel-control-next {
+    width: 3rem;
+    opacity: 1;
+    color: var(--bs-primary);
+}
+.cando_question .carousel-control-prev:hover,
+.cando_question .carousel-control-next:hover,
+.cando_question .carousel-control-prev:focus,
+.cando_question .carousel-control-next:focus {
+    scale: 1.1;
+}
+
+.cando_question .carousel-control-prev-icon,
+.cando_question .carousel-control-next-icon {
+    background-color: var(--bs-primary);
+    filter: none;
+}
+
+.cando_question .carousel-control-prev.disabled,
+.cando_question .carousel-control-next.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .cando_question .carousel-control-prev,
+    .cando_question .carousel-control-next {
+        width: 2.25rem;
+    }
+    .cando_question .carousel-control-prev-icon,
+    .cando_question .carousel-control-next-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+.cando_question .contents {
+    width: 670px;
+    margin: 0 auto
+}
+
+/* Q/A badge inside carousel slides */
+.cando_question .qa-badge {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    height: 2rem;
+    padding: 0 0.5rem;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #fff;
+    background: var(--bs-primary);
+    box-shadow: 0 2px 4px rgba(0,0,0,.18);
+    user-select: none;
+}
+.cando_question .qa-badge--answer {
+    background: var(--bs-success, #198754);
+}
+@media (max-width: 576px) {
+    .cando_question .qa-badge {
+        top: 0.375rem;
+        left: 0.375rem;
+        min-width: 1.75rem;
+        height: 1.75rem;
+        font-size: 0.75rem;
+    }
+}
+
+.cando_question .contents .cando_questionimage_wrap {
+    max-width: 100%;
+    height: 0 !important;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    vertical-align: top
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents {
+        width:100%
+    }
+}
+
+.cando_question .contents .download {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 18px;
+    color: var(--bs-primary)
+}
+
+.cando_question .contents .download a {
+    color: var(--bs-primary);
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .download {
+        margin-top:12px;
+        margin-top: 1.6vw
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .download {
+        font-size:22px;
+        font-size: 2.93333vw
+    }
+}
+
+.cando_question .contents .download:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    position: relative;
+    width: 39px;
+    height: 39px;
+    margin-right: 10px;
+    background-image: url(/assets/images/topic/icon_download.png)
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .download:before {
+        width:46px;
+        width: 6.13333vw
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .download:before {
+        height:46px;
+        height: 6.13333vw
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .download:before {
+        margin-right:10px;
+        margin-right: 1.33333vw
+    }
+}
+
+.cando_question .contents .m_tabcon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 20px
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .m_tabcon {
+        margin-bottom:20px;
+        margin-bottom: 2.66667vw
+    }
+}
+
+.cando_question .contents .m_tabcon .m_tabtrg {
+    min-width: 135px;
+    padding: 8px;
+    border: 1px solid var(--bs-primary);
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 15px;
+    color: var(--bs-primary);
+    cursor: pointer;
+    -webkit-transition: opacity 0.35s ease;
+    -o-transition: opacity 0.35s ease;
+    transition: opacity 0.35s ease
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .m_tabcon .m_tabtrg {
+        min-width:170px;
+        min-width: 22.66667vw
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .m_tabcon .m_tabtrg {
+        padding:8px;
+        padding: 1.06667vw
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .m_tabcon .m_tabtrg {
+        border-radius:8px;
+        border-radius: 1.06667vw
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .m_tabcon .m_tabtrg {
+        font-size:20px;
+        font-size: 2.66667vw
+    }
+}
+
+.cando_question .contents .m_tabcon .m_tabtrg:hover {
+    opacity: .7
+}
+
+.cando_question .contents .m_tabcon .m_tabtrg ~ .m_tabtrg {
+    margin-left: 10px
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .contents .m_tabcon .m_tabtrg ~ .m_tabtrg {
+        margin-left:12px;
+        margin-left: 1.6vw
+    }
+}
+
+.cando_question .contents .m_tabcon .m_tabtrg.js_active,.cando_question .contents .m_tabcon .m_tabtrg.standby:first-of-type {
+    background-color: var(--bs-primary);
+    color: #fff;
+    cursor: default;
+    -webkit-transition: opacity 0.35s ease;
+    -o-transition: opacity 0.35s ease;
+    transition: opacity 0.35s ease
+}
+
+.cando_question .contents .m_tabcon .m_tabtrg.js_active:hover,.cando_question .contents .m_tabcon .m_tabtrg.standby:first-of-type:hover {
+    opacity: 1
+}
+
+.cando_question .indicator {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .indicator {
+        margin-top:40px;
+        margin-top: 5.33333vw
+    }
+}
+
+.cando_question .indicator li {
+    display: inline-block;
+    white-space: nowrap;
+    text-indent: 300%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--bs-secondary);
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .indicator li {
+        width:18px;
+        width: 2.4vw
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .indicator li {
+        height:18px;
+        height: 2.4vw
+    }
+}
+
+.cando_question .indicator li ~ li {
+    margin-left: 20px
+}
+
+@media only screen and (max-width: 999px) {
+    .cando_question .indicator li ~ li {
+        margin-left:28px;
+        margin-left: 3.73333vw
+    }
+}
+
+.cando_question .indicator li.slick-active {
+    background-color: var(--bs-primary)
+}
+
+.cando_question .indicator li button {
+    color: transparent
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="7" num="38">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>みせの じかんを よみます</ja>
+			<ro>Mise no jikan o yomimasu</ro>
+			<en>Read noticeboards showing shop opening/closing times</en>
+			<es>Lee los letreros con el horario de apertura de las tiendas</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/38/manual1.png"/>
+		<img src="swf/can-do/asset/38/manual2.png"/>
+		<img src="swf/can-do/asset/38/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="pics" checkbox="true">
+		
+		<pic>
+			<midashi>
+				<ja>みせの　じょうほう</ja>
+				<en>Store information</en>
+				<es>Información sobre tiendas</es>
+			</midashi>
+			<path>swf/can-do/asset/38/kakunin1_</path>
+		</pic>
+		
+	</kakunin>
+	
+
+	<!-- ここかられんしゅう -->
+	
+<!-- ページ送りタイプ -->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/38/renshu1_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/38/renshu2_</base>
+		</page>		
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/38/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>ひょうばんの　レストランに　きました。なんじからですか。</first></ja>
+				<ro><first>Hyooban no resutoran ni kimashita. Nanji kara desu ka.</first></ro>
+				<en><first>You've come to the restaurant you were talking about. What time does it open?</first></en>
+				<es><first>Habéis llegado al restaurante famoso. ¿A qué hora abren? </first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="11.0" person="A">
+				<ja><first>あ!ここです!</first></ja>
+				<ro><first>A! Koko desu!</first></ro>
+				<en><first>Ah! It's here!</first></en>
+				<es><first>¡Ah! Es aquí. </first></es>
+			</cue>
+
+			
+			<cue time="14.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="16.0" person="A">
+				<ja><first>あれ?</first></ja>
+				<ro><first>Are?</first></ro>
+				<en><first>Eh?</first></en>
+				<es><first>¿Eh?</first></es>
+			</cue>
+
+			
+			<cue time="18.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="23.5" person="B">
+				<ja><first>5時からですね。ざんねん。</first></ja>
+				<ro><first>Go-ji kara desu ne. Zannen.</first></ro>
+				<en><first>It opens at 5 o'clock. That's a shame.</first></en>
+				<es><first>Abren a las 5. ¡Qué pena!</first></es>
+			</cue>
+
+			
+			<cue time="27.0" person="A">
+				<ja><first>えーっと、じゃ、5時に　きましょう。すみません。</first></ja>
+				<ro><first>Eetto, ja, go-ji ni kimashoo. Sumimasen.</first></ro>
+				<en><first>Um, okay, let's come at 5 o'clock. Sorry.</first></en>
+				<es><first>Pues, entonces volveremos a las 5. Perdón.</first></es>
+			</cue>
+
+			
+			<cue time="33.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

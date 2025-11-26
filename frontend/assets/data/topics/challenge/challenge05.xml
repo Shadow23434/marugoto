@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="2" num="5">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>じぶんの ことを かんたんに はなします</ja>
+			<ro>Jibun no koto o kantanni hanashimasu</ro>
+			<en>Give a simple self introduction</en>
+			<es>Presentaciones sencillas</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル05画像-->
+		<img src="swf/can-do/asset/05/manual1.png"/>
+		<img src="swf/can-do/asset/05/manual2.png"/>
+		<img src="swf/can-do/asset/05/manual3.png"/>
+		
+	</top>
+	<!--ここまでトップ-->
+	
+	
+	<kakunin type="scroll">
+		<midashi>
+			<ja>じこしょうかい</ja>
+			<en>Self-introduction</en>
+			<es>Presentarse a uno mismo</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/05/scroll_</path>		
+		</data>
+	</kakunin>
+	
+	
+	<!--ここかられんしゅう-->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/05/p_thumb1.jpg" src="./asset/05/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>まつもとせんせいと　サラさんは　はじめて　あいました。</first></ja>
+				<ro><first>Matsumoto-sensee to Sara-san wa hajimete aimashita.</first></ro>
+				<en><first>Ms Matsumoto and Sara have just met for the first time.</first></en>
+				<es><first>La Sra. Matsumoto y Sara acaban de conocerse. </first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="7.0" person="A">
+				<ja><first>A) まつもと:</first><second>はじめまして。まつもとです。あのう、おなまえは?</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Hajimemashite. Matsumoto desu. Anoo, onamae wa?</second></ro>
+				<en><first>A) Matsumoto:</first><second>How do you do? I'm Matsumoto. Um, what's your name?</second></en>
+				<es><first>A) Matsumoto:</first><second>¿Cómo estás? Me llamo Matsumoto. Y, ¿cómo te llamas tú?</second></es>
+			</cue>
+
+			
+			<cue time="11.9" person="B">
+				<ja><first>B) サラ:</first><second>サラです。</second></ja>
+				<ro><first>B) Sara:</first><second>Sara desu.</second></ro>
+				<en><first>B) Sara:</first><second>I'm Sara.</second></en>
+				<es><first>B) Sara:</first><second>Me llamo Sara.</second></es>
+			</cue>
+
+			
+			<cue time="13.0" person="A">
+				<ja><first>A) まつもと:</first><second>どちらから?</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Dochira kara?</second></ro>
+				<en><first>A) Matsumoto:</first><second>Where are you from?</second></en>
+				<es><first>A) Matsumoto:</first><second>¿De dónde eres?</second></es>
+			</cue>
+
+			
+			<cue time="14.0" person="B">
+				<ja><first>B) サラ:</first><second>フランスです。</second></ja>
+				<ro><first>B) Sara:</first><second>Furansu desu.</second></ro>
+				<en><first>B) Sara:</first><second>From France.</second></en>
+				<es><first>B) Sara:</first><second>De Francia. </second></es>
+			</cue>
+
+			
+			<cue time="15.2" person="A">
+				<ja><first>A) まつもと:</first><second>そうですか。おしごとは?</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Soo desu ka. Oshigoto wa?</second></ro>
+				<en><first>A) Matsumoto:</first><second>Ah. What do you do?</second></en>
+				<es><first>A) Matsumoto:</first><second>Ah, sí. ¿A qué te dedicas?</second></es>
+			</cue>
+
+			
+			<cue time="17.7" person="B">
+				<ja><first>B) サラ:</first><second>かいしゃいんです。</second></ja>
+				<ro><first>B) Sara:</first><second>Kaishain desu.</second></ro>
+				<en><first>B) Sara:</first><second>I'm a company employee.</second></en>
+				<es><first>B) Sara:</first><second>Soy empleada de una empresa. </second></es>
+			</cue>
+
+			
+			<cue time="19.0" person="A">
+				<ja><first>A) まつもと:</first><second>そうですか。どうぞ　よろしく。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Soo desu ka. Doozo yoroshiku.</second></ro>
+				<en><first>A) Matsumoto:</first><second>I see. Nice to meet you.</second></en>
+				<es><first>A) Matsumoto:</first><second>Bueno. Mucho gusto. </second></es>
+			</cue>
+
+			
+			<cue time="22.0" person="B">
+				<ja><first>B) サラ:</first><second>どうぞ　よろしく　おねがいします。</second></ja>
+				<ro><first>B) Sara:</first><second>Doozo yoroshiku onegaishimasu.</second></ro>
+				<en><first>B) Sara:</first><second>Nice to meet you.</second></en>
+				<es><first>B) Sara:</first><second>Mucho gusto.</second></es>
+			</cue>
+
+					
+			<cue time="23.9" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	
+
+
+
+
+
+
+		<video thumb="swf/can-do/asset/05/p_thumb2.jpg" src="./asset/05/practice2_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>まつもとせんせいと　サラさんは　はじめて　あいました。</first></ja>
+				<ro><first>Matsumoto-sensee to Sara-san wa hajimete aimashita.</first></ro>
+				<en><first>Ms Matsumoto and Sara have just met for the first time.</first></en>
+				<es><first>La Sra. Matsumoto y Sara acaban de conocerse. </first></es>
+			</cue>
+
+			
+			<cue time="5.1" person="A">
+				<ja><first>A) サラ:</first><second>せんせいは　フランスごが　できますか。</second></ja>
+				<ro><first>A) Sara:</first><second>Sensee wa Furansugo ga dekimasu ka.</second></ro>
+				<en><first>A) Sara:</first><second>Can you speak French, Ms Matsumoto?</second></en>
+				<es><first>A) Sara:</first><second>¿Usted habla francés, Sra. Matsumoto?</second></es>
+			</cue>
+
+			
+			<cue time="7.6" person="B">
+				<ja><first>B) まつもと:</first><second>はい、すこし　できます。</second></ja>
+				<ro><first>B) Matsumoto:</first><second>Hai, sukoshi dekimasu.</second></ro>
+				<en><first>B) Matsumoto:</first><second>Yes, a little.</second></en>
+				<es><first>B) Matsumoto:</first><second>Sí, un poco. </second></es>
+			</cue>
+
+			
+			<cue time="10.2" person="A">
+				<ja><first>A) サラ:</first><second>へぇ、そうですか。</second></ja>
+				<ro><first>A) Sara:</first><second>Hee, soo desu ka.</second></ro>
+				<en><first>A) Sara:</first><second>Ooh, really?</second></en>
+				<es><first>A) Sara:</first><second>¿En serio?</second></es>
+			</cue>
+
+			
+			<cue time="12.9" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	
+	<!--ここまでれんしゅう-->
+	
+	
+	<!--ここからチャレンジ-->
+	<challenge type="basic">
+		<video src="./asset/05/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="m">
+				<ja><first>はじめて　ホストファミリーに　あいます。じこしょうかいを　しましょう。</first></ja>
+				<ro><first>Hajimete hosuto-famirii ni aimasu. Jikoshookai o shimashoo.</first></ro>
+				<en><first>You'll meet your host family for the first time. Introduce yourself.</first></en>
+				<es><first>Vas a conocer a la familia anfitriona. Preséntate. </first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="12.7" person="A">
+				<ja><first>はじめまして。きむらまいです。</first></ja>
+				<ro><first>Hajimemashite. Kimura Mai desu.</first></ro>
+				<en><first>Hi. I'm Mai Kimura.</first></en>
+				<es><first>Hola. Yo me llamo Mai Kimura.</first></es>
+			</cue>
+
+			
+			<cue time="19.0" person="B">
+				<ja><first>はじめまして。(なまえ) です。どうぞ　よろしく。</first></ja>
+				<ro><first>Hajimemashite. (Namae) desu. Doozo yoroshiku.</first></ro>
+				<en><first>Hi. I'm (name). Nice to meet you.</first></en>
+				<es><first>Hola. Yo me llamo (tu nombre). Mucho gusto.</first></es>
+			</cue>
+
+			
+			<cue time="24.0" person="A">
+				<ja><first>どうぞ　よろしく。</first></ja>
+				<ro><first>Doozo yoroshiku.</first></ro>
+				<en><first>Nice to meet you too.</first></en>
+				<es><first>Mucho gusto.</first></es>
+			</cue>
+
+			
+			<cue time="25.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

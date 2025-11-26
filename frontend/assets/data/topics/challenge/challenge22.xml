@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="4" num="22">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="read"><!-- write,speak,read -->
+			<ja>そとで なまえや じゅうしょを よみます</ja>
+			<ro>Soto de namae ya juusho o yomimasu</ro>
+			<en>Read the name and address on a signboard</en>
+			<es>Lee el nombre y la dirección en un cartel</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/22/manual1.png"/>
+		<img src="swf/can-do/asset/22/manual2.png"/>
+		<img src="swf/can-do/asset/22/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="pics" checkbox="true">
+		
+		<pic>
+			<midashi>
+				<ja>にほんの　じゅうしょ</ja>
+				<en>Addresses in Japan</en>
+				<es>Direcciones en Japón</es>
+			</midashi>
+			<path>swf/can-do/asset/22/kakunin1_</path>
+		</pic>
+		
+		<pic>
+			<midashi>
+				<ja>にほんの　じゅうしょ</ja>
+				<en>Addresses in Japan</en>
+				<es>Direcciones en Japón</es>
+			</midashi>
+			<path>swf/can-do/asset/22/kakunin2_</path>
+		</pic>
+		
+		<pic>
+			<midashi>
+				<ja>にほんの　じゅうしょ</ja>
+				<en>Addresses in Japan</en>
+				<es>Direcciones en Japón</es>
+			</midashi>
+			<path>swf/can-do/asset/22/kakunin3_</path>
+		</pic>
+		
+	</kakunin>
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+	
+<!-- ページ送りタイプ -->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/22/renshu1_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/22/renshu2_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/22/renshu3_</base>
+		</page>
+		<page>
+			<base>swf/can-do/asset/22/renshu4_</base>
+		</page>
+		
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/22/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>メモを　みながら、きむらさんの　いえを　さがしましょう。</first></ja>
+				<ro><first>Memo o mi nagara, Kimura-san no ie o sagashimashoo.</first></ro>
+				<en><first>Look at a memo as you search for the Kimura family's house.</first></en>
+				<es><first>Busca la casa de la familia Kimura consultando en la nota. </first></es>
+			</cue>
+
+						
+			<cue time="7.0" person="B">
+				<ja><first>また　やすみに　あそびに　きて　ください。はい、ちずです。</first></ja>
+				<ro><first>Mata yasumi ni asobi ni kite kudasai. Hai, chizu desu.</first></ro>
+				<en><first>So, please come round to mine sometime on your day off. Here's a map.</first></en>
+				<es><first>Ven a visitarnos uno de estos días que tengas libre. Este es el mapa.</first></es>
+			</cue>
+
+			<cue time="13.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="16.0" person="A">
+				<ja><first>ちずを　みながら　まいさんの　いえに　いきます。</first></ja>
+				<ro><first>Chizu o mi nagara Mai-san no ie ni ikimasu.</first></ro>
+				<en><first>I look at the map as I go to Mai's house.</first></en>
+				<es><first>Voy a ir a la casa de Mai consultando en el mapa.</first></es>
+			</cue>
+
+			
+			<cue time="23.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

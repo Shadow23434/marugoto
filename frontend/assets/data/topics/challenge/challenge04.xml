@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="1" num="4">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="write"><!-- write,speak,read -->
+			<ja>なまえと くにを かきます</ja>
+			<ro>Namae to kuni o kakimasu</ro>
+			<en>Write your name and country in Japanese</en>
+			<es>Escribe tu nombre y tu país en japonés</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/04/manual1.png"/>
+		<img src="swf/can-do/asset/04/manual2.png"/>
+		<img src="swf/can-do/asset/04/manual3.png"/>
+		
+	</top>
+	<!--ここまでトップ-->
+	
+	
+	<kakunin type="pics" checkbox="true">
+		<pic>
+			<midashi>
+				<ja>なまえ</ja>
+				<en>Names</en>
+				<es>Nombres</es>
+			</midashi>
+			<path>swf/can-do/asset/04/kakunin2_</path>
+			
+		</pic>
+		<pic>
+			<midashi>
+				<ja>くに</ja>
+				<en>Countries</en>
+				<es>Países</es>
+			</midashi>
+			<path>swf/can-do/asset/04/kakunin1_</path>
+			
+		</pic>
+		
+	</kakunin>
+	
+	
+	<!--ここかられんしゅう-->
+	
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/04/renshu1_</base>
+			<icon type="download" href="./pdf/nafuda_" x="40" y="346" />
+		</page>
+		<page>
+			<base>swf/can-do/asset/04/renshu2_</base>
+		</page>
+		
+	</renshu>
+	
+	
+	
+	<!--ここまでれんしゅう-->
+	
+	
+	<!--ここからチャレンジ-->
+	<challenge type="basic">
+		<video src="./asset/04/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="A">
+				<ja><first>なまえや　くにを　にほんごで　かきましょう。</first></ja>
+				<ro><first>Namae ya kuni o Nihongo de kakimashoo.</first></ro>
+				<en><first>Write your name and country in Japanese.</first></en>
+				<es><first>Vamos a escribir los nombres y el país de origen en japonés.</first></es>
+			</cue>
+
+			
+			<cue time="7.0" person="B">
+				<ja><first>いいですか。きいて　ください。</first></ja>
+				<ro><first>Ii desu ka. Kiite kudasai.</first></ro>
+				<en><first>Ready? Please listen.</first></en>
+				<es><first>¿Preparados? Atención, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="A">
+				<ja><first>ここに　なまえと　くにを　かいて　ください。</first></ja>
+				<ro><first>Koko ni namae to kuni o kaite kudasai.</first></ro>
+				<en><first>Please write your name and country here.</first></en>
+				<es><first>Escribid aquí vuestros nombres y el país, por favor. </first></es>
+			</cue>
+
+			<cue time="15" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

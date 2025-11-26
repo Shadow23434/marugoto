@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="1" num="3">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>きょうしつの ことばを はなします</ja>
+			<ro>Kyooshitsu no kotoba o hanashimasu</ro>
+			<en>Use basic classroom expressions</en>
+			<es>Usa expresiones básicas para la clase</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル画像-->
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/03/manual1.png"/>
+		<img src="swf/can-do/asset/03/manual2.png"/>
+		<img src="swf/can-do/asset/03/manual3.png"/>
+	</top>
+	<!--ここまでトップ-->
+	
+	
+	
+	<!--ここかられんしゅう-->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/03/p_thumb2.jpg" src="./asset/03/practice2_">
+		
+	
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="0.2" person="m">
+				<ja><first>じゅぎょうが　おわりました。</first></ja>
+				<ro><first>Jugyoo ga owarimashita.</first></ro>
+				<en><first>The lesson has just finished.</first></en>
+				<es><first>La clase ha terminado.</first></es>
+			</cue>
+
+			<cue time="3.9" person="B">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+			<cue time="4.0" person="m">
+				<ja><first>アントンさんは　せんせいに　つたえたい　ことが　あります。</first></ja>
+				<ro><first>Anton-san wa sensee ni tsutaetai koto ga arimasu.</first></ro>
+				<en><first>Anton has something to tell the teacher.</first></en>
+				<es><first>Anton quiere comunicar algo a la profesora. </first></es>
+			</cue>
+
+			<cue time="9.0" person="B">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="15.0" person="A">
+				<ja><first>A) アントン:</first><second>せんせい。</second></ja>
+				<ro><first>A) Anton:</first><second>Sensee.</second></ro>
+				<en><first>A) Anton:</first><second>Ms. Kawasaki.</second></en>
+				<es><first>A) Anton:</first><second>Sra. Kawasaki.</second></es>
+			</cue>
+
+			<cue time="17.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="21.0" person="A">
+				<ja><first>A) アントン:</first><second>やすみます。すみません。</second></ja>
+				<ro><first>A) Anton:</first><second>Yasumimasu. Sumimasen.</second></ro>
+				<en><first>A) Anton:</first><second>I'll be absent on this day. Please excuse me.</second></en>
+				<es><first>A) Anton:</first><second>Voy a faltar a la clase. Lo siento. </second></es>
+			</cue>
+
+			<cue time="24.5" person="B">
+				<ja><first>B) かわさき:</first><second>わかりました。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Wakarimashita.</second></ro>
+				<en><first>B) Kawasaki:</first><second>Okay, got it.</second></en>
+				<es><first>B) Kawasaki:</first><second>Vale. </second></es>
+			</cue>
+
+			
+			<cue time="27.0" person="A">
+				<ja><first>A) アントン:</first><second>さよならー。</second></ja>
+				<ro><first>A) Anton:</first><second>Sayonaraa.</second></ro>
+				<en><first>A) Anton:</first><second>Goodbye.</second></en>
+				<es><first>A) Anton:</first><second>Hasta luego.</second></es>
+			</cue>
+
+			<cue time="29.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		
+		
+		</video>
+	
+		
+
+	</renshu>
+	<!--ここまでれんしゅう-->
+	
+</can-do>

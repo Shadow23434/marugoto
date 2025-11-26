@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>MARUGOTO Plus (Starter A1)</title>
+</head>
+
+<body>
+    <div id="page-loader" role="status" aria-live="polite" aria-label="Loading content">
+        <img src="./assets//images/common/logo_head-jp.png" alt="まるごと＋ 日本のことばと文化 MARUGOTO Plus Japanese Leaning">
+        <div class="loader-spinner mt-5 mb-3" aria-hidden="true"></div>
+        <div class="loader-text mt-3 text-center">Loading...</div>
+    </div>
+
+    <div data-include="common/header.html"></div>
+
+    <main>
+        <section id="activities">
+            <div id="activities_list" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-indicators" id="activities_indicators"></div>
+                <div class="carousel-inner" id="activities_inner"></div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#activities_list" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#activities_list" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+        <section id="training_lifeculture" class="mt-4">
+            <div class="container">
+                <h2>Training & Life Culture</h2>
+                <div class="row mt-3">
+                    <div id="training" class="col-lg-7 col-12 mb-3">
+                        <ul>
+                            <li>
+                                <a href="grammar.html">
+                                    Grammar
+                                    <img src="./assets/images/index/training_01.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="kanji.html">
+                                    Kanji
+                                    <img src="./assets/images/index/training_02.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="hiragana.html">
+                                    Hiragana
+                                    <img src="./assets/images/index/training_03.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="katakana.html">
+                                    Katakana
+                                    <img src="./assets/images/index/training_04.jpg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div id="lifeculture"  class="col-lg-5 col-12">
+                        <a href="../life_and_culture" class="carousel slide d-block h-100" data-bs-ride="carousel" data-bs-interval="3000">
+                            Life and Culture
+                            <div class="carousel-indicators" id="lifeculture_indicators"></div>
+                            <div class="carousel-inner" id="lifeculture_inner"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="introduction" class="mt-4">
+            <div class="container">
+                <h2>Introduction</h2>
+                <ul class="mt-3 row align-items-stretch">
+                    <li class="col mb-3" style="--accent-color: #e0543e;"><a href="introduction.html#japan_knowledge">Japan Knowledge</a></li>
+                    <li class="col mb-3" style="--accent-color: #066cb6;"><a href="introduction.html#grammar">Grammar</a></li>
+                    <li class="col mb-3" style="--accent-color: #00a198;"><a href="introduction.html#writing">Writing</a></li>
+                    <li class="col mb-3" style="--accent-color: #aa4d3e;"><a href="introduction.html#kanji">Kanji</a></li>
+                    <li class="col mb-3" style="--accent-color: #a2619d;"><a href="introduction.html#pronunciation">Pronunciation</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div data-include="common/footer.html"></div>
+
+    <!-- Floating back-to-top button -->
+    <button id="backToTopBtn" class="btn btn-primary" aria-label="Back to top" hidden>
+        <span class="visually-hidden">Back to top</span>
+        <span aria-hidden="true">🡩</span>
+    </button>
+
+    <script src="assets/js/common/include-html.js" defer></script>
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/common/loading.js" defer></script>
+    <script src="assets/js/common/back-to-top.js" defer></script>
+    <script src="assets/js/home/activities.js" defer></script>
+    <script src="assets/js/home/lifeculture.js" defer></script>
+</body>
+
+</html>

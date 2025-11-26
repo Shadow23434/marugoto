@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="2" num="7">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>かぞくの ことを かんたんに はなします</ja>
+			<ro>Kazoku no koto o kantanni hanashimasu</ro>
+			<en>Talk briefly about your family</en>
+			<es>Habla sobre tu familia en pocas palabras</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/07/manual1.png"/>
+		<img src="swf/can-do/asset/07/manual2.png"/>
+		<img src="swf/can-do/asset/07/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>かぞくの　しょうかい</ja>
+			<en>Introducing your family</en>
+			<es>Presentar a tu familia</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/07/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/07/p_thumb1.jpg" src="./asset/07/practice1_">
+			<cue time="0" person="">
+			
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="0.2" person="">
+				<ja><first>きむらさんに　かぞくの　はなしを　ききます。</first></ja>
+				<ro><first>Kimura-san ni kazoku no hanashi o kikimasu.</first></ro>
+				<en><first>Asking Mr Kimura about his family.</first></en>
+				<es><first>Preguntar al Sr. Kimura sobre su familia.</first></es>
+			</cue>
+
+			
+			<cue time="5.6" person="A">
+				<ja><first>A) ききて:</first><second>きむらさんの　ごかぞくは　なんにんですか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Kimura-san no gokazoku wa nannin desu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>How many are there in your family, Mr Kimura?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Cuántos son ustedes en la familia, Sr. Kimura?</second></es>
+			</cue>
+
+			
+			<cue time="9.0" person="B">
+				<ja><first>B) きむら:</first><second>5にんです。ちちと　つまと　こども　ふたりと　わたしです。</second></ja>
+				<ro><first>B) Kimura:</first><second>Go-nin desu. Chichi to tsuma to kodomo futari to watashi desu.</second></ro>
+				<en><first>B) Kimura:</first><second>Five people. My father, my wife, 2 children and me.</second></en>
+				<es><first>B) Kimura:</first><second>Somos cinco. Mi padre, mi esposa, mis dos hijos y yo.</second></es>
+			</cue>
+
+			
+			<cue time="14.5" person="A">
+				<ja><first>A) ききて:</first><second>おくさんの　おしごとは?</second></ja>
+				<ro><first>A) Kikite:</first><second>Okusan no oshigoto wa?</second></ro>
+				<en><first>A) Interviewer:</first><second>What does your wife do?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿A qué se dedica su esposa?</second></es>
+			</cue>
+
+			
+			<cue time="17.0" person="B">
+				<ja><first>B) きむら:</first><second>つまは　かいしゃいんです。</second></ja>
+				<ro><first>B) Kimura:</first><second>Tsuma wa kaishain desu.</second></ro>
+				<en><first>B) Kimura:</first><second>She's a company employee.</second></en>
+				<es><first>B) Kimura:</first><second>Es empleada de una empresa. </second></es>
+			</cue>
+
+			
+			<cue time="19.6" person="A">
+				<ja><first>A) ききて:</first><second>おこさんは　おいくつですか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Okosan wa oikutsu desu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>How old are your children?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Cuántos años tienen sus hijos?</second></es>
+			</cue>
+
+			
+			<cue time="22.2" person="B">
+				<ja><first>B) きむら:</first><second>17さいと　11さいです。</second></ja>
+				<ro><first>B) Kimura:</first><second>Juu-nana-sai to juu-issai desu.</second></ro>
+				<en><first>B) Kimura:</first><second>They're 17 and 11 years old.</second></en>
+				<es><first>B) Kimura:</first><second>Tienen 17 y 11 años.</second></es>
+			</cue>
+
+					
+			<cue time="26.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/07/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさんと　かぞくについて　はなしましょう。</first></ja>
+				<ro><first>Mai-san to kazoku ni tsuite hanashimashoo.</first></ro>
+				<en><first>Talk about your family with Mai.</first></en>
+				<es><first>Habla con Mai sobre tu familia.</first></es>
+			</cue>
+
+			
+			<cue time="7.7" person="A">
+				<ja><first>ごかぞくは　なんにんですか。</first></ja>
+				<ro><first>Gokazoku wa nannin desu ka.</first></ro>
+				<en><first>How many people are there in your family?</first></en>
+				<es><first>¿Cuántos sois en la familia?</first></es>
+			</cue>
+
+			
+			<cue time="11.5" person="B">
+				<ja><first>れい: 4にんです。ちちと　ははと　いもうとと　わたしです。</first></ja>
+				<ro><first>Ree: Yo-nin desu. Chichi to haha to imooto to watashi desu.</first></ro>
+				<en><first>E.g: Four people. My father, mother and younger sister and me.</first></en>
+				<es><first>Ejm: Somos cuatro. Mi padre, mi madre, mi hermana menor y yo.  </first></es>
+			</cue>
+
+			
+			<cue time="20.0" person="A">
+				<ja><first>そうですか。どこに　すんで　いますか。</first></ja>
+				<ro><first>Soo desu ka. Doko ni sunde imasu ka.</first></ro>
+				<en><first>Oh. Where do they live?</first></en>
+				<es><first>¿Ah, sí? ¿Dónde viven?</first></es>
+			</cue>
+
+			
+			<cue time="24.5" person="B">
+				<ja><first>れい: ケルンに　すんで　います。</first></ja>
+				<ro><first>Ree: Kerun ni sunde imasu.</first></ro>
+				<en><first>E.g: In Cologne.</first></en>
+				<es><first>Ejm: En Colonia.</first></es>
+			</cue>
+
+			
+			<cue time="30.5" person="A">
+				<ja><first>へえ。</first></ja>
+				<ro><first>Hee.</first></ro>
+				<en><first>Wow.</first></en>
+				<es><first>¡Anda!</first></es>
+			</cue>
+
+			
+			<cue time="32.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

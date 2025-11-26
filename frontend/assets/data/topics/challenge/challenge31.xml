@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="6" num="31">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>イベントに いくか どうか いいます</ja>
+			<ro>Ibento ni iku ka doo ka iimasu</ro>
+			<en>Say whether or not you will attend an event</en>
+			<es>Di si vas a asistir o no a un evento</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/31/manual1.png"/>
+		<img src="swf/can-do/asset/31/manual2.png"/>
+		<img src="swf/can-do/asset/31/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>イベントについて　話す</ja>
+			<en>Talking about an event</en>
+			<es>Hablar sobre eventos</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/31/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/31/p_thumb1.jpg" src="./asset/31/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>サラさんが　かわさきせんせいの　いえに　あそびに　きました。</first></ja>
+				<ro><first>Sara-san ga Kawasaki-sensee no ie ni asobi ni kimashita.</first></ro>
+				<en><first>Sara has come to see Ms Kawasaki at her house.</first></en>
+				<es><first>Sara ha venido a visitar a la Sra. Kawasaki a su casa. </first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) かわさき:</first><second>あ、金よう日、いけばなコンテストが　ありますよ。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>A, kin'yoobi, ikebana-kontesuto ga arimasu yo.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Ah, there's a flower arranging contest on Friday.</second></en>
+				<es><first>A) Kawasaki:</first><second>Ah, va a haber un concurso de arreglo floral japonés este viernes. </second></es>
+			</cue>
+
+			
+			<cue time="10.2" person="B">
+				<ja><first>B) サラ:</first><second>あーいいですね。せんせいは　見に　いきますか。</second></ja>
+				<ro><first>B) Sara:</first><second>Aa, ii desu ne. Sensee wa mi ni ikimasu ka.</second></ro>
+				<en><first>B) Sara:</first><second>Ah, that sounds good! Will you go to see it, Ms Kawasaki?</second></en>
+				<es><first>B) Sara:</first><second>Vaya, parece interesante. ¿Usted va a ir a verlo?</second></es>
+			</cue>
+
+			
+			<cue time="13.6" person="A">
+				<ja><first>A) かわさき:</first><second>はい、いつも　いきます。ことしも　たぶん　見に　いきます。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Hai, itsumo ikimasu. Kotoshi mo tabun mi ni ikimasu.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Yes, I always go. I'll probably go again this year.</second></en>
+				<es><first>A) Kawasaki:</first><second>Sí. Yo voy siempre. Este año también puede que vaya. </second></es>
+			</cue>
+
+			
+			<cue time="17.9" person="B">
+				<ja><first>B) サラ:</first><second>だれと　いきますか。</second></ja>
+				<ro><first>B) Sara:</first><second>Dare to ikimasu ka.</second></ro>
+				<en><first>B) Sara:</first><second>Who will you go with?</second></en>
+				<es><first>B) Sara:</first><second>¿Con quién va?</second></es>
+			</cue>
+
+			
+			<cue time="19.5" person="A">
+				<ja><first>A) かわさき:</first><second>ともだちとです。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Tomodachi to desu.</second></ro>
+				<en><first>A) Kawasaki:</first><second>With my friends.</second></en>
+				<es><first>A) Kawasaki:</first><second>Con mis amigas. </second></es>
+			</cue>
+
+					
+			<cue time="21.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/31/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>としこさん、まいさんと　でかける　やくそくを　しましょう。</first></ja>
+				<ro><first>Toshiko-san, Mai-san to dekakeru yakusoku o shimashoo.</first></ro>
+				<en><first>Arrange to go out with Toshiko and Mai.</first></en>
+				<es><first>Fija una cita para salir con Mai y Toshiko.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="B">
+				<ja><first>そういえば…</first></ja>
+				<ro><first>Soo ieba…</first></ro>
+				<en><first>Speaking of days off…</first></en>
+				<es><first>Hablando de días libres... </first></es>
+			</cue>
+
+			
+			<cue time="8.0" person="A">
+				<ja><first>これこれ。こんど　きものショーが　あります。</first></ja>
+				<ro><first>Kore kore. Kondo kimono-shoo ga arimasu.</first></ro>
+				<en><first>Here it is. There's a kimono show soon.</first></en>
+				<es><first>Aquí está. Va a haber un espectáculo de quimonos pronto. </first></es>
+			</cue>
+
+			
+			<cue time="13.5" person="B">
+				<ja><first>いっしょに　いきませんか。</first></ja>
+				<ro><first>Issho ni ikimasen ka.</first></ro>
+				<en><first>Do you want to go with us?</first></en>
+				<es><first>¿No quieres ir con nosotros?</first></es>
+			</cue>
+
+			
+			<cue time="17.0" person="A">
+				<ja><first>いつ?</first></ja>
+				<ro><first>Itsu?</first></ro>
+				<en><first>Ask when the kimono show is.</first></en>
+				<es><first>Pregunta cuándo es el espectáculo de quimonos.</first></es>
+			</cue>
+
+			
+			<cue time="22.5" person="B">
+				<ja><first>いつですか。</first></ja>
+				<ro><first>Itsu desu ka.</first></ro>
+				<en><first>When is it?</first></en>
+				<es><first>¿Cuándo es?</first></es>
+			</cue>
+
+			
+			<cue time="28.2" person="A">
+				<ja><first>5月3日です。</first></ja>
+				<ro><first>Go-gatsu mikka desu.</first></ro>
+				<en><first>It's on May 3rd.</first></en>
+				<es><first>Es el 3 de mayo.</first></es>
+			</cue>
+
+			
+			<cue time="31.0" person="B">
+				<ja><first>わたしは　まいと　見に　いきます。いっしょに　いきませんか。</first></ja>
+				<ro><first>Watashi wa Mai to mi ni ikimasu. Issho ni ikimasen ka.</first></ro>
+				<en><first>I'm going to see it with Mai. Do you want to go too?</first></en>
+				<es><first>Voy a ir a verlo con Mai. ¿Quieres ir tú también?</first></es>
+			</cue>
+
+			
+			<cue time="40.0" person="A">
+				<ja><first>いきましょう。</first></ja>
+				<ro><first>Ikimashoo.</first></ro>
+				<en><first>Let's go!</first></en>
+				<es><first>Vamos.</first></es>
+			</cue>
+
+			
+			<cue time="45.5" person="B">
+				<ja><first>いいですね。いきましょう。</first></ja>
+				<ro><first>Ii desu ne. Ikimashoo.</first></ro>
+				<en><first>Sounds good. Let's go.</first></en>
+				<es><first>Suena interesante. Vamos.</first></es>
+			</cue>
+
+			
+			<cue time="51.0" person="A">
+				<ja><first>たのしみですね!</first></ja>
+				<ro><first>Tanoshimi desu ne!</first></ro>
+				<en><first>It's going to be fun!</first></en>
+				<es><first>Nos lo pasaremos muy bien.</first></es>
+			</cue>
+
+			
+			<cue time="54.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

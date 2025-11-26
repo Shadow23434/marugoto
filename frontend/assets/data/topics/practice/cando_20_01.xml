@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="4" num="20">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>いえを ほうもんします / いえに ともだちを むかえます</ja>
+			<ro>Ie o hoomon-shimasu/Ie ni tomodachi o mukaemasu</ro>
+			<en>Visit/Welcome a friend</en>
+			<es>Visita/Da la bienvenida a un amigo</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/20/manual1.png"/>
+		<img src="swf/can-do/asset/20/manual2.png"/>
+		<img src="swf/can-do/asset/20/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>いえを　ほうもんする</ja>
+			<en>Visiting someone's house</en>
+			<es>Visitar la casa de alguien</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/20/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/20/p_thumb1.jpg" src="./asset/20/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>サラさんが　かわさきせんせいの　いえを　ほうもんします。</first></ja>
+				<ro><first>Sara-san ga Kawasaki-sensee no ie o hoomon-shimasu.</first></ro>
+				<en><first>Sara will visit Ms Kawasaki's house.</first></en>
+				<es><first>Sara visita a la Sra. Kawasaki en su casa. </first></es>
+			</cue>
+
+			
+			<cue time="9.6" person="A">
+				<ja><first>A) かわさき:</first><second>はい。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Hai.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Yes?</second></en>
+				<es><first>A) Kawasaki:</first><second>¿Sí?</second></es>
+			</cue>
+
+			
+			<cue time="10.2" person="B">
+				<ja><first>B) サラ:</first><second>こんにちは、サラです。</second></ja>
+				<ro><first>B) Sara:</first><second>Konnichiwa, Sara desu.</second></ro>
+				<en><first>B) Sara:</first><second>Hello, it's Sara.</second></en>
+				<es><first>B) Sara:</first><second>Hola, soy Sara.</second></es>
+			</cue>
+
+			
+			<cue time="12.1" person="A">
+				<ja><first>A) かわさき:</first><second>ああ、はーい。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Aa, haai.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Ah, hello!</second></en>
+				<es><first>A) Kawasaki:</first><second>Ah, ¡Hola!</second></es>
+			</cue>
+
+			<cue time="14.7" person="m">
+
+
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="15.0" person="A">
+				<ja><first>A) かわさき:</first><second>いらっしゃい。どうぞ　あがって　ください。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Irasshai. Doozo agatte kudasai.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Welcome. Please come in.</second></en>
+				<es><first>A) Kawasaki:</first><second>Bienvenida, pasa, por favor.</second></es>
+			</cue>
+
+			
+			<cue time="17.1" person="B">
+				<ja><first>B) サラ:</first><second>おじゃまします。</second></ja>
+				<ro><first>B) Sara:</first><second>Ojamashimasu.</second></ro>
+				<en><first>B) Sara:</first><second>Thank you.</second></en>
+				<es><first>B) Sara:</first><second>Gracias.</second></es>
+			</cue>
+
+			
+			<cue time="18.6" person="A">
+				<ja><first>A) かわさき:</first><second>この　スリッパ、どうぞ。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Kono surippa, doozo.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Here, use these slippers.</second></en>
+				<es><first>A) Kawasaki:</first><second>Pónte estas pantuflas, por favor. </second></es>
+			</cue>
+
+			
+			<cue time="20.5" person="B">
+				<ja><first>B) サラ:</first><second>ありがとうございます。</second></ja>
+				<ro><first>B) Sara:</first><second>Arigatoo gozaimasu.</second></ro>
+				<en><first>B) Sara:</first><second>Thank you very much.</second></en>
+				<es><first>B) Sara:</first><second>Gracias.</second></es>
+			</cue>
+
+			
+			<cue time="23.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="27.5" person="A">
+				<ja><first>A) かわさき:</first><second>どうぞ。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Doozo.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Please come through.</second></en>
+				<es><first>A) Kawasaki:</first><second>Adelante.</second></es>
+			</cue>
+
+			
+			<cue time="29.1" person="B">
+				<ja><first>B) サラ:</first><second>わぁ、きれいな　いえですね。</second></ja>
+				<ro><first>B) Sara:</first><second>Waa, kireena ie desu ne.</second></ro>
+				<en><first>B) Sara:</first><second>Wow, what a lovely house!</second></en>
+				<es><first>B) Sara:</first><second>Hala, ¡qué casa más bonita!</second></es>
+			</cue>
+
+					
+			<cue time="33.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/20/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="A">
+				<ja><first>きむらさんの　いえに　いきましょう。</first></ja>
+				<ro><first>Kimura-san no ie ni ikimashoo.</first></ro>
+				<en><first>Let's go to the Kimura family's house.</first></en>
+				<es><first>Vamos a la casa de la familia Kimura.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="13.5" person="A">
+				<ja><first>はい。</first></ja>
+				<ro><first>Hai.</first></ro>
+				<en><first>Yes?</first></en>
+				<es><first>¿Sí?</first></es>
+			</cue>
+
+			
+			<cue time="17.0" person="A">
+				<ja><first>いらっしゃい。どうぞ　あがって　ください。</first></ja>
+				<ro><first>Irasshai. Doozo agatte kudasai.</first></ro>
+				<en><first>Ah, welcome. Please come in.</first></en>
+				<es><first>Hola, bienvenido. Pasa, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="21.8" person="B">
+				<ja><first>おじゃまします。</first></ja>
+				<ro><first>Ojamashimasu.</first></ro>
+				<en><first>Thank you.</first></en>
+				<es><first>Gracias.</first></es>
+			</cue>
+
+			
+			<cue time="26.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

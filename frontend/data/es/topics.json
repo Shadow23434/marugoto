@@ -1,0 +1,507 @@
+{
+  "totalTopics": 9,
+  "topics": [
+    {
+      "heading": {
+        "no": 1,
+        "title": "にほんご",
+        "romaji": "Nihongo",
+        "meaning": "Japonés"
+      },
+      "color": "#b41e22",
+      "topicImageUrl": "https://a1.marugotoweb.jp/es/assets/images/index/topic_image01.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "1",
+            "title": "Hola"
+          },
+          "candos": [
+            {
+              "no": 1,
+              "title": "Intercambia saludos",
+              "link": "https://a1.marugotoweb.jp/es/can-do1.php"
+            },
+            {
+              "no": 2,
+              "title": "Lee textos en japonés",
+              "link": "https://a1.marugotoweb.jp/es/can-do2.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "2",
+            "title": "¿Me lo puedes repetir?"
+          },
+          "candos": [
+            {
+              "no": 3,
+              "title": "Usa expresiones básicas para la clase",
+              "link": "https://a1.marugotoweb.jp/es/can-do3.php"
+            },
+            {
+              "no": 4,
+              "title": "Escribe tu nombre ytu país en japonés",
+              "link": "https://a1.marugotoweb.jp/es/can-do4.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 2,
+        "title": "わたし",
+        "romaji": "Watashi",
+        "meaning": "Sobre mí"
+      },
+      "color": "#054a95",
+      "topicImageUrl": "https://a1.marugotoweb.jp/es/assets/images/index/topic_image02.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "3",
+            "title": "Mucho gusto"
+          },
+          "candos": [
+            {
+              "no": 5,
+              "title": "Presentaciones sencillas",
+              "link": "https://a1.marugotoweb.jp/es/can-do5.php"
+            },
+            {
+              "no": 6,
+              "title": "Lee una tarjeta de visita",
+              "link": "https://a1.marugotoweb.jp/es/can-do6.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "4",
+            "title": "Somos tres en mi familia"
+          },
+          "candos": [
+            {
+              "no": 7,
+              "title": "Habla sobre tu familia en pocas palabras",
+              "link": "https://a1.marugotoweb.jp/es/can-do7.php"
+            },
+            {
+              "no": 8,
+              "title": "Describe a tu familia utilizando una foto",
+              "link": "https://a1.marugotoweb.jp/es/can-do8.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 3,
+        "title": "たべもの",
+        "romaji": "Comida",
+        "meaning": "Food"
+      },
+      "color": "#3b8a53",
+      "topicImageUrl": "https://a1.marugotoweb.jp/es/assets/images/index/topic_image03.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "5",
+            "title": "¿Qué tipo de comida te gusta?"
+          },
+          "candos": [
+            {
+              "no": 9,
+              "title": "Habla de los alimentos que te gustan",
+              "link": "https://a1.marugotoweb.jp/es/can-do9.php"
+            },
+            {
+              "no": 10,
+              "title": "Ayuda a alguien a pedir una bebida",
+              "link": "https://a1.marugotoweb.jp/es/can-do10.php"
+            },
+            {
+              "no": 11,
+              "title": "Habla sobre tu desayuno",
+              "link": "https://a1.marugotoweb.jp/es/can-do11.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "6",
+            "title": "¿Dónde vas a comer?"
+          },
+          "candos": [
+            {
+              "no": 12,
+              "title": "Di qué platos te gustan",
+              "link": "https://a1.marugotoweb.jp/es/can-do12.php"
+            },
+            {
+              "no": 13,
+              "title": "Habla con un amigo sobre adónde iréis a comer",
+              "link": "https://a1.marugotoweb.jp/es/can-do13.php"
+            },
+            {
+              "no": 14,
+              "title": "Lee un menú",
+              "link": "https://a1.marugotoweb.jp/es/can-do14.php"
+            },
+            {
+              "no": 15,
+              "title": "Pide comida y bebida en una hamburguesería",
+              "link": "https://a1.marugotoweb.jp/es/can-do15.php"
+            },
+            {
+              "no": 16,
+              "title": "Di en qué tipo de casa vives",
+              "link": "https://a1.marugotoweb.jp/es/can-do16.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 4,
+        "title": "いえ",
+        "romaji": "Ie",
+        "meaning": "Vivienda"
+      },
+      "color": "#dd7222",
+      "topicImageUrl": "https://a1.marugotoweb.jp/es/assets/images/index/topic_image04.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "7",
+            "title": "Hay tres habitaciones"
+          },
+          "candos": [
+            {
+              "no": 17,
+              "title": "Describe qué tienes en casa",
+              "link": "https://a1.marugotoweb.jp/es/can-do17.php"
+            },
+            {
+              "no": 18,
+              "title": "Escribe un email invitando a alguien a tu casa",
+              "link": "https://a1.marugotoweb.jp/es/can-do18.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "8",
+            "title": "Es una habitación agradable"
+          },
+          "candos": [
+            {
+              "no": 19,
+              "title": "Pregunta/Di a alguien dónde se coloca algo en la habitación",
+              "link": "https://a1.marugotoweb.jp/es/can-do19.php"
+            },
+            {
+              "no": 20,
+              "title": "Visita/Da la bienvenida a un amigo",
+              "link": "https://a1.marugotoweb.jp/es/can-do20.php"
+            },
+            {
+              "no": 21,
+              "title": "Enseña a alguien tu casa",
+              "link": "https://a1.marugotoweb.jp/es/can-do21.php"
+            },
+            {
+              "no": 22,
+              "title": "Lee el nombre y la dirección en un cartel",
+              "link": "https://a1.marugotoweb.jp/es/can-do22.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 5,
+        "title": "せいかつ",
+        "romaji": "Seekatsu",
+        "meaning": "Vida cotidiana"
+      },
+      "color": "#d16093",
+      "topicImageUrl": "https://a1.marugotoweb.jp/es/assets/images/index/topic_image05.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "9",
+            "title": "¿A qué hora te levantas?"
+          },
+          "candos": [
+            {
+              "no": 23,
+              "title": "Di la hora a la que haces algo",
+              "link": "https://a1.marugotoweb.jp/es/can-do23.php"
+            },
+            {
+              "no": 24,
+              "title": "Habla acerca de tu rutina diaria",
+              "link": "https://a1.marugotoweb.jp/es/can-do24.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "10",
+            "title": "¿Cuándo te viene bien?"
+          },
+          "candos": [
+            {
+              "no": 25,
+              "title": "Cuenta tu plan de actividades de esta semana",
+              "link": "https://a1.marugotoweb.jp/es/can-do25.php"
+            },
+            {
+              "no": 26,
+              "title": "Discute cuándo celebrar una fiesta",
+              "link": "https://a1.marugotoweb.jp/es/can-do26.php"
+            },
+            {
+              "no": 27,
+              "title": "Escribe una tarjeta de felicitación de cumpleaños",
+              "link": "https://a1.marugotoweb.jp/es/can-do27.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 6,
+        "title": "やすみのひ1",
+        "romaji": "Yasumi no hi 1",
+        "meaning": "Los días libres 1"
+      },
+      "color": "#5f2e82",
+      "topicImageUrl": "https://a1.marugotoweb.jp/es/assets/images/index/topic_image06.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "11",
+            "title": "¿Cuáles son tus aficiones?"
+          },
+          "candos": [
+            {
+              "no": 28,
+              "title": "Habla de tus aficiones",
+              "link": "https://a1.marugotoweb.jp/es/can-do28.php"
+            },
+            {
+              "no": 29,
+              "title": "Cuenta lo que haces en tus días libres",
+              "link": "https://a1.marugotoweb.jp/es/can-do29.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "12",
+            "title": "¿Vamos juntos?"
+          },
+          "candos": [
+            {
+              "no": 30,
+              "title": "Lee pósters y calendarios de eventos",
+              "link": "https://a1.marugotoweb.jp/es/can-do30.php"
+            },
+            {
+              "no": 31,
+              "title": "Di si vas a asistir o no a un evento",
+              "link": "https://a1.marugotoweb.jp/es/can-do31.php"
+            },
+            {
+              "no": 32,
+              "title": "Habla acerca de si puedes o no ir con tu amigo",
+              "link": "https://a1.marugotoweb.jp/es/can-do32.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 7,
+        "title": "まち",
+        "romaji": "Machi",
+        "meaning": "La ciudad"
+      },
+      "color": "#2a7980",
+      "topicImageUrl": "https://a1.marugotoweb.jp/es/assets/images/index/topic_image07.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "13",
+            "title": "¿Cómo piensas ir?"
+          },
+          "candos": [
+            {
+              "no": 33,
+              "title": "Reconoce los símbolos de estaciones y taxis",
+              "link": "https://a1.marugotoweb.jp/es/can-do33.php"
+            },
+            {
+              "no": 34,
+              "title": "Usando una nota, di al taxista adónde te diriges",
+              "link": "https://a1.marugotoweb.jp/es/can-do34.php"
+            },
+            {
+              "no": 35,
+              "title": "Explica cómo llegar a un lugar determinado",
+              "link": "https://a1.marugotoweb.jp/es/can-do35.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "14",
+            "title": "Es un templo famoso"
+          },
+          "candos": [
+            {
+              "no": 36,
+              "title": "Explica cómo llegar a un lugar determinado usando un mapa",
+              "link": "https://a1.marugotoweb.jp/es/can-do36.php"
+            },
+            {
+              "no": 37,
+              "title": "Explica por teléfono dónde estás ahora mismo",
+              "link": "https://a1.marugotoweb.jp/es/can-do37.php"
+            },
+            {
+              "no": 38,
+              "title": "Lee los letreros con el horario de apertura de las tiendas",
+              "link": "https://a1.marugotoweb.jp/es/can-do38.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 8,
+        "title": "かいもの",
+        "romaji": "Kaimono",
+        "meaning": "De compras"
+      },
+      "color": "#903b2a",
+      "topicImageUrl": "https://a1.marugotoweb.jp/es/assets/images/index/topic_image08.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "15",
+            "title": "¡Qué mono!"
+          },
+          "candos": [
+            {
+              "no": 39,
+              "title": "Habla sobre lo que quieres comprar",
+              "link": "https://a1.marugotoweb.jp/es/can-do39.php"
+            },
+            {
+              "no": 40,
+              "title": "Habla sobre dónde comprar algo que quieres",
+              "link": "https://a1.marugotoweb.jp/es/can-do40.php"
+            },
+            {
+              "no": 41,
+              "title": "Haz comentarios sencillos sobre los objetos de una tienda",
+              "link": "https://a1.marugotoweb.jp/es/can-do41.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "16",
+            "title": "Me llevo esto"
+          },
+          "candos": [
+            {
+              "no": 42,
+              "title": "Lee los precios",
+              "link": "https://a1.marugotoweb.jp/es/can-do42.php"
+            },
+            {
+              "no": 43,
+              "title": "Compra algo",
+              "link": "https://a1.marugotoweb.jp/es/can-do43.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 9,
+        "title": "やすみのひ２",
+        "romaji": "Yasumi no hi 2",
+        "meaning": "Los días libres 2"
+      },
+      "color": "#a02b64",
+      "topicImageUrl": "https://a1.marugotoweb.jp/es/assets/images/index/topic_image09.jpg",
+      "lessons": [
+        {
+          "heading": {
+            "no": "17",
+            "title": "Lo he pasado bien"
+          },
+          "candos": [
+            {
+              "no": 44,
+              "title": "Lee una entrada corta de blog",
+              "link": "https://a1.marugotoweb.jp/es/can-do44.php"
+            },
+            {
+              "no": 45,
+              "title": "Cuenta lo que hiciste en tus vacaciones",
+              "link": "https://a1.marugotoweb.jp/es/can-do45.php"
+            },
+            {
+              "no": 46,
+              "title": "Comenta brevemente qué te parecieron tus vacaciones",
+              "link": "https://a1.marugotoweb.jp/es/can-do46.php"
+            },
+            {
+              "no": 47,
+              "title": "Escribe una breve entrada <br class='oo_sprev oo_subtitle_rev'>de blog sobre tus vacaciones",
+              "link": "https://a1.marugotoweb.jp/es/can-do47.php"
+            }
+          ]
+        },
+        {
+          "heading": {
+            "no": "18",
+            "title": "La próxima vez quiero ir a Kyoto"
+          },
+          "candos": [
+            {
+              "no": 48,
+              "title": "Lee un email sencillo",
+              "link": "https://a1.marugotoweb.jp/es/can-do48.php"
+            },
+            {
+              "no": 49,
+              "title": "Cuenta lo que hiciste durante tu viaje",
+              "link": "https://a1.marugotoweb.jp/es/can-do49.php"
+            },
+            {
+              "no": 50,
+              "title": "Di adónde te gustaría ir la próxima vez",
+              "link": "https://a1.marugotoweb.jp/es/can-do50.php"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

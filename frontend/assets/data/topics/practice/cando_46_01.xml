@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="9" num="46">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>どう おもったか かんたんに いいます</ja>
+			<ro>Doo omotta ka kantanni iimasu</ro>
+			<en>Say briefly what you thought about your holiday</en>
+			<es>Comenta brevemente qué te parecieron tus vacaciones</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/46/manual1.png"/>
+		<img src="swf/can-do/asset/46/manual2.png"/>
+		<img src="swf/can-do/asset/46/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>かんそうを　言う</ja>
+			<en>Giving your thoughts/reactions</en>
+			<es>Comentar tu opinión</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/46/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/46/p_thumb1.jpg" src="./asset/46/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>さとうさんに　休みの　はなしを　聞きます。</first></ja>
+				<ro><first>Satoo-san ni yasumi no hanashi o kikimasu.</first></ro>
+				<en><first>Asking Ms Sato about her holiday.</first></en>
+				<es><first>Preguntar a la Srta. Sato sobre sus vacaciones. </first></es>
+			</cue>
+
+			
+			<cue time="5.5" person="A">
+				<ja><first>A) ききて:</first><second>休みは　どうでしたか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Yasumi wa doo deshita ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>How was your holidays?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Qué tal las vacaciones?</second></es>
+			</cue>
+
+			
+			<cue time="8.2" person="B">
+				<ja><first>B) さとう:</first><second>土よう日、ともだちと　はなびたいかいに　行きました。</second></ja>
+				<ro><first>B) Satoo:</first><second>Doyoobi, tomodachi to hanabi-taikai ni ikimashita.</second></ro>
+				<en><first>B) Sato:</first><second>I went to a fireworks show with friends on Saturday.</second></en>
+				<es><first>B) Sato:</first><second>Fui a ver los fuegos artificiales con mis amigos el sábado. </second></es>
+			</cue>
+
+
+			<cue time="11.8" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="12.0" person="B">
+
+
+				<ja><first>B) さとう:</first><second>とても　きれいでした。</second></ja>
+				<ro><first>B) Satoo:</first><second>Totemo kiree deshita.</second></ro>
+				<en><first>B) Sato:</first><second>It was really pretty.</second></en>
+				<es><first>B) Sato:</first><second>Eran muy bonitos. </second></es>
+			</cue>
+					
+			<cue time="13.8" person="">
+				<ja></ja>
+				<ro></ro>
+
+				<en></en>
+				<es></es>
+
+			</cue>
+
+			<cue time="14.0" person="B">
+				<ja><first>B) さとう:</first><second>でも、ひとが　おおかったです。ちょっと　つかれました。</second></ja>
+				<ro><first>B) Satoo:</first><second>Demo, hito ga ookatta desu. Chotto tsukaremashita.</second></ro>
+				<en><first>B) Sato:</first><second>But there were lots of people. I got a bit tired.</second></en>
+				<es><first>B) Sato:</first><second>Pero había mucha gente. Salí un poco cansada. </second></es>
+			</cue>
+
+			
+			<cue time="18.3" person="A">
+				<ja><first>A) ききて:</first><second>らいねんも　行きますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Rainen mo ikimasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>Will you go again next year?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Quiere ir el próximo año también?</second></es>
+			</cue>
+
+			
+			<cue time="20.6" person="B">
+				<ja><first>B) さとう:</first><second>はい、また　行きたいです。はなびが　だいすきですから。</second></ja>
+				<ro><first>B) Satoo:</first><second>Hai, mata ikitai desu. Hanabi ga daisuki desu kara.</second></ro>
+				<en><first>B) Sato:</first><second>Yes, I want to go again. I love fireworks, you see.</second></en>
+				<es><first>B) Sato:</first><second>Sí, me gustaría ir otra vez, porque a mí me encantan los fuegos artificiales. </second></es>
+			</cue>
+
+					
+			<cue time="26.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/46/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まえの　休みに　ならに　行きました。りょこうは　どうだったか　話しましょう。</first></ja>
+				<ro><first>Mae no yasumi ni Nara ni ikimashita. Ryokoo wa doo datta ka hanashimashoo.</first></ro>
+				<en><first>You went to Nara on your day off recently. Talk about how the trip went.</first></en>
+				<es><first>Fuiste a Nara en tu anterior descanso. Habla con el Mai sobre cómo te fue.</first></es>
+			</cue>
+
+			
+			<cue time="10.5" person="A">
+				<ja><first>どうでしたか。</first></ja>
+				<ro><first>Doo deshita ka.</first></ro>
+				<en><first>How was it?</first></en>
+				<es><first>¿Qué tal estuvo?</first></es>
+			</cue>
+
+			
+			<cue time="13.0" person="B">
+				<ja><first>れい: たのしかったです。 / すばらしかったです。 / つかれました。 / まあまあでした。</first></ja>
+				<ro><first>Ree: Tanoshikatta desu./Subarashikatta desu./Tsukaremashita./Maamaa deshita.</first></ro>
+				<en><first>E.g: It was fun./It was wonderful./It was tiring./It was okay.</first></en>
+				<es><first>Ejm: Me lo pasé bien. / Fue maravilloso. / Fue muy cansado. / Estuvo más o menos. </first></es>
+			</cue>
+
+			
+			<cue time="21.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

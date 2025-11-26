@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="4" num="21">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>いえの なかを あんないします</ja>
+			<ro>Ie no naka o annai-shimasu</ro>
+			<en>Show someone around your house</en>
+			<es>Enseña a alguien tu casa</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/21/manual1.png"/>
+		<img src="swf/can-do/asset/21/manual2.png"/>
+		<img src="swf/can-do/asset/21/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>いえを　あんないする</ja>
+			<en>Showing someone around your house</en>
+			<es>Enseñar la casa</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/21/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/21/p_thumb1.jpg" src="./asset/21/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>サラさんが　かわさきせんせいの　いえに　あそびに　きました。</first></ja>
+				<ro><first>Sara-san ga Kawasaki-sensee no ie ni asobi ni kimashita.</first></ro>
+				<en><first>Sara has come to see Ms Kawasaki at her house.</first></en>
+				<es><first>Sara ha venido a visitar a la Sra. Kawasaki en su casa. </first></es>
+			</cue>
+
+			
+			<cue time="7.0" person="A">
+				<ja><first>A) かわさき:</first><second>どうぞ。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Doozo.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Please come in.</second></en>
+				<es><first>A) Kawasaki:</first><second>Pasa, por favor. </second></es>
+			</cue>
+
+			
+			<cue time="9.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="11.3" person="B">
+				<ja><first>B) サラ:</first><second>ひろい　いえですね。</second></ja>
+				<ro><first>B) Sara:</first><second>Hiroi ie desu ne.</second></ro>
+				<en><first>B) Sara:</first><second>It's a big house, isn't it?</second></en>
+				<es><first>B) Sara:</first><second>¡Qué grande es la casa!, ¿no?</second></es>
+			</cue>
+
+			
+			<cue time="13.9" person="A">
+				<ja><first>A) かわさき:</first><second>ちょっと　みますか。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Chotto mimasu ka.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Would you like to take a look around?</second></en>
+				<es><first>A) Kawasaki:</first><second>¿Quieres conocer la casa?</second></es>
+			</cue>
+
+			
+			<cue time="15.1" person="B">
+				<ja><first>B) サラ:</first><second>はい。</second></ja>
+				<ro><first>B) Sara:</first><second>Hai.</second></ro>
+				<en><first>B) Sara:</first><second>Okay.</second></en>
+				<es><first>B) Sara:</first><second>Sí. </second></es>
+			</cue>
+
+			
+			<cue time="17.8" person="A">
+				<ja><first>A) かわさき:</first><second>ここは　だいどころです。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Koko wa daidokoro desu.</second></ro>
+				<en><first>A) Kawasaki:</first><second>This is the kitchen.</second></en>
+				<es><first>A) Kawasaki:</first><second>Esta es la cocina.</second></es>
+			</cue>
+
+			
+			<cue time="21.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="23.0" person="A">
+				<ja><first>A) かわさき:</first><second>ここは　トイレです。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Koko wa toire desu.</second></ro>
+				<en><first>A) Kawasaki:</first><second>This is the toilet.</second></en>
+				<es><first>A) Kawasaki:</first><second>Este es el servicio.</second></es>
+			</cue>
+
+			
+			<cue time="26.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="28.8" person="A">
+				<ja><first>A) かわさき:</first><second>ここは　おしいれです。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Koko wa oshi'ire desu.</second></ro>
+				<en><first>A) Kawasaki:</first><second>This is a closet. </second></en>
+				<es><first>A) Kawasaki:</first><second>Este es un armario empotrado. </second></es>
+			</cue>
+
+			
+			<cue time="30.6" person="B">
+				<ja><first>B) サラ:</first><second>へぇー。</second></ja>
+				<ro><first>B) Sara:</first><second>Hee.</second></ro>
+				<en><first>B) Sara:</first><second>Oh!</second></en>
+				<es><first>B) Sara:</first><second>Ah, sí. </second></es>
+			</cue>
+
+					
+			<cue time="32.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/21/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさん、たいちくんが　あなたの　いえに　きました。へやを　あんないしましょう。</first></ja>
+				<ro><first>Mai-san, Taichi-kun ga anata no ie ni kimashita. Heya o annai-shimashoo.</first></ro>
+				<en><first>Mai and Taichi have come to visit your house. Show them around your room.</first></en>
+				<es><first>Mai y Taichi han venido a visitarte a tu casa. Enséñales tu habitación.</first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="18.8" person="B">
+				<ja><first>いらっしゃい。どうぞ　あがって　ください。</first></ja>
+				<ro><first>Irasshai. Doozo agatte kudasai.</first></ro>
+				<en><first>Welcome. Please, come in.</first></en>
+				<es><first>Bienvenido. Pasad, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="24.6" person="A">
+				<ja><first>おじゃまします。</first></ja>
+				<ro><first>Ojamashimasu.</first></ro>
+				<en><first>Thank you.</first></en>
+				<es><first>Gracias.</first></es>
+			</cue>
+
+			
+			<cue time="27.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="41.0" person="A">
+				<ja><first>いえを　あんないしましょう。</first></ja>
+				<ro><first>Ie o annai-shimashoo. </first></ro>
+				<en><first>Let's show them round.</first></en>
+				<es><first>Vamos a enseñarles la casa.</first></es>
+			</cue>
+
+			
+			<cue time="46.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="51.0" person="A">
+				<ja><first>ここは…</first></ja>
+				<ro><first>Koko wa…</first></ro>
+				<en><first>This is…</first></en>
+				<es><first>Este es...</first></es>
+			</cue>
+
+			
+			<cue time="56.5" person="B">
+				<ja><first>ここは　トイレです。</first></ja>
+				<ro><first>Koko wa toire desu.</first></ro>
+				<en><first>This is the toilet.</first></en>
+				<es><first>Este es el servicio.</first></es>
+			</cue>
+
+			
+			<cue time="63.3" person="A">
+				<ja><first>ちょっと　いいですか。</first></ja>
+				<ro><first>Chotto ii desu ka.</first></ro>
+				<en><first>Excuse me a moment.</first></en>
+				<es><first>¿Me permites?</first></es>
+			</cue>
+
+			
+			<cue time="66.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="70.7" person="A">
+				<ja><first>ここは…</first></ja>
+				<ro><first>Koko wa…</first></ro>
+				<en><first>This is…</first></en>
+				<es><first>Aquí está...</first></es>
+			</cue>
+
+			
+			<cue time="76.3" person="B">
+				<ja><first>ここは　おふろです。</first></ja>
+				<ro><first>Koko wa ofuro desu.</first></ro>
+				<en><first>This is the bath.</first></en>
+				<es><first>Aquí está el baño.</first></es>
+			</cue>
+
+			
+			<cue time="81.0" person="A">
+				<ja><first>きれいな　へやですね。</first></ja>
+				<ro><first>Kireena heya desu ne.</first></ro>
+				<en><first>This is a really nice room, isn't it!</first></en>
+				<es><first>Es una habitación muy bonita, ¿no?</first></es>
+			</cue>
+
+			
+			<cue time="83.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

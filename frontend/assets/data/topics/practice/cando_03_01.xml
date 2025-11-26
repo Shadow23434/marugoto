@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="1" num="3">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>きょうしつの ことばを はなします</ja>
+			<ro>Kyooshitsu no kotoba o hanashimasu</ro>
+			<en>Use basic classroom expressions</en>
+			<es>Usa expresiones básicas para la clase</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル画像-->
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/03/manual1.png"/>
+		<img src="swf/can-do/asset/03/manual2.png"/>
+		<img src="swf/can-do/asset/03/manual3.png"/>
+	</top>
+	<!--ここまでトップ-->
+	
+	
+	
+	<!--ここかられんしゅう-->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/03/p_thumb1.jpg" src="./asset/03/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>いま、じゅぎょうちゅうです。</first></ja>
+				<ro><first>Ima, jugyoochuu desu.</first></ro>
+				<en><first>This is during a lesson.</first></en>
+				<es><first>Ahora estamos en una clase.</first></es>
+			</cue>
+
+			
+			<cue time="5.5" person="A">
+				<ja><first>A) かわさき:</first><second>*　*　*　*　*　*　*　*　*　*</second></ja>
+				<ro><first>A) Kawasaki:</first><second>* * * * * * * * * *</second></ro>
+				<en><first>A) Kawasaki:</first><second>* * * * * * * * * *</second></en>
+				<es><first>A) Kawasaki:</first><second>* * * * * * * * * *</second></es>
+			</cue>
+
+			
+			<cue time="9.0" person="B">
+				<ja><first>B) ダン:</first><second>すみません。もうすこし　ゆっくり　いって　ください。</second></ja>
+				<ro><first>B) Dan:</first><second>Sumimasen. Moo sukoshi yukkuri itte kudasai.</second></ro>
+				<en><first>B) Dan:</first><second>Excuse me. Please say that little slower.</second></en>
+				<es><first>B) Dan:</first><second>Perdón, hable un poco más despacio, por favor.</second></es>
+			</cue>
+
+			
+			<cue time="13.5" person="A">
+				<ja><first>A) かわさき:</first><second>はい。CDを　きいて　ください。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Hai. Shiidhii o kiite kudasai.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Oh, okay. Please listen to the CD.</second></en>
+				<es><first>A) Kawasaki:</first><second>De acuerdo. Escuchad este CD, por favor.</second></es>
+			</cue>
+
+			<cue time="20.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	
+
+	</renshu>
+	<!--ここまでれんしゅう-->
+	
+	
+</can-do>

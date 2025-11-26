@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="1" num="1">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>あいさつを します</ja>
+			<ro>Aisatsu o shimasu</ro>
+			<en>Exchange greetings</en>
+			<es>Intercambia saludos</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/01/manual1.png"/>
+		<img src="swf/can-do/asset/01/manual2.png"/>
+		<img src="swf/can-do/asset/01/manual3.png"/>
+	</top>
+	<!--ここまでトップ-->
+	
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>あいさつ</ja>
+			<en>Greetings</en>
+			<es>Saludos</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/01/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/01/p_thumb1.jpg" src="./asset/01/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>あさ: きんじょの　ひとに　あいました。</first></ja>
+				<ro><first>Asa: Kinjo no hito ni aimashita.</first></ro>
+				<en><first>In the morning: Meeting a neighbour.</first></en>
+				<es><first>Por la mañana... Te has encontrado con un vecina.</first></es>
+			</cue>
+
+			
+			<cue time="7.0" person="A">
+				<ja><first>A) やまだ:</first><second>あ、おはようございます。</second></ja>
+				<ro><first>A) Yamada:</first><second>A, Ohayoo gozaimasu.</second></ro>
+				<en><first>A) Yamada:</first><second>Good morning.</second></en>
+				<es><first>A) Yamada:</first><second>Buenos días.</second></es>
+			</cue>
+
+			
+			<cue time="9.0" person="B">
+				<ja><first>B) やまざき:</first><second>おはようございます。</second></ja>
+				<ro><first>B) Yamazaki:</first><second>Ohayoo gozaimasu.</second></ro>
+				<en><first>B) Yamazaki:</first><second>Good morning.</second></en>
+				<es><first>B) Yamazaki:</first><second>Buenos días.</second></es>
+			</cue>
+
+			
+			<cue time="11.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="14.0" person="">
+				<ja><first>ひる: しりあいに　あいました。</first></ja>
+				<ro><first>Hiru: Shiriai ni aimashita.</first></ro>
+				<en><first>In the afternoon: Meeting an acquaintance.</first></en>
+				<es><first>Por la tarde... Te has encontrado con una conocida.</first></es>
+			</cue>
+
+			
+			<cue time="21.7" person="A">
+				<ja><first>A) やまざき:</first><second>こんにちは。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Konnichiwa.</second></ro>
+				<en><first>A) Yamazaki:</first><second>Good afternoon.</second></en>
+				<es><first>A) Yamazaki:</first><second>Ah, buenas tardes.</second></es>
+			</cue>
+
+			
+			<cue time="22.7" person="B">
+				<ja><first>B) やまだ:</first><second>こんにちは。</second></ja>
+				<ro><first>B) Yamada:</first><second>Konnichiwa.</second></ro>
+				<en><first>B) Yamada:</first><second>Good afternoon.</second></en>
+				<es><first>B) Yamada:</first><second>Buenas tardes.</second></es>
+			</cue>
+
+			
+			<cue time="25.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="28.0" person="">
+				<ja><first>よる: しりあいに　あいました。</first></ja>
+				<ro><first>Yoru: Shiriai ni aimashita.</first></ro>
+				<en><first>In the evening: Meeting an acquaintance.</first></en>
+				<es><first>Por la noche... Te has encontrado con un conocido.</first></es>
+			</cue>
+
+			
+			<cue time="36.7" person="A">
+				<ja><first>A) はやし:</first><second>こんばんは。</second></ja>
+				<ro><first>A) Hayashi:</first><second>Konbanwa.</second></ro>
+				<en><first>A) Hayashi:</first><second>Good evening.</second></en>
+				<es><first>A) Hayashi:</first><second>Buenas tardes.</second></es>
+			</cue>
+
+			
+			<cue time="38.0" person="B">
+				<ja><first>B) やまざき:</first><second>こんばんは。</second></ja>
+				<ro><first>B) Yamazaki:</first><second>Konbanwa.</second></ro>
+				<en><first>B) Yamazaki:</first><second>Good evening.</second></en>
+				<es><first>B) Yamazaki:</first><second>Buenas tardes.</second></es>
+			</cue>
+
+			
+			<cue time="40.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="44" person="">
+				<ja><first>きんじょの　ひとに　あいました。</first></ja>
+				<ro><first>Kinjo no hito ni aimashita.</first></ro>
+				<en><first>Meeting a neighbour.</first></en>
+				<es><first>Te has encontrado con un vecina.</first></es>
+			</cue>
+
+			
+			<cue time="49.7" person="A">
+				<ja><first>A) ほんだ:</first><second>こんばんは。</second></ja>
+				<ro><first>A) Honda:</first><second>Konbanwa.</second></ro>
+				<en><first>A) Honda:</first><second>Good evening.</second></en>
+				<es><first>A) Honda:</first><second>Buenas tardes.</second></es>
+			</cue>
+
+			
+			<cue time="51.2" person="B">
+				<ja><first>B) やまざき:</first><second>こんばんは。</second></ja>
+				<ro><first>B) Yamazaki:</first><second>Konbanwa.</second></ro>
+				<en><first>B) Yamazaki:</first><second>Good evening.</second></en>
+				<es><first>B) Yamazaki:</first><second>Buenas tardes.</second></es>
+			</cue>
+
+			
+			<cue time="53.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="57.0" person="">
+				<ja><first>わかれるとき:</first></ja>
+				<ro><first>Wakareru toki:</first></ro>
+				<en><first>When parting:</first></en>
+				<es><first>Al despedirse...</first></es>
+			</cue>
+
+			
+			<cue time="60.0" person="">
+				<ja><first>もりさんは　さどうを　ならって　います。もうすぐ　おけいこが　おわります。</first></ja>
+				<ro><first>Mori-san wa sadoo o naratte imasu. Moosugu okeeko ga owarimasu.</first></ro>
+				<en><first>Ms. Mori is learning the art of the tea ceremony. The lesson will finish shortly.</first></en>
+				<es><first>La Srta. Mori está aprendiendo la ceremonia de té. La clase está por terminar.</first></es>
+			</cue>
+
+			
+			<cue time="66.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="86.0" person="A">
+				<ja><first>A) もり:</first><second>せんせい、ありがとうございました。さようなら。</second></ja>
+				<ro><first>A) Mori:</first><second>Sensee, arigatoo gozaimashita. Sayoonara.</second></ro>
+				<en><first>A) Mori:</first><second>Thank you, Ms. Ueda. Good bye.</second></en>
+				<es><first>A) Mori:</first><second>Gracias, Sra. Ueda. Hasta luego.</second></es>
+			</cue>
+
+			
+			<cue time="89.9" person="B">
+				<ja><first>B) うえだ:</first><second>はい、さようなら。</second></ja>
+				<ro><first>B) Ueda:</first><second>Hai, sayoonara.</second></ro>
+				<en><first>B) Ueda:</first><second>Goodbye.</second></en>
+				<es><first>B) Ueda:</first><second>Adiós.</second></es>
+			</cue>
+
+			
+			<cue time="92.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="97.0" person="">
+				<ja><first>しごとが　おわりました。まだ　しごとを　つづけている　ひとに…</first></ja>
+				<ro><first>Shigoto ga owarimashita. Mada shigoto o tsuzukete iru hito ni…</first></ro>
+				<en><first>At the end of the working day. To those staying and continuing with their work…</first></en>
+				<es><first>Al terminar la jornada. A las personas que aún se quedan trabajando...</first></es>
+			</cue>
+
+			
+			<cue time="108.5" person="A">
+				<ja><first>A) まつもと:</first><second>おさきに　しつれいします。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Osaki ni shitsuree-shimasu.</second></ro>
+				<en><first>A) Matsumoto:</first><second>I'm going home now.</second></en>
+				<es><first>A) Matsumoto:</first><second>Con vuestro permiso, me retiro primero.</second></es>
+			</cue>
+
+			
+			<cue time="113.7" person="B">
+				<ja><first>B) かわさき:</first><second>おつかれさまでした。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Otsukaresama deshita.</second></ro>
+				<en><first>B) Kawasaki:</first><second>Good job today.</second></en>
+				<es><first>B) Kawasaki:</first><second>Gracias por tu esfuerzo.</second></es>
+			</cue>
+
+			
+			<cue time="116.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	
+
+	</renshu>
+	<!--ここまでれんしゅう-->
+	
+	
+	<!--ここからチャレンジ-->
+	<challenge type="basic">
+		<video src="./asset/01/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="A">
+				<ja><first>にほんごの　クラスに　いきます。せんせいや　ともだちに　あいさつを　しましょう。</first></ja>
+				<ro><first>Nihongo no kurasu ni ikimasu. Sensee ya tomodachi ni aisatsu o shimashoo.</first></ro>
+				<en><first>You're going to your Japanese class. Greet your teacher and friends.</first></en>
+				<es><first>Vas a ir a la clase de japonés. Saluda a la profesora y a los amigos. </first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="14.8" person="A">
+				<ja><first>おはようございます。</first></ja>
+				<ro><first>Ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="17.5" person="B">
+				<ja><first>おはようございます。</first></ja>
+				<ro><first>Ohayoo gozaimasu.</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="23.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="36.0" person="A">
+				<ja><first>おはよう。</first></ja>
+				<ro><first>Ohayoo.</first></ro>
+				<en><first>Morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="38.0" person="B">
+				<ja><first>おはよう(ございます)。</first></ja>
+				<ro><first>Ohayoo (gozaimasu).</first></ro>
+				<en><first>Good morning.</first></en>
+				<es><first>Buenos días.</first></es>
+			</cue>
+
+			
+			<cue time="42.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="41.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

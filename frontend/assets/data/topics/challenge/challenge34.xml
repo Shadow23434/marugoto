@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="7" num="34">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>タクシーに のって メモを みせて いきさきを いいます</ja>
+			<ro>Takushii ni notte memo o misete ikisaki o iimasu</ro>
+			<en>Using a memo, tell a taxi driver your destination</en>
+			<es>Usando una nota, di al taxista adónde te diriges</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/34/manual1.png"/>
+		<img src="swf/can-do/asset/34/manual2.png"/>
+		<img src="swf/can-do/asset/34/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>タクシーに　のる</ja>
+			<en>Getting a taxi</en>
+			<es>Subir al taxi</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/34/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/34/p_thumb1.jpg" src="./asset/34/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>ダンさんは　タクシーに　のって　えきに　いきます。</first></ja>
+				<ro><first>Dan-san wa takushii ni notte eki ni ikimasu.</first></ro>
+				<en><first>Dan is going to the station by taxi.</first></en>
+				<es><first>Dan va a tomar el taxi hasta la estación.</first></es>
+			</cue>
+
+			
+			<cue time="11.0" person="A">
+				<ja><first>A) うんてんしゅ:</first><second>はい、どうぞ。</second></ja>
+				<ro><first>A) Untenshu:</first><second>Hai, doozo.</second></ro>
+				<en><first>A) Driver:</first><second>Okay, please get in.</second></en>
+				<es><first>A) Taxista:</first><second>Hola, suba, por favor.</second></es>
+			</cue>
+
+			
+			<cue time="12.0" person="B">
+				<ja><first>B) ダン:</first><second>すみません、にもつ、おねがいします。</second></ja>
+				<ro><first>B) Dan:</first><second>Sumimasen, nimotsu, onegaishimasu.</second></ro>
+				<en><first>B) Dan:</first><second>Excuse me, could you load my bag?</second></en>
+				<es><first>B) Dan:</first><second>Perdone, ¿podría meter mi maleta?</second></es>
+			</cue>
+
+			
+			<cue time="14.5" person="A">
+				<ja><first>A) うんてんしゅ:</first><second>わかりました。</second></ja>
+				<ro><first>A) Untenshu:</first><second>Wakarimashita.</second></ro>
+				<en><first>A) Driver:</first><second>Certainly.</second></en>
+				<es><first>A) Taxista:</first><second>Por supuesto.</second></es>
+			</cue>
+
+			
+			<cue time="16.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="36.0" person="A">
+				<ja><first>A) うんてんしゅ:</first><second>どちらまでですか。</second></ja>
+				<ro><first>A) Untenshu:</first><second>Dochira made desu ka.</second></ro>
+				<en><first>A) Driver:</first><second>Where do you want to go?</second></en>
+				<es><first>A) Taxista:</first><second>¿A dónde va?</second></es>
+			</cue>
+
+			
+			<cue time="37.5" person="B">
+				<ja><first>B) ダン:</first><second>さくらえきまで　おねがいします。</second></ja>
+				<ro><first>B) Dan:</first><second>Sakura-Eki made onegaishimasu.</second></ro>
+				<en><first>B) Dan:</first><second>To Sakura station, please.</second></en>
+				<es><first>B) Dan:</first><second>A la estación de Sakura, por favor.</second></es>
+			</cue>
+
+			
+			<cue time="39.6" person="A">
+				<ja><first>A) うんてんしゅ:</first><second>はい、わかりました。</second></ja>
+				<ro><first>A) Untenshu:</first><second>Hai, wakarimashita.</second></ro>
+				<en><first>A) Driver:</first><second>Certainly.</second></en>
+				<es><first>A) Taxista:</first><second>De acuerdo.</second></es>
+			</cue>
+
+			
+			<cue time="42.0" person="B">
+				<ja><first>B) ダン:</first><second>あのう、とおいですか。</second></ja>
+				<ro><first>B) Dan:</first><second>Anoo, tooi desu ka.</second></ro>
+				<en><first>B) Dan:</first><second>Um, is it far?</second></en>
+				<es><first>B) Dan:</first><second>Eh, ¿está lejos?</second></es>
+			</cue>
+
+			
+			<cue time="44.0" person="A">
+				<ja><first>A) うんてんしゅ:</first><second>ううん、そうですね。たぶん　20分ぐらいです。</second></ja>
+				<ro><first>A) Untenshu:</first><second>Uun, soo desu ne. Tabun nijuppun gurai desu.</second></ro>
+				<en><first>A) Driver:</first><second>Hmm, maybe about 20 minutes.</second></en>
+				<es><first>A) Taxista:</first><second>Pues, posiblemente a unos 20 minutos.</second></es>
+			</cue>
+
+			
+			<cue time="49.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="76.8" person="B">
+				<ja><first>B) ダン:</first><second>ここで　いいです。</second></ja>
+				<ro><first>B) Dan:</first><second>Koko de ii desu.</second></ro>
+				<en><first>B) Dan:</first><second>Here's fine.</second></en>
+				<es><first>B) Dan:</first><second>Aquí está bien.</second></es>
+			</cue>
+
+			
+			<cue time="78.5" person="A">
+				<ja><first>A) うんてんしゅ:</first><second>はい。3000えんです。</second></ja>
+				<ro><first>A) Untenshu:</first><second>Hai. Sanzen-en desu.</second></ro>
+				<en><first>A) Driver:</first><second>Okay. That's 3000 yen.</second></en>
+				<es><first>A) Taxista:</first><second>Bueno. Son 3.000 yenes.</second></es>
+			</cue>
+
+			
+			<cue time="82.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="85.8" person="A">
+				<ja><first>A) うんてんしゅ:</first><second>どうも　ありがとうございました。きを　つけて。</second></ja>
+				<ro><first>A) Untenshu:</first><second>Doomo arigatoo gozaimashita. Ki o tsukete.</second></ro>
+				<en><first>A) Driver:</first><second>Thank you very much. Take care.</second></en>
+				<es><first>A) Taxista:</first><second>Muchas gracias. Cuídese.</second></es>
+			</cue>
+
+					
+			<cue time="90.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/34/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>タクシーに　のりましょう。</first></ja>
+				<ro><first>Takushii ni norimashoo.</first></ro>
+				<en><first>Let's get in a taxi.</first></en>
+				<es><first>Vamos a subir al taxi.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="11.0" person="A">
+				<ja><first>はい、どうぞ。</first></ja>
+				<ro><first>Hai, doozo.</first></ro>
+				<en><first>Okay, please get in.</first></en>
+				<es><first>Bueno, suba, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="15.5" person="B">
+				<ja><first>どちらまでですか。</first></ja>
+				<ro><first>Dochira made desu ka.</first></ro>
+				<en><first>Where would you like to go?</first></en>
+				<es><first>¿Hasta dónde va?</first></es>
+			</cue>
+
+			
+			<cue time="20.5" person="A">
+				<ja><first>「みなとホール」まで　いきましょう。</first></ja>
+				<ro><first>"Minato-Hooru" made ikimashoo.</first></ro>
+				<en><first>Let's go to Minato Hall.</first></en>
+				<es><first>Vamos a Minato Hall.</first></es>
+			</cue>
+
+			
+			<cue time="25.5" person="B">
+				<ja><first>みなとホールまで　おねがいします。</first></ja>
+				<ro><first>Minato-Hooru made onegaishimasu.</first></ro>
+				<en><first>Minato Hall, please.</first></en>
+				<es><first>A Minato Hall, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="30.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="31.5" person="A">
+				<ja><first>はい、わかりました。</first></ja>
+				<ro><first>Hai, wakarimashita.</first></ro>
+				<en><first>Okay.</first></en>
+				<es><first>De acuerdo.</first></es>
+			</cue>
+
+
+			<cue time="37.0" person="m">
+				<ja><first>どのくらい　かかるか　聞きましょう。</first></ja>
+				<ro><first>Dono kurai kakaru ka kikimashoo.</first></ro>
+				<en><first>Ask how long it will take to get there.</first></en>
+				<es><first>Pregunta cuánto tiempo va a tardar hasta allí.</first></es>
+			</cue>
+
+			
+			<cue time="41.5" person="B">
+				<ja><first>あのう、とおいですか。</first></ja>
+				<ro><first>Anoo, tooi desu ka.</first></ro>
+				<en><first>Um, is it far?</first></en>
+				<es><first>Señor, ¿está lejos?</first></es>
+			</cue>
+
+			
+			<cue time="49.0" person="A">
+				<ja><first>そうですね。たぶん　10分ぐらいです。</first></ja>
+				<ro><first>Soo desu ne. Tabun juppun gurai desu.</first></ro>
+				<en><first>Hmm. Maybe about 10 minutes.</first></en>
+				<es><first>Pues, posiblemente unos 10 minutos.</first></es>
+			</cue>
+
+			
+			<cue time="53.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="75.0" person="A">
+				<ja><first>おきゃくさん、つきましたよ。1000えんです。</first></ja>
+				<ro><first>Okyaku-san, tsukimashita yo. Sen-en desu.</first></ro>
+				<en><first>We've arrived. That's 1,000 yen, please.</first></en>
+				<es><first>Ya llegamos, señor. Son 1.000 yenes, por favor.</first></es>
+			</cue>
+
+			
+			<cue time="79.2" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="83.0" person="A">
+				<ja><first>ありがとうございます。きを　つけて。</first></ja>
+				<ro><first>Arigatoo gozaimasu. Ki o tsukete.</first></ro>
+				<en><first>Thank you very much. Take care.</first></en>
+				<es><first>Muchas gracias. Vaya con cuidado.</first></es>
+			</cue>
+
+			
+			<cue time="86.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

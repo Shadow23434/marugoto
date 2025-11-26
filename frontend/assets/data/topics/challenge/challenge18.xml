@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="4" num="18">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="write"><!-- write,speak,read -->
+			<ja>ともだちを いえに しょうたいする Eメールを かきます</ja>
+			<ro>Tomodachi o ie ni shootai-suru E-meeru o kakimasu</ro>
+			<en>Write an E-mail inviting someone to your house</en>
+			<es>Escribe un email invitando a alguien a tu casa</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/18/manual1.png"/>
+		<img src="swf/can-do/asset/18/manual2.png"/>
+		<img src="swf/can-do/asset/18/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+
+<!-- イラストタイプ -->
+
+	<kakunin type="pics" checkbox="true">
+		
+		<pic>
+			<midashi>
+				<ja>いえを　しょうかいする</ja>
+				<en>Introducing your house</en>
+				<es>Presentar tu casa</es>
+			</midashi>
+			<path>swf/can-do/asset/18/kakunin1_</path>
+		</pic>
+		
+		<pic>
+			<midashi>
+				<ja>いえの　ちかくに　あるもの</ja>
+				<en>Things near your house</en>
+				<es>Cosas que hay cerca de la casa</es>
+			</midashi>
+			<path>swf/can-do/asset/18/kakunin2_</path>
+		</pic>
+		
+		<pic>
+			<midashi>
+				<ja>ともだちを　しょうたいする</ja>
+				<en>Inviting a friend</en>
+				<es>Invitar a un amigo</es>
+			</midashi>
+			<path>swf/can-do/asset/18/kakunin3_</path>
+		</pic>
+		
+	</kakunin>
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+	<renshu type="pages">
+		
+		<page>
+			<base>swf/can-do/asset/18/renshu1_</base>
+			<icon type="download" href="./pdf/mail_format_" x="110" y="390" />
+		</page>
+		<page>
+			<base>swf/can-do/asset/18/renshu2_</base>
+		</page>
+		
+	</renshu>
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/18/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさん、たいちくんに　Eメールを　かきましょう。</first></ja>
+				<ro><first>Mai-san, Taichi-kun ni E-meeru o kakimashoo.</first></ro>
+				<en><first>Write an email to Mai and Taichi.</first></en>
+				<es><first>Escribe un correo electrónico a Mai y a Taichi.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="9.5" person="A">
+				<ja><first>まいさん、たいちくん　こんにちは。おげんきですか。</first></ja>
+				<ro><first>Mai-san, Taichi-kun  Konnichiwa. Ogenki desu ka.</first></ro>
+				<en><first>Mai, Taichi  Hello. How are you?</first></en>
+				<es><first>Mai, Taichi, hola. ¿Qué tal?</first></es>
+			</cue>
+
+			
+			<cue time="13.5" person="B">
+				<ja><first>わたしは　いま　ひとりで　アパートに　すんで　います。</first></ja>
+				<ro><first>Watashi wa ima hitori de apaato ni sunde imasu.</first></ro>
+				<en><first>I'm living in an apartment by myself now.</first></en>
+				<es><first>Ahora vivo solo en un piso.</first></es>
+			</cue>
+
+			
+			<cue time="18.0" person="A">
+				<ja><first>やすみに　あそびに　きて　ください。</first></ja>
+				<ro><first>Yasumi ni asobi ni kite kudasai.</first></ro>
+				<en><first>Please come by on your day off.</first></en>
+				<es><first>Venid a verme un día que tengáis libre.</first></es>
+			</cue>
+
+			
+			<cue time="21.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="9" num="45">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>やすみに なにを したか はなします</ja>
+			<ro>Yasumi ni nani o shita ka hanashimasu</ro>
+			<en>Say what you did on holiday</en>
+			<es>Cuenta lo que hiciste en tus vacaciones</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/45/manual1.png"/>
+		<img src="swf/can-do/asset/45/manual2.png"/>
+		<img src="swf/can-do/asset/45/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>休みに　したこと</ja>
+			<en>What you did on your day off</en>
+			<es>Lo que hiciste en un día libre</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/45/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/45/p_thumb1.jpg" src="./asset/45/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>サラさんに　休みの　はなしを　聞きます。</first></ja>
+				<ro><first>Sara-san ni yasumi no hanashi o kikimasu.</first></ro>
+				<en><first>Asking Sara about her holiday.</first></en>
+				<es><first>Preguntar a Sara sobre las vacaciones.</first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) ききて:</first><second>サラさん、休みは　どうでしたか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Sara-san, yasumi wa doo deshita ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>How was your holiday, Sara?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Qué tal las vacaciones, Sara?</second></es>
+			</cue>
+
+			
+			<cue time="8.0" person="B">
+				<ja><first>B) サラ:</first><second>たのしかったです。くにから　かぞくが　来ました。</second></ja>
+				<ro><first>B) Sara:</first><second>Tanoshikatta desu. Kuni kara kazoku ga kimashita.</second></ro>
+				<en><first>B) Sara:</first><second>It was fun. My family came to visit from my country.</second></en>
+				<es><first>B) Sara:</first><second>Me lo pasé bien. Mi familia vino de visita desde mi país. </second></es>
+			</cue>
+
+			
+			<cue time="11.9" person="A">
+				<ja><first>A) ききて:</first><second>へえ、どこに　行きましたか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Hee, doko ni ikimashita ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>Ooh, where did you go?</second></en>
+				<es><first>A) Entrevistadora:</first><second>Ah, sí. ¿A dónde habéis ido?</second></es>
+			</cue>
+
+			
+			<cue time="14.6" person="B">
+				<ja><first>B) サラ:</first><second>きょうとに　行きました。たくさん　しゃしんを　とりました。</second></ja>
+				<ro><first>B) Sara:</first><second>Kyooto ni ikimashita. Takusan shashin o torimashita.</second></ro>
+				<en><first>B) Sara:</first><second>We went to Kyoto. I took lots of photos.</second></en>
+				<es><first>B) Sara:</first><second>Hemos ido a Kioto. Saqué muchas fotos. </second></es>
+			</cue>
+
+			
+			<cue time="19.1" person="A">
+				<ja><first>A) ききて:</first><second>よかったですね。</second></ja>
+				<ro><first>A) Kikite:</first><second>Yokatta desu ne.</second></ro>
+				<en><first>A) Interviewer:</first><second>Sounds good.</second></en>
+				<es><first>A) Entrevistadora:</first><second>¡Qué bueno!</second></es>
+			</cue>
+
+					
+			<cue time="20.6" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/45/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まえの　休みに　ならに　行きました。きむらさんと　話しましょう。</first></ja>
+				<ro><first>Mae no yasumi ni Nara ni ikimashita. Kimura-san to hanashimashoo.</first></ro>
+				<en><first>You went to Nara on your day off recently. Tell Mr. Kimura about it.</first></en>
+				<es><first>Visitaste Nara en tu anterior día de descanso. Habla de ello con el Sr. Kimura. </first></es>
+			</cue>
+
+			
+			<cue time="10.5" person="A">
+				<ja><first>休みに　なにを　しましたか。</first></ja>
+				<ro><first>Yasumi ni nani o shimashita ka.</first></ro>
+				<en><first>What did you do on your day off?</first></en>
+				<es><first>¿Qué hicisite en tu descanso?</first></es>
+			</cue>
+
+			
+			<cue time="16.0" person="A">
+				<ja><first>どこに　行ったか　言いましょう。</first></ja>
+				<ro><first>Doko ni itta ka iimashoo.</first></ro>
+				<en><first>Say where you went.</first></en>
+				<es><first>Di a dónde has ido. </first></es>
+			</cue>
+
+			
+			<cue time="21.5" person="B">
+				<ja><first>ならに　行きました。</first></ja>
+				<ro><first>Nara ni ikimashita.</first></ro>
+				<en><first>I went to Nara.</first></en>
+				<es><first>He ido a Nara.</first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

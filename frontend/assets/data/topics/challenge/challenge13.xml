@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="3" num="13">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>ひるごはんを どこで いっしょに たべるか ともだちと はなします</ja>
+			<ro>Hiru-gohan o doko de issho ni taberu ka tomodachi to hanashimasu</ro>
+			<en>Talk with a friend about where to go for lunch</en>
+			<es>Habla con un amigo sobre adónde iréis a comer</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/13/manual1.png"/>
+		<img src="swf/can-do/asset/13/manual2.png"/>
+		<img src="swf/can-do/asset/13/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>ひるごはんの　そうだん</ja>
+			<en>Discussing lunch</en>
+			<es>Decidir sobre la comida</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/13/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/13/p_thumb1.jpg" src="./asset/13/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>ひるやすみに　なりました。</first></ja>
+				<ro><first>Hiru-yasumi ni narimashita.</first></ro>
+				<en><first>It's lunchtime.</first></en>
+				<es><first>Es la hora de comer.</first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) まつもと:</first><second>きょうは　どこで　食べますか。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Kyoo wa doko de tabemasu ka.</second></ro>
+				<en><first>A) Matsumoto:</first><second>Where shall we have lunch today?</second></en>
+				<es><first>A) Matsumoto:</first><second>¿Dónde comeremos hoy?</second></es>
+			</cue>
+
+			
+			<cue time="7.6" person="B">
+				<ja><first>B) かわさき:</first><second>そうですね…。あの　みせで　食べましょう。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Soo desu ne…. Ano mise de tabemashoo.</second></ro>
+				<en><first>B) Kawasaki:</first><second>Hmm…. Let's eat at that place.</second></en>
+				<es><first>B) Kawasaki:</first><second>Humm... Vamos a comer allí. </second></es>
+			</cue>
+
+			
+			<cue time="12.8" person="A">
+				<ja><first>A) まつもと:</first><second>ラーメンですか。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Raamen desu ka.</second></ro>
+				<en><first>A) Matsumoto:</first><second>A ramen restaurant?</second></en>
+				<es><first>A) Matsumoto:</first><second>¿Un restaurante de <![CDATA[ <i>ramen</i>]]>?</second></es>
+			</cue>
+
+			
+			<cue time="14.0" person="B">
+				<ja><first>B) かわさき:</first><second>はい。あの　みせは　おいしいですよ。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Hai. Ano mise wa oishii desu yo.</second></ro>
+				<en><first>B) Kawasaki:</first><second>Yes. That place is delicious.</second></en>
+				<es><first>B) Kawasaki:</first><second>Sí. Ese lugar es muy rico.</second></es>
+			</cue>
+
+			
+			<cue time="17.0" person="A">
+				<ja><first>A) まつもと:</first><second>じゃ、そうしましょう。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Ja, soo shimashoo.</second></ro>
+				<en><first>A) Matsumoto:</first><second>Well then, let's go there.</second></en>
+				<es><first>A) Matsumoto:</first><second>Entonces, vamos allí.</second></es>
+			</cue>
+
+					
+			<cue time="116.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/13/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさんと　ひるごはんを　食べます。どこで　食べるか　きめましょう。</first></ja>
+				<ro><first>Mai-san to hiru-gohan o tabemasu. Doko de taberu ka kimemashoo.</first></ro>
+				<en><first>You'll eat lunch with Mai. Decide where you'll eat.</first></en>
+				<es><first>Vas a comer con Mai. Decide dónde vais a comer.</first></es>
+			</cue>
+
+			
+			<cue time="11.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="12.0" person="B">
+				<ja><first>おひるですね。</first></ja>
+				<ro><first>Ohiru desu ne.</first></ro>
+				<en><first>It's lunch time, huh?</first></en>
+				<es><first>Ya es la hora de comer, ¿no?</first></es>
+			</cue>
+
+			
+			<cue time="16.0" person="A">
+				<ja><first>どこで　食べるか　はなしましょう。</first></ja>
+				<ro><first>Doko de taberu ka hanashimashoo.</first></ro>
+				<en><first>Talk about where you'll eat lunch.</first></en>
+				<es><first>Habla sobre dónde comer.</first></es>
+			</cue>
+
+			
+			<cue time="21.0" person="B">
+				<ja><first>(きょうは) どこで　食べますか。</first></ja>
+				<ro><first>(Kyoo wa) doko de tabemasu ka.</first></ro>
+				<en><first>Where shall we eat (today) ?</first></en>
+				<es><first>¿Dónde comeremos hoy?</first></es>
+			</cue>
+
+			
+			<cue time="27.0" person="A">
+				<ja><first>この　みせに　しましょう。おいしいですよ。</first></ja>
+				<ro><first>Kono mise ni shimashoo. Oishii desu yo.</first></ro>
+				<en><first>Let's eat at this place. It's delicious.</first></en>
+				<es><first>Vamos a comer aquí. Es muy rico.</first></es>
+			</cue>
+
+			
+			<cue time="32.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="41.0" person="A">
+				<ja><first>この　みせで　食べましょう。</first></ja>
+				<ro><first>Kono mise de tabemashoo.</first></ro>
+				<en><first>Let's eat there.</first></en>
+				<es><first>Vamos a comer aquí.</first></es>
+			</cue>
+
+			
+			<cue time="46.0" person="B">
+				<ja><first>じゃ、そうしましょう。</first></ja>
+				<ro><first>Ja, soo shimashoo.</first></ro>
+				<en><first>Okay, let's do that.</first></en>
+				<es><first>Vale. Vamos.</first></es>
+			</cue>
+
+			
+			<cue time="50.0" person="A">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

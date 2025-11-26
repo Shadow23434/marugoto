@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="9" num="49">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>りょこうの とき なにを したか はなします</ja>
+			<ro>Ryokoo no toki nani o shita ka hanashimasu</ro>
+			<en>Say what you did on your travels</en>
+			<es>Cuenta lo que hiciste durante tu viaje</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/49/manual1.png"/>
+		<img src="swf/can-do/asset/49/manual2.png"/>
+		<img src="swf/can-do/asset/49/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>りょこうの　ときに　したこと</ja>
+			<en>Things you did on a trip</en>
+			<es>Cosas que hiciste en un viaje</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/49/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/49/p_thumb1.jpg" src="./asset/49/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>サラさんは　休みに　きょうとに　行きました。</first></ja>
+				<ro><first>Sara-san wa yasumi ni Kyooto ni ikimashita.</first></ro>
+				<en><first>Sara went to Kyoto in the holidays.</first></en>
+				<es><first>Sara ha ido a Kioto en las vacaciones. </first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) サラ:</first><second>せんせい、休みに　きょうとに　行きました。</second></ja>
+				<ro><first>A) Sara:</first><second>Sensee, yasumi ni kyooto ni ikimashita.</second></ro>
+				<en><first>A) Sara:</first><second>Ms Matsumoto, I went to Kyoto in the holidays.</second></en>
+				<es><first>A) Sara:</first><second>Srta. Matsumoto, he ido a Kioto en las vacaciones. </second></es>
+			</cue>
+
+			<cue time="8.6" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+			<cue time="8.8" person="A">
+				<ja><first>A) サラ:</first><second>これ、おみやげです。どうぞ。</second></ja>
+				<ro><first>A) Sara:</first><second>Kore, omiyage desu. Doozo.</second></ro>
+				<en><first>A) Sara:</first><second>This is a souvenir for you. Here you are.</second></en>
+				<es><first>A) Sara:</first><second>Éste es un recuerdo para usted. Aquí lo tiene. </second></es>
+			</cue>
+
+			
+			<cue time="11.3" person="B">
+				<ja><first>B) まつもと:</first><second>ありがとうございます。</second></ja>
+				<ro><first>B) Matsumoto:</first><second>Arigatoo gozaimasu.</second></ro>
+				<en><first>B) Matsumoto:</first><second>Thank you very much.</second></en>
+				<es><first>B) Matsumoto:</first><second>Muchas gracias.</second></es>
+			</cue>
+
+			<cue time="13.8" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+			<cue time="14.0" person="B">
+				<ja><first>B) まつもと:</first><second>きょうとで　なにを　しましたか。</second></ja>
+				<ro><first>B) Matsumoto:</first><second>Kyooto de nani o shimashita ka.</second></ro>
+				<en><first>B) Matsumoto:</first><second>What did you do in Kyoto?</second></en>
+				<es><first>B) Matsumoto:</first><second>¿Qué hiciste en Kioto?</second></es>
+			</cue>
+
+			
+			<cue time="15.1" person="A">
+				<ja><first>A) サラ:</first><second>たくさん　おてらを　見ました。</second></ja>
+				<ro><first>A) Sara:</first><second>Takusan otera o mimashita.</second></ro>
+				<en><first>A) Sara:</first><second>I saw lots of temples.</second></en>
+				<es><first>A) Sara:</first><second>He visto muchos templos. </second></es>
+			</cue>
+
+			
+			<cue time="17.3" person="B">
+				<ja><first>B) まつもと:</first><second>へえ、どうでしたか。</second></ja>
+				<ro><first>B) Matsumoto:</first><second>Hee, doo deshita ka.</second></ro>
+				<en><first>B) Matsumoto:</first><second>Oh, how was it?</second></en>
+				<es><first>B) Matsumoto:</first><second>¿Ah, sí?, y ¿qué tal?</second></es>
+			</cue>
+
+			
+			<cue time="19.3" person="A">
+				<ja><first>A) サラ:</first><second>すばらしかったです。</second></ja>
+				<ro><first>A) Sara:</first><second>Subarashikatta desu.</second></ro>
+				<en><first>A) Sara:</first><second>It was wonderful.</second></en>
+				<es><first>A) Sara:</first><second>Fue maravilloso. </second></es>
+			</cue>
+
+			
+			<cue time="20.7" person="B">
+				<ja><first>B) まつもと:</first><second>そうですか。よかったですね。</second></ja>
+				<ro><first>B) Matsumoto:</first><second>Soo desu ka. Yokatta desu ne.</second></ro>
+				<en><first>B) Matsumoto:</first><second>Really? I'm glad.</second></en>
+				<es><first>B) Matsumoto:</first><second>Bueno, me alegro. </second></es>
+			</cue>
+
+					
+			<cue time="23.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/49/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まえの　休みに　ならに　行きました。きむらさんと　話しましょう。</first></ja>
+				<ro><first>Mae no yasumi ni Nara ni ikimashita. Kimura-san to hanashimashoo.</first></ro>
+				<en><first>You went to Nara on your day off recently. Tell Mr. Kimura about it.</first></en>
+				<es><first>Fuiste a Nara en tu anterior descanso. Habla con el Sr. Kimura sobre cómo te fue. </first></es>
+			</cue>
+
+			
+			<cue time="10.5" person="A">
+				<ja><first>休みに　なにを　しましたか。</first></ja>
+				<ro><first>Yasumi ni nani o shimashita ka.</first></ro>
+				<en><first>What did you do on your day off?</first></en>
+				<es><first>¿Qué hicisite en tu descanso?</first></es>
+			</cue>
+
+			
+			<cue time="16.0" person="A">
+				<ja><first>どこに　行ったか　言いましょう。</first></ja>
+				<ro><first>Doko ni itta ka iimashoo.</first></ro>
+				<en><first>Say where you went.</first></en>
+				<es><first>Di a dónde has ido. </first></es>
+			</cue>
+
+			
+			<cue time="21.5" person="B">
+				<ja><first>ならに　行きました。</first></ja>
+				<ro><first>Nara ni ikimashita.</first></ro>
+				<en><first>I went to Nara.</first></en>
+				<es><first>He ido a Nara.</first></es>
+			</cue>
+
+			
+			<cue time="25.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="29.0" person="A">
+				<ja><first>どうも　ありがとう。ならで　なにを　しましたか。</first></ja>
+				<ro><first>Doomo arigatoo. Nara de nani o shimashita ka.</first></ro>
+				<en><first>Thank you very much! What did you do in Nara?</first></en>
+				<es><first>Muchas gracias. ¿Qué hiciste en Nara?</first></es>
+			</cue>
+
+			
+			<cue time="35.5" person="B">
+				<ja><first>れい: しかせんべいを　買いました。しかに　おかしを　あげました。</first></ja>
+				<ro><first>Ree: Shika-senbee o kaimashita. Shika ni okashi o agemashita.</first></ro>
+				<en><first>E.g: I bought "deer crackers." I gave some snacks to the deer.</first></en>
+				<es><first>Ejm: Compré "galletas para venados". Di unas galletas a los venados. </first></es>
+			</cue>
+
+			
+			<cue time="38.0" person="B">
+				<ja><first>れい: おみやげを　買いました。 / おてらを　見ました。</first></ja>
+				<ro><first>Ree: Omiyage o kaimashita./Otera o mimashita.</first></ro>
+				<en><first>E.g: I bought some souvenirs./I saw some temples.</first></en>
+				<es><first>Ejm: Compré unos recuerdos. / Vi unos templos. </first></es>
+			</cue>
+
+			
+			<cue time="43.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

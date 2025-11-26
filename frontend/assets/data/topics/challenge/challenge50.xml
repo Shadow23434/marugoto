@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="9" num="50">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>つぎの りょこうは どこに いきたいか いいます</ja>
+			<ro>Tsugi no ryokoo wa doko ni ikitai ka iimasu</ro>
+			<en>Say where you want to go next time</en>
+			<es>Di adónde te gustaría ir la próxima vez</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/50/manual1.png"/>
+		<img src="swf/can-do/asset/50/manual2.png"/>
+		<img src="swf/can-do/asset/50/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>つぎに　行きたい　ところ</ja>
+			<en>Where you want to go next</en>
+			<es>A dónde quieres ir la próxima vez</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/50/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/50/p_thumb1.jpg" src="./asset/50/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>まえの　休みに　サラさんは　きょうとに　行きました。</first></ja>
+				<ro><first>Mae no yasumi ni Sara-san wa Kyooto ni ikimashita.</first></ro>
+				<en><first>Last weekend Sara went to Kyoto.</first></en>
+				<es><first>En las vacaciones pasadas, Sara fue a Kioto. </first></es>
+			</cue>
+
+			
+			<cue time="4.6" person="A">
+				<ja><first>A) まつもと:</first><second>つぎの　りょこうは　どこに　行きたいですか。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Tsugi no ryokoo wa doko ni ikitai desu ka.</second></ro>
+				<en><first>A) Matsumoto:</first><second>Where do you want to go for your next trip?</second></en>
+				<es><first>A) Matsumoto:</first><second>¿A dónde te gustaría ir en el próximo viaje?</second></es>
+			</cue>
+
+			
+			<cue time="8.2" person="B">
+				<ja><first>B) サラ:</first><second>そうですね。つぎは　おきなわに　行きたいです。</second></ja>
+				<ro><first>B) Sara:</first><second>Soo desu ne. Tsugi wa Okinawa ni ikitai desu.</second></ro>
+				<en><first>B) Sara:</first><second>Let me see… Next time I want to go to Okinawa.</second></en>
+				<es><first>B) Sara:</first><second>A ver... Me gustaría conocer Okinawa. </second></es>
+			</cue>
+
+			
+			<cue time="12.3" person="A">
+				<ja><first>A) まつもと:</first><second>そうですか。おきなわは　きれいですよ。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Soo desu ka. Okinawa wa kiree desu yo.</second></ro>
+				<en><first>A) Matsumoto:</first><second>Really? You know, Okinawa is beautiful.</second></en>
+				<es><first>A) Matsumoto:</first><second>Ah, sí. Okinawa es muy bonito. </second></es>
+			</cue>
+
+			
+			<cue time="16.0" person="A">
+				<ja><first>A) まつもと:</first><second>きょねん　行きました。とても　よかったです。</second></ja>
+				<ro><first>A) Matsumoto:</first><second>Kyonen ikimashita. Totemo yokatta desu.</second></ro>
+				<en><first>A) Matsumoto:</first><second>I went there last year. It was really good.</second></en>
+				<es><first>A) Matsumoto:</first><second>Yo fui el año pasado y me gustó mucho. </second></es>
+			</cue>
+
+			
+			<cue time="18.5" person="B">
+				<ja><first>B) サラ:</first><second>へえー。</second></ja>
+				<ro><first>B) Sara:</first><second>Hee.</second></ro>
+				<en><first>B) Sara:</first><second>Ooh.</second></en>
+				<es><first>B) Sara:</first><second>¿Ah, sí? </second></es>
+			</cue>
+
+					
+			<cue time="20.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/50/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="m">
+				<ja><first>まえの　休みは　ならに　行きました。つぎは　どこに　行きたいですか。</first></ja>
+				<ro><first>Mae no yasumi wa Nara ni ikimashita. Tsugi wa doko ni ikitai desu ka.</first></ro>
+				<en><first>You went to Nara on your day off recently. Where do you want to go next time? </first></en>
+				<es><first>Visitaste Nara en tu anterior día de descanso. ¿A dónde quieres ir la próxima vez? </first></es>
+			</cue>
+
+			
+			<cue time="10.5" person="A">
+				<ja><first>つぎは　どこに　行きたいですか。</first></ja>
+				<ro><first>Tsugi wa doko ni ikitai desu ka.</first></ro>
+				<en><first>Where do you want to go next?</first></en>
+				<es><first>¿A dónde quieres ir la próxima vez?</first></es>
+			</cue>
+
+			
+			<cue time="14.8" person="B">
+				<ja><first>れい: きょうとに　行きたいです。</first></ja>
+				<ro><first>Ree: Kyooto ni ikitai desu.</first></ro>
+				<en><first>E.g: I want to go to Kyoto.</first></en>
+				<es><first>Ejm: Quiero ir a Kioto. </first></es>
+			</cue>
+
+			
+			<cue time="20.0" person="A">
+				<ja><first>そうですか。つぎは　わたしも　行きたいです。</first></ja>
+				<ro><first>Soo desu ka. Tsugi wa watashi mo ikitai desu.</first></ro>
+				<en><first>Really? I want to go too.</first></en>
+				<es><first>¿Ah, sí? La próxima, yo también quiero ir. </first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

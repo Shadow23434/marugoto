@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="6" num="28">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>しゅみについて はなします</ja>
+			<ro>Shumi ni tsuite hanashimasu</ro>
+			<en>Talk about your hobbies</en>
+			<es>Habla de tus aficiones</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/28/manual1.png"/>
+		<img src="swf/can-do/asset/28/manual2.png"/>
+		<img src="swf/can-do/asset/28/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>しゅみ</ja>
+			<en>Hobbies/Interests</en>
+			<es>Hobbies/aficiones</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/28/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/28/p_thumb1.jpg" src="./asset/28/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>はやしさんの　いえで　話して　います。</first></ja>
+				<ro><first>Hayashi-san no ie de hanashite imasu.</first></ro>
+				<en><first>Talking at Ms Hayashi's house.</first></en>
+				<es><first>Hablando en la casa de la Sra. Hayashi.</first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) やまざき:</first><second>おー。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Oo.</second></ro>
+				<en><first>A) Yamazaki:</first><second>Oooh…</second></en>
+				<es><first>A) Yamazaki:</first><second>Ooh...</second></es>
+			</cue>
+
+			
+			<cue time="7.6" person="B">
+				<ja><first>B) はやし:</first><second>はい。わたしは　どくしょが　すきです。</second></ja>
+				<ro><first>B) Hayashi:</first><second>Hai. Watashi wa dokusho ga suki desu.</second></ro>
+				<en><first>B) Hayashi:</first><second>Yes. I like reading.</second></en>
+				<es><first>B) Hayashi:</first><second>Sí. Me gusta leer.</second></es>
+			</cue>
+
+			
+			<cue time="10.8" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="11.0" person="B">
+				<ja><first>B) はやし:</first><second>やまざきさんの　しゅみは　なんですか。</second></ja>
+				<ro><first>B) Hayashi:</first><second>Yamazaki-san no shumi wa nan desu ka.</second></ro>
+				<en><first>B) Hayashi:</first><second>What's your hobby, Mr Yamazaki?</second></en>
+				<es><first>B) Hayashi:</first><second>¿Cuál es su hobby, Sr. Yamazaki? </second></es>
+			</cue>
+
+			
+			<cue time="14.0" person="A">
+				<ja><first>A) やまざき:</first><second>おんがくです。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Ongaku desu.</second></ro>
+				<en><first>A) Yamazaki:</first><second>Music.</second></en>
+				<es><first>A) Yamazaki:</first><second>La música.</second></es>
+			</cue>
+
+			
+			<cue time="15.0" person="B">
+				<ja><first>B) はやし:</first><second>どんな　おんがくが　すきですか。</second></ja>
+				<ro><first>B) Hayashi:</first><second>Donna ongaku ga suki desu ka.</second></ro>
+				<en><first>B) Hayashi:</first><second>What kind of music do you like?</second></en>
+				<es><first>B) Hayashi:</first><second>¿Qué tipo de música le gusta?</second></es>
+			</cue>
+
+			
+			<cue time="18.0" person="A">
+				<ja><first>A) やまざき:</first><second>ジャズが　すきです。</second></ja>
+				<ro><first>A) Yamazaki:</first><second>Jazu ga suki desu.</second></ro>
+				<en><first>A) Yamazaki:</first><second>I like jazz.</second></en>
+				<es><first>A) Yamazaki:</first><second>Me gusta el jazz.</second></es>
+			</cue>
+
+			
+			<cue time="19.8" person="B">
+				<ja><first>B) はやし:</first><second>そうですか。</second></ja>
+				<ro><first>B) Hayashi:</first><second>Soo desu ka. </second></ro>
+				<en><first>B) Hayashi:</first><second>Oh, really?</second></en>
+				<es><first>B) Hayashi:</first><second>¿Ah, sí?</second></es>
+			</cue>
+
+					
+			<cue time="22.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/28/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="A">
+				<ja><first>しゅみの　はなしを　しましょう。</first></ja>
+				<ro><first>Shumi no hanashi o shimashoo.</first></ro>
+				<en><first>Talk about your hobbies.</first></en>
+				<es><first>Habla sobre tu hobby.</first></es>
+			</cue>
+
+			
+			<cue time="6.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="8.0" person="A">
+				<ja><first>あ、これですか?　わたしは　どくしょが　だいすきです。</first></ja>
+				<ro><first>A, kore desu ka? Watashi wa dokusho ga daisuki desu. </first></ro>
+				<en><first>Ah, this? I love reading. </first></en>
+				<es><first>Ah, ¿éste? Me encanta leer.</first></es>
+			</cue>
+
+			
+			<cue time="15.0" person="A">
+				<ja><first>しゅみは　なんですか。</first></ja>
+				<ro><first>Shumi wa nan desu ka.</first></ro>
+				<en><first>What's your hobby?</first></en>
+				<es><first>¿Cuál es tu hobby?</first></es>
+			</cue>
+
+			
+			<cue time="19.5" person="B">
+				<ja><first>れい: スポーツが　すきです。 / サッカーが　すきです。 / えいがです。</first></ja>
+				<ro><first>Ree: Supootsu ga suki desu./Sakkaa ga suki desu./Eega desu.</first></ro>
+				<en><first>E.g: I like sports./I like soccer./I like movies.</first></en>
+				<es><first>Ejm: Me gustan los deportes./Me gusta el fútbol./Me gusta el cine.</first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="A">
+				<ja><first>そうですか。</first></ja>
+				<ro><first>Soo desu ka.</first></ro>
+				<en><first>Oh, really?</first></en>
+				<es><first>Ah, ¿sí?</first></es>
+			</cue>
+
+			
+			<cue time="28.0" person="A">
+				<ja><first>これ　どうぞ。</first></ja>
+				<ro><first>Kore doozo.</first></ro>
+				<en><first>Here you are.</first></en>
+				<es><first>Aquí tienes.</first></es>
+			</cue>
+
+			
+			<cue time="33.0" person="A">
+				<ja><first>まいさんの　しゅみを　聞きましょう。</first></ja>
+				<ro><first>Mai-san no shumi o kikimashoo.</first></ro>
+				<en><first>Ask Mai what her hobby is.</first></en>
+				<es><first>Pregunta a Mai cuál es su hobby.</first></es>
+			</cue>
+
+			
+			<cue time="38.0" person="B">
+				<ja><first>まいさんの　しゅみは　なんですか。</first></ja>
+				<ro><first>Mai-san no shumi wa nan desu ka.</first></ro>
+				<en><first>What's your hobby, Mai?</first></en>
+				<es><first>¿Cuál es tu hobby, Mai?</first></es>
+			</cue>
+
+			
+			<cue time="43.0" person="A">
+				<ja><first>わたし?　えーと、えいがが　すきです。</first></ja>
+				<ro><first>Watashi? Eeto, eega ga suki desu.</first></ro>
+				<en><first>Me? Um, I like movies.</first></en>
+				<es><first>¿El mío? Pues, me gusta el cine.</first></es>
+			</cue>
+
+			
+			<cue time="51.7" person="">
+				<ja><first>どんな　えいがが　すきか　聞きましょう。</first></ja>
+				<ro><first>Donna eega ga suki ka kikimashoo.</first></ro>
+				<en><first>Ask her what kind of movies she likes.</first></en>
+				<es><first>Pregúntale qué tipo de películas le gustan.</first></es>
+			</cue>
+
+			
+			<cue time="55.5" person="B">
+				<ja><first>どんな　えいがが　すきですか。</first></ja>
+				<ro><first>Donna eega ga suki desu ka.</first></ro>
+				<en><first>What kind of movies do you like?</first></en>
+				<es><first>¿Qué tipo de películas te gustan?</first></es>
+			</cue>
+
+			
+			<cue time="61.5" person="A">
+				<ja><first>コメディが　すきです。</first></ja>
+				<ro><first>Komedhi ga suki desu.</first></ro>
+				<en><first>I like comedies.</first></en>
+				<es><first>Me gusta la comedia.</first></es>
+			</cue>
+
+			
+			<cue time="64.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

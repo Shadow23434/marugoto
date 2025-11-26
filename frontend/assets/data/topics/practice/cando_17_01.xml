@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="4" num="17">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>いえに なにが あるか いいます</ja>
+			<ro>Ie ni nani ga aru ka iimasu</ro>
+			<en>Say what you have in your house</en>
+			<es>Describe qué tienes en casa</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/17/manual1.png"/>
+		<img src="swf/can-do/asset/17/manual2.png"/>
+		<img src="swf/can-do/asset/17/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>いえに　あるもの</ja>
+			<en>Things in the house</en>
+			<es>Cosas en la casa</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/17/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/17/p_thumb1.jpg" src="./asset/17/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="m">
+				<ja><first>きむらさんの　いえについて　ききます。</first></ja>
+				<ro><first>Kimura-san no ie ni tsuite kikimasu.</first></ro>
+				<en><first>Asking Mr Kimura about his house.</first></en>
+				<es><first>Preguntar al Sr. Kimura sobre su casa.</first></es>
+			</cue>
+
+			
+			<cue time="5.8" person="A">
+				<ja><first>A) ききて:</first><second>きむらさんの　いえに　なにが　ありますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Kimura-san no ie ni nani ga arimasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>What do you have in your house, Mr Kimura?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Qué tienen en su casa, Sr. Kimura?</second></es>
+			</cue>
+
+			
+			<cue time="8.9" person="B">
+				<ja><first>B) きむら:</first><second>わたしの　いえには　へやが　5つ　あります。</second></ja>
+				<ro><first>B) Kimura:</first><second>Watashi no ie ni wa heya ga itsutsu arimasu.</second></ro>
+				<en><first>B) Kimura:</first><second>Um, there are 5 rooms in my place.</second></en>
+				<es><first>B) Kimura:</first><second>Hay cinco habitaciones en mi casa. </second></es>
+			</cue>
+
+			
+			<cue time="12.4" person="A">
+				<ja><first>A) ききて:</first><second>へぇ、ひろいですね。へやに　なにが　ありますか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Hee, hiroi desu ne. Heya ni nani ga arimasu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>Oh, it's spacious isn't it! What do you have in your room?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¡Caramba! Es espaciosa, ¿no? ¿Qué tiene en su habitación?</second></es>
+			</cue>
+
+			
+			<cue time="17.4" person="B">
+				<ja><first>B) きむら:</first><second>えーと、ソファと　テレビが　あります。おおきい　テーブルも　ありますよ。</second></ja>
+				<ro><first>B) Kimura:</first><second>Eeto, sofa to terebi ga arimasu. Ookii teeburu mo arimasu yo.</second></ro>
+				<en><first>B) Kimura:</first><second>There's a sofa and a TV. There's a big table too.</second></en>
+				<es><first>B) Kimura:</first><second>Hay un sofá y un televisor. También hay una mesa grande. </second></es>
+			</cue>
+
+			
+			<cue time="23.6" person="A">
+				<ja><first>A) ききて:</first><second>わぁ、いいですね。</second></ja>
+				<ro><first>A) Kikite:</first><second>Waa, ii desu ne.</second></ro>
+				<en><first>A) Interviewer:</first><second>Wow, it sounds great!</second></en>
+				<es><first>A) Entrevistadora:</first><second>¡Hala! Suena muy bien.</second></es>
+			</cue>
+
+					
+			<cue time="27.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/16/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>まいさん、たいちくんに　あなたの　いえについて　はなしましょう。</first></ja>
+				<ro><first>Mai-san, Taichi-kun ni anata no ie ni tsuite hanashimashoo.</first></ro>
+				<en><first>Tell Mai and Taichi about your house.</first></en>
+				<es><first>Háblales a Mai y a Taichi sobre tu casa.</first></es>
+			</cue>
+
+			
+			<cue time="10.5" person="A">
+				<ja><first>くにでは　どんな　いえに　すんで　いますか。</first></ja>
+				<ro><first>Kuni de wa donna ie ni sunde imasu ka.</first></ro>
+				<en><first>What's your house in your home country like?</first></en>
+				<es><first>¿Cómo es tu casa en tu país?</first></es>
+			</cue>
+
+			
+			<cue time="16.0" person="B">
+				<ja><first>れい: マンションに　すんで　います。あたらしいです。大きい　テレビが　あります。</first></ja>
+				<ro><first>Ree: Manshon ni sunde imasu. Atarashii desu. Ookii terebi ga arimasu.</first></ro>
+				<en><first>E.g: I live in an apartment house./It's a new house./We have a big TV.</first></en>
+				<es><first>Ejm: Yo vivo en un piso./Es nuevo./Tiene un televisor grande.</first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="A">
+				<ja><first>へぇ、そうですか。</first></ja>
+				<ro><first>Hee, soo desu ka.</first></ro>
+				<en><first>Oh, really?</first></en>
+				<es><first>¿Ah, sí?</first></es>
+			</cue>
+
+			
+			<cue time="29.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

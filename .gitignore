@@ -1,0 +1,81 @@
+# .gitignore for marugoto project
+
+# Gradle
+.gradle/
+**/build/
+/build/
+
+# Gradle wrapper
+gradle-wrapper.jar
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+workspace.xml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.keystore
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Frontend build outputs
+frontend/dist/
+frontend/build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Environment
+.env
+.env.*
+local.properties
+
+# Docker
+docker-compose.override.yml
+
+# Coverage
+coverage/
+*.lcov
+
+# Misc
+*.swp
+*~
+
+# Ignore IDE run configs and local settings
+.idea/*workspace.xml
+.idea/*tasks.xml
+.idea/dictionaries/
+
+# Allow keeping lockfiles and important project files
+!package.json
+!yarn.lock
+!package-lock.json
+
+# Project-specific
+backend/*.jar
+
+# Keep by exception - if you want to track specific files, remove their lines above
+

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="7" num="35">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>もくてきちまで どうやって いくか はなします</ja>
+			<ro>Mokutekichi made doo yatte iku ka hanashimasu</ro>
+			<en>Say how to get to a particular destination</en>
+			<es>Explica cómo llegar a un lugar determinado</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/35/manual1.png"/>
+		<img src="swf/can-do/asset/35/manual2.png"/>
+		<img src="swf/can-do/asset/35/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>もくてきちまでの　いきかた</ja>
+			<en>How to get to your destination</en>
+			<es>Cómo llegar al destino</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/35/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/35/p_thumb1.jpg" src="./asset/35/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>ダンさんは　けんどうを　見に　いきます。</first></ja>
+				<ro><first>Dan-san wa kendoo o mi ni ikimasu.</first></ro>
+				<en><first>Dan will go to watch kendo.</first></en>
+				<es><first>Dan va a ir a ver el kendo.</first></es>
+			</cue>
+
+			
+			<cue time="7.0" person="A">
+				<ja><first>A) ダン:</first><second>あ、かわさきせんせい!</second></ja>
+				<ro><first>A) Dan:</first><second>A, Kawasaki-sensee!</second></ro>
+				<en><first>A) Dan:</first><second>Ah, Ms Kawasaki.</second></en>
+				<es><first>A) Dan:</first><second>Ah, Sra. Kawasaki.</second></es>
+			</cue>
+
+			
+			<cue time="9.1" person="B">
+				<ja><first>B) かわさき:</first><second>はい。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Hai.</second></ro>
+				<en><first>B) Kawasaki:</first><second>Yes.</second></en>
+				<es><first>B) Kawasaki:</first><second>Sí. </second></es>
+			</cue>
+
+			
+			<cue time="10.0" person="A">
+				<ja><first>A) ダン:</first><second>JFスポーツセンターは　どこに　ありますか。</second></ja>
+				<ro><first>A) Dan:</first><second>JF-Supootsu-Sentaa wa doko ni arimasu ka.</second></ro>
+				<en><first>A) Dan:</first><second>Where's the JF Sports Centre?</second></en>
+				<es><first>A) Dan:</first><second>¿Dónde queda el JF Sports Center?</second></es>
+			</cue>
+
+			
+			<cue time="13.8" person="B">
+				<ja><first>B) かわさき:</first><second>みさきえきの　ちかくです。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Misaki-Eki no chikaku desu.</second></ro>
+				<en><first>B) Kawasaki:</first><second>It's near Misaki station.</second></en>
+				<es><first>B) Kawasaki:</first><second>Es cerca de la estación de Misaki.</second></es>
+			</cue>
+
+			
+			<cue time="15.7" person="A">
+				<ja><first>A) ダン:</first><second>そうですか。みさきえきまで　どうやって　いきますか。</second></ja>
+				<ro><first>A) Dan:</first><second>Soo desu ka. Misaki-Eki made doo yatte ikimasu ka.</second></ro>
+				<en><first>A) Dan:</first><second>I see. How do I get to Misaki station?</second></en>
+				<es><first>A) Dan:</first><second>¿Ah, sí? ¿Cómo se llega hasta la estación de Misaki?</second></es>
+			</cue>
+
+			
+			<cue time="20.0" person="B">
+				<ja><first>B) かわさき:</first><second>ダンさんの　うちは　いずみえきの　ちかくですね。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Dan-san no uchi wa Izumi-Eki no chikaku desu ne.</second></ro>
+				<en><first>B) Kawasaki:</first><second>Dan, your house is near Izumi station, isn't it?</second></en>
+				<es><first>B) Kawasaki:</first><second>Dan, tu casa está cerca de la estación de Izumi, ¿verdad?</second></es>
+			</cue>
+
+			
+			<cue time="23.5" person="A">
+				<ja><first>A) ダン:</first><second>はい。</second></ja>
+				<ro><first>A) Dan:</first><second>Hai.</second></ro>
+				<en><first>A) Dan:</first><second>Yes.</second></en>
+				<es><first>A) Dan:</first><second>Sí. </second></es>
+			</cue>
+
+			
+			<cue time="24.7" person="B">
+				<ja><first>B) かわさき:</first><second>いずみえきから　でんしゃが　いいですよ。べんりですから。</second></ja>
+				<ro><first>B) Kawasaki:</first><second>Izumi-Eki kara densha ga ii desu yo. Benri desu kara.</second></ro>
+				<en><first>B) Kawasaki:</first><second>From Izumi station it's best to take the train. It's convenient.</second></en>
+				<es><first>B) Kawasaki:</first><second>Lo mejor es ir en tren desde la estación de Izumi. Es muy cómodo. 
+</second></es>
+			</cue>
+
+			
+			<cue time="28.5" person="A">
+				<ja><first>A) ダン:</first><second>そうですか。わかりました。</second></ja>
+				<ro><first>A) Dan:</first><second>Soo desu ka. Wakarimashita.</second></ro>
+				<en><first>A) Dan:</first><second>Really? Okay.</second></en>
+				<es><first>A) Dan:</first><second>Ah, sí. Vale. </second></es>
+			</cue>
+
+					
+			<cue time="31.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/35/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>みなとホールへの　いきかたが　わかりません。おしえて　もらいましょう。</first></ja>
+				<ro><first>Minato-Hooru e no ikikata ga wakarimasen. Oshiete moraimashoo.</first></ro>
+				<en><first>You don't know how to get to Minato Hall. Let's ask them.</first></en>
+				<es><first>No sabes cómo llegar a Minato Hall. Vamos a preguntar a alguien.</first></es>
+			</cue>
+
+			
+			<cue time="10.0" person="B">
+				<ja><first>きものショーは　みなとホールで　あります。</first></ja>
+				<ro><first>Kimono-shoo wa Minato-Hooru de arimasu.</first></ro>
+				<en><first>The kimono show is at Minato Hall.</first></en>
+				<es><first>El espectáculo de quimonos va a ser en Minato Hall.</first></es>
+			</cue>
+
+			
+			<cue time="17.5" person="A">
+				<ja><first>どうやって　いくか　聞きましょう。</first></ja>
+				<ro><first>Dooyatte iku ka kikimashoo.</first></ro>
+				<en><first>Ask how to get there.</first></en>
+				<es><first>Pregunta cómo llegar allí. </first></es>
+			</cue>
+
+			
+			<cue time="22.7" person="B">
+				<ja><first>みなとホールまで　どうやって　いきますか。</first></ja>
+				<ro><first>Minato-Hooru made doo yatte ikimasu ka.</first></ro>
+				<en><first>How can I get to Minato Hall?</first></en>
+				<es><first>¿Cómo se va hasta Minato Hall?</first></es>
+			</cue>
+
+			
+			<cue time="27.5" person="A">
+				<ja><first>タクシーが　いいですよ。べんりですから。</first></ja>
+				<ro><first>Takushii ga ii desu yo. Benri desu kara.</first></ro>
+				<en><first>By taxi is the best way. It's convenient.</first></en>
+				<es><first>La mejor manera es ir en taxi. Es cómodo. </first></es>
+			</cue>
+
+			
+			<cue time="34.5" person="B">
+				<ja><first>タクシー、みなとホールまで…はい。</first></ja>
+				<ro><first>Takushii, Minato-Hooru made…hai.</first></ro>
+				<en><first>Taxi, to Minato Hall… Here you are.</first></en>
+				<es><first>Taxi, hasta Minato Hall... Aquí tienes. </first></es>
+			</cue>
+
+			
+			<cue time="42.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>

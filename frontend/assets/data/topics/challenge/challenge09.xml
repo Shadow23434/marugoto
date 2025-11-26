@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="3" num="9">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>すきな たべものが なにか はなします</ja>
+			<ro>Sukina tabemono ga nani ka hanashimasu</ro>
+			<en>Talk about your favorite foods</en>
+			<es>Habla de los alimentos que te gustan</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/09/manual1.png"/>
+		<img src="swf/can-do/asset/09/manual2.png"/>
+		<img src="swf/can-do/asset/09/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>すきな　たべもの</ja>
+			<en>Talking about what foods you like</en>
+			<es>Hablar sobre la comida que te gusta</es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/09/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/09/p_thumb1.jpg" src="./asset/09/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>ひるごはんを　食べます。</first></ja>
+				<ro><first>Hiru-gohan o tabemasu.</first></ro>
+				<en><first>Eating lunch.</first></en>
+				<es><first>Comer.</first></es>
+			</cue>
+
+			
+			<cue time="5.7" person="A">
+				<ja><first>A) かわさき:</first><second>なにが　すきですか。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Nani ga suki desu ka.</second></ro>
+				<en><first>A) Kawasaki:</first><second>What do you like?</second></en>
+				<es><first>A) Kawasaki:</first><second>¿Qué te gusta?</second></es>
+			</cue>
+
+			
+			<cue time="7.6" person="B">
+				<ja><first>B) ダン:</first><second>やさいが　すきです。</second></ja>
+				<ro><first>B) Dan:</first><second>Yasai ga suki desu.</second></ro>
+				<en><first>B) Dan:</first><second>I like vegetables.</second></en>
+				<es><first>B) Dan:</first><second>Me gustan las verduras.</second></es>
+			</cue>
+
+			
+			<cue time="8.9" person="A">
+				<ja><first>A) かわさき:</first><second>肉は?</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Niku wa?</second></ro>
+				<en><first>A) Kawasaki:</first><second>How about meat?</second></en>
+				<es><first>A) Kawasaki:</first><second>¿Y la carne?</second></es>
+			</cue>
+
+			
+			<cue time="10.2" person="B">
+				<ja><first>B) ダン:</first><second>肉は　すきじゃないです。あまり　食べません。</second></ja>
+				<ro><first>B) Dan:</first><second>Niku wa sukijanai desu. Amari tabemasen.</second></ro>
+				<en><first>B) Dan:</first><second>I don't like meat. I don't eat it much.</second></en>
+				<es><first>B) Dan:</first><second>No me gusta la carne. No como mucho. </second></es>
+			</cue>
+
+			
+			<cue time="13.5" person="A">
+				<ja><first>A) かわさき:</first><second>へえー。わたしは　魚が　すきです。</second></ja>
+				<ro><first>A) Kawasaki:</first><second>Hee. Watashi wa sakana ga suki desu.</second></ro>
+				<en><first>A) Kawasaki:</first><second>Ooh. I like fish.</second></en>
+				<es><first>A) Kawasaki:</first><second>Ah, sí. A mí me gusta el pescado. </second></es>
+			</cue>
+
+					
+			<cue time="17.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/09/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="m">
+				<ja><first>あさごはんを　食べて　います。すきな　たべものについて　はなしましょう。</first></ja>
+				<ro><first>Asa-gohan o tabete imasu. Sukina tabemono ni tsuite hanashimashoo.</first></ro>
+				<en><first>You are eating breakfast. Talk about what foods you like.</first></en>
+				<es><first>Estás desayunando. Habla sobre la comida que te gusta.</first></es>
+			</cue>
+
+			
+			<cue time="10.2" person="A">
+				<ja><first>すきな　りょうりは　なんですか。</first></ja>
+				<ro><first>Sukina ryoori wa nan desu ka.</first></ro>
+				<en><first>What kind of food do you like?</first></en>
+				<es><first>¿Qué plato de comida te gusta?</first></es>
+			</cue>
+
+			
+			<cue time="15.2" person="B">
+				<ja><first>れい: カレーが　すきです。</first></ja>
+				<ro><first>Ree: Karee ga suki desu.</first></ro>
+				<en><first>E.g: I like curry.</first></en>
+				<es><first>Ejm: Me gusta el curry.</first></es>
+			</cue>
+
+			
+			<cue time="20.7" person="A">
+				<ja><first>へぇ。じゃ、よる、食べましょう。</first></ja>
+				<ro><first>Hee. Ja, yoru, tabemashoo.</first></ro>
+				<en><first>Really? Okay, let's have that tonight.</first></en>
+				<es><first>¿En serio? Entonces, vamos a cenar eso esta noche.</first></es>
+			</cue>
+
+			
+			<cue time="25.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+
+			</cue>
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+
+			</cue>
+
+		</video>
+			
+		
+	</challenge>
+
+	<!--ここまでチャレンジ-->
+</can-do>

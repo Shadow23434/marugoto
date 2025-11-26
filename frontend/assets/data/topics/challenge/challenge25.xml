@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<can-do topic="5" num="25">
+	
+	<!--ここから共通情報-->
+	<common>
+		<!--タイトル-->
+		<title icon_type="speak"><!-- write,speak,read -->
+			<ja>いっしゅうかんの スケジュールについて はなします</ja>
+			<ro>Isshuukan no sukejuuru ni tsuite hanashimasu</ro>
+			<en>Talk about your schedule of the week</en>
+			<es>Cuenta tu plan de actividades de esta semana</es>
+		</title>
+	
+	</common>
+	<!--ここまで共通情報-->
+	
+	
+	
+	<!--ここからトップ-->
+	
+	<top>
+		<!--マニュアル画像-->
+		<img src="swf/can-do/asset/25/manual1.png"/>
+		<img src="swf/can-do/asset/25/manual2.png"/>
+		<img src="swf/can-do/asset/25/manual3.png"/>
+	</top>
+	
+	<!--ここまでトップ-->
+	<!-- ここからかくにん -->
+	
+<!-- スクロールタイプ -->
+
+	<kakunin type="scroll">
+		<midashi>
+			<ja>いっしゅうかんの　スケジュール</ja>
+			<en>The week's schedule</en>
+			<es>La agenda de la semana </es>
+		</midashi>
+		<data>
+			<path>swf/can-do/asset/25/scroll_</path>		
+		</data>
+	</kakunin>
+
+	
+	<!-- ここまでかくにん -->
+	<!-- ここかられんしゅう -->
+
+<!-- 動画タイプ -->
+	
+	<renshu type="videos">
+		<video thumb="swf/can-do/asset/25/p_thumb1.jpg" src="./asset/25/practice1_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="0.2" person="">
+				<ja><first>きむらさんに　こんしゅうの　スケジュールを　ききます。</first></ja>
+				<ro><first>Kimura-san ni konshuu no sukejuuru o kikimasu.</first></ro>
+				<en><first>Asking Mr Kimura about this week's schedule.</first></en>
+				<es><first>Preguntar al Sr. Kimura sobre su agenda de esta semana. </first></es>
+			</cue>
+
+			
+			<cue time="5.0" person="A">
+				<ja><first>A) ききて:</first><second>きむらさん、こんしゅうは　いそがしいですか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Kimura-san, konshuu wa isogashii desu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>Are you busy this week, Mr Kimura?</second></en>
+				<es><first>A) Entrevistadora:</first><second>Sr. Kimura, ¿usted está ocupado esta semana?</second></es>
+			</cue>
+
+			
+			<cue time="9.8" person="B">
+				<ja><first>B) きむら:</first><second>えーと、火よう日は　ざんぎょうします。</second></ja>
+				<ro><first>B) Kimura:</first><second>Eeeto, kayoobi wa zangyoo-shimasu.</second></ro>
+				<en><first>B) Kimura:</first><second>Umm, on Tuesday I'll work overtime.</second></en>
+				<es><first>B) Kimura:</first><second>Pues, voy a trabajar horas extra el martes. </second></es>
+			</cue>
+
+			
+			<cue time="13.5" person="B">
+				<ja><first>B) きむら:</first><second>それから、水よう日から　金よう日まで　ソウルに　いきます。</second></ja>
+				<ro><first>B) Kimura:</first><second>Sorekara, suiyoobi kara kin'yoobi made Sooru ni ikimasu.</second></ro>
+				<en><first>B) Kimura:</first><second>Then from Wednesday to Friday I'm going to Seoul.</second></en>
+				<es><first>B) Kimura:</first><second>Luego, del miércoles al viernes voy a Seúl. </second></es>
+			</cue>
+
+			
+			<cue time="17.6" person="A">
+				<ja><first>A) ききて:</first><second>ソウルですか。おしごとですか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Sooru desu ka. Oshigoto desu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>Seoul? Are you going on business?</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Seúl? ¿Usted va por el trabajo?</second></es>
+			</cue>
+
+			
+			<cue time="20.7" person="B">
+				<ja><first>B) きむら:</first><second>はい、しごとです。</second></ja>
+				<ro><first>B) Kimura:</first><second>Hai, shigoto desu.</second></ro>
+				<en><first>B) Kimura:</first><second>Yes, it's for work.</second></en>
+				<es><first>B) Kimura:</first><second>Sí, es por el trabajo. </second></es>
+			</cue>
+
+			
+			<cue time="22.8" person="A">
+				<ja><first>A) ききて:</first><second>そうですか。</second></ja>
+				<ro><first>A) Kikite:</first><second>Soo desu ka.</second></ro>
+				<en><first>A) Interviewer:</first><second>I see.</second></en>
+				<es><first>A) Entrevistadora:</first><second>¿Ah, sí?</second></es>
+			</cue>
+
+			
+			<cue time="25.0" person="B">
+				<ja><first>B) きむら:</first><second>日よう日は　つまと　テニスを　します。</second></ja>
+				<ro><first>B) Kimura:</first><second>Nichiyoobi wa tsuma to tenisu o shimasu.</second></ro>
+				<en><first>B) Kimura:</first><second>On Sunday I'll play tennis with my wife.</second></en>
+				<es><first>B) Kimura:</first><second>El domingo, voy a practicar el tenis con mi esposa. </second></es>
+			</cue>
+
+			
+			<cue time="28.0" person="B">
+				<ja><first>B) きむら:</first><second>それから、かぞくと　レストランで　しょくじを　します。</second></ja>
+				<ro><first>B) Kimura:</first><second>Sorekara, kazoku to resutoran de shokuji o shimasu.</second></ro>
+				<en><first>B) Kimura:</first><second>Then I'll have a meal with my family at a restaurant.</second></en>
+				<es><first>B) Kimura:</first><second>Luego, voy a comer con mi familia en un restaurante. </second></es>
+			</cue>
+
+					
+			<cue time="32.5" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+		</video>
+
+	</renshu>
+	
+	
+	<!--ここまでれんしゅう-->
+	<!--ここからチャレンジ-->
+	
+	<challenge type="basic">
+		<video src="./asset/25/challenge_">
+			<cue time="0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="1.0" person="A">
+				<ja><first>パーティーの　ひを　きめます。まいさんと　スケジュールを　あわせましょう。</first></ja>
+				<ro><first>Paathii no hi o kimemasu. Mai-san to sukejuuru o awasemashoo.</first></ro>
+				<en><first>You'll decide on a day for the party. Arrange your schedule to fit in with Mai's.</first></en>
+				<es><first>Vas a decidir la fecha para la fiesta. Coordina tu agenda con la de Mai.</first></es>
+			</cue>
+
+			
+			<cue time="10.5" person="B">
+				<ja><first>らいしゅう　たいちの　バースデーパーティーを　します。スケジュールは　どうですか。</first></ja>
+				<ro><first>Raishuu Taichi no baasudee-paathii o shimasu. Sukejuuru wa doo desu ka.</first></ro>
+				<en><first>Next week we'll have a birthday party for Taichi. How's your schedule looking?</first></en>
+				<es><first>La próxima semana celebramos el cumpleaños de Taichi. ¿Cómo tienes tu agenda?</first></es>
+			</cue>
+
+			
+			<cue time="18.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+			
+			<cue time="20.6" person="A">
+				<ja><first>月よう日は?</first></ja>
+				<ro><first>Getsuyoobi wa?</first></ro>
+				<en><first>How about Monday?</first></en>
+				<es><first>¿Qué tal el lunes [Monday]?</first></es>
+			</cue>
+
+			
+			<cue time="23.8" person="B">
+				<ja><first>月よう日は　8時から　えいごを　べんきょうします。</first></ja>
+				<ro><first>Getsuyoobi wa hachi-ji kara Eego o benkyoo-shimasu.</first></ro>
+				<en><first>On Monday I'm studying English from 8 o'clock.</first></en>
+				<es><first>El lunes estudio inglés desde las 8. </first></es>
+			</cue>
+
+			
+			<cue time="29.8" person="A">
+				<ja><first>水よう日は?</first></ja>
+				<ro><first>Suiyoobi wa?</first></ro>
+				<en><first>How about Wednesday?</first></en>
+				<es><first>¿Qué tal el miércoles [Wednesday]?</first></es>
+			</cue>
+
+			
+			<cue time="33.3" person="B">
+				<ja><first>水よう日は　6時半から　かいものに　いきます。</first></ja>
+				<ro><first>Suiyoobi wa roku-ji-han kara kaimono ni ikimasu.</first></ro>
+				<en><first>I'm going shopping from lf-past six on Wednesday.</first></en>
+				<es><first>Voy a ir de compras desde las 6:30 el miércoles.</first></es>
+			</cue>
+
+			
+			<cue time="38.8" person="A">
+				<ja><first>金よう日は?</first></ja>
+				<ro><first>Kin'yoobi wa?</first></ro>
+				<en><first>How about Friday?</first></en>
+				<es><first>¿Qué tal el viernes [Friday]?</first></es>
+			</cue>
+
+			
+			<cue time="41.8" person="B">
+				<ja><first>金よう日は　7時から　ともだちと　しょくじに　いきます。</first></ja>
+				<ro><first>Kin'yoobi wa shichi-ji kara tomodachi to shokuji ni ikimasu.</first></ro>
+				<en><first>On Friday I'm going for a meal with a friend from 7 o'clock.</first></en>
+				<es><first>El viernes voy a cenar con un amigo desde las 7. </first></es>
+			</cue>
+
+			
+			<cue time="46.0" person="">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+
+
+			<cue time="999" person="m">
+				<ja></ja>
+				<ro></ro>
+				<en></en>
+				<es></es>
+			</cue>
+			
+		</video>
+	</challenge>
+	<!--ここまでチャレンジ-->
+	
+</can-do>
