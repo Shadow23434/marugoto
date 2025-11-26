@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
         toggleLoading(submitBtn, true);
 
         try {
-          const url = getApiUrl("/api/auth/login");
+          const url = getApiUrl("/auth/login");
           const response = await fetch(url, {
             method: "POST",
             headers: {
@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
         toggleLoading(submitBtn, true);
 
         try {
-          const url = getApiUrl("/api/auth/register");
+          const url = getApiUrl("/auth/register");
           const response = await fetch(url, {
             method: "POST",
             headers: {

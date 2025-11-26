@@ -1,12 +1,8 @@
 (function () {
   "use strict";
 
-  function normalizeToActivities(data) {
-    if (Array.isArray(data)) return data;
-    if (data && Array.isArray(data.topics)) return data.topics;
-    if (data && Array.isArray(data.activities)) return data.activities;
-    return [];
-  }
+  const API_BASE_URL = getApiUrl("");
+  console.log("API Base URL:", API_BASE_URL);
 
   function renderActivities(activities, initialActiveIndex = 0) {
     const indicators = document.getElementById("activities_indicators");
@@ -118,10 +114,8 @@
         const items = carousel.querySelectorAll(".carousel-item");
         if (!items || items.length === 0) return;
 
-        // Reset heights
         items.forEach((item) => (item.style.height = ""));
 
-        // Find max height
         let maxHeight = 0;
         items.forEach((item) => {
           const height =
@@ -129,7 +123,6 @@
           if (height > maxHeight) maxHeight = height;
         });
 
-        // Apply max height to all items
         if (maxHeight > 0) {
           items.forEach((item) => (item.style.height = maxHeight + "px"));
         }
@@ -149,53 +142,95 @@
 
   const debouncedEqualize = debounce(equalizeCarouselHeights, 120);
 
-  function loadAndRender() {
-    const dataUrl = "data/en/topics.json";
+  async function fetchCanDos(lessonId) {
+    const res = await fetch(`${API_BASE_URL}/can-do/by-lesson/${lessonId}`);
+    if (!res.ok)
+      throw new Error(`Failed to fetch can-dos for lesson ${lessonId}`);
+    const data = await res.json();
 
-    fetch(dataUrl)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then((data) => {
-        console.log("Topics data loaded:", data);
+    return data.map((cd) => ({
+      no: cd.orderGlobal,
+      title: cd.content,
+      id: cd.id,
+    }));
+  }
 
-        const activities = normalizeToActivities(data);
+  async function fetchLessons(topicId) {
+    const res = await fetch(`${API_BASE_URL}/lessons/by-topic/${topicId}`);
+    if (!res.ok)
+      throw new Error(`Failed to fetch lessons for topic ${topicId}`);
+    const data = await res.json();
 
-        if (!activities.length) {
-          console.warn("No activities found in topics data");
-          return;
-        }
+    const lessonsWithCanDosPromises = data.map(async (lesson) => {
+      const candos = await fetchCanDos(lesson.id);
 
-        let initialActiveIndex = 0;
-        const explicitActive = activities.findIndex(
-          (a) => a && (a.active === true || a.active === "true")
-        );
-        if (explicitActive >= 0) {
-          initialActiveIndex = explicitActive;
-        }
+      return {
+        heading: {
+          no: lesson.lessonNumber,
+          title: lesson.title,
+        },
+        candos: candos,
+      };
+    });
 
-        renderActivities(activities, initialActiveIndex);
-      })
-      .catch((error) => {
-        console.error("Failed to load topics data:", error);
+    return Promise.all(lessonsWithCanDosPromises);
+  }
 
-        const inner = document.getElementById("activities_inner");
-        if (inner) {
-          inner.innerHTML = `
+  async function fetchAndMapData() {
+    try {
+      const topicRes = await fetch(`${API_BASE_URL}/topics`);
+      if (!topicRes.ok) throw new Error("Failed to fetch topics");
+      const topicData = await topicRes.json();
+
+      const sortedTopics = topicData.content.sort(
+        (a, b) => a.orderIndex - b.orderIndex
+      );
+
+      const activitiesPromises = sortedTopics.map(async (topic) => {
+        const lessons = await fetchLessons(topic.id);
+
+        return {
+          id: topic.id,
+          active: false,
+          color: topic.hexColor,
+          topicImageUrl: topic.thumbnail,
+          heading: {
+            no: topic.orderIndex,
+            title: topic.title,
+            romaji: topic.titleRomaji,
+            meaning: topic.titleEn,
+          },
+          lessons: lessons,
+        };
+      });
+
+      const activities = await Promise.all(activitiesPromises);
+
+      console.log("Full mapped data:", activities);
+
+      if (!activities.length) {
+        console.warn("No activities found");
+        return;
+      }
+
+      // Render
+      renderActivities(activities, 0);
+    } catch (error) {
+      console.error("Error loading data chain:", error);
+      const inner = document.getElementById("activities_inner");
+      if (inner) {
+        inner.innerHTML = `
             <div class="carousel-item active">
               <div class="alert alert-danger m-4" role="alert">
-                <h4 class="alert-heading">Error Loading Topics</h4>
-                <p>Failed to load topics data. Please check the console for details.</p>
+                <h4 class="alert-heading">Connection Error</h4>
+                <p>Could not load learning content from the server.</p>
                 <hr>
                 <p class="mb-0">Error: ${error.message}</p>
               </div>
             </div>
           `;
-        }
-      });
+      }
+    }
   }
 
   window.addEventListener("load", debouncedEqualize);
@@ -218,8 +253,8 @@
   );
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", loadAndRender);
+    document.addEventListener("DOMContentLoaded", fetchAndMapData);
   } else {
-    loadAndRender();
+    fetchAndMapData();
   }
 })();
