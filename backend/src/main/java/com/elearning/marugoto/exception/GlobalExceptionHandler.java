@@ -22,7 +22,6 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(body, ex.getStatus());
     }
 
-    // Xử lý các lỗi khác chưa định nghĩa
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Object> handleGlobalException(Exception ex) {
         Map<String, Object> body = new HashMap<>();

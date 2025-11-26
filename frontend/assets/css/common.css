@@ -263,3 +263,30 @@ audio, img, video {
     color: var(--accent-color);
     text-align: end;
 }
+
+/* Logout Button */
+#logoutBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+#logoutBtn:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#logoutBtn svg {
+    width: 18px;
+    height: 18px;
+}

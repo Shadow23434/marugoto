@@ -17,17 +17,33 @@
                 </p>
             </div>
             
-            <div class="col-lg-2 col-4 select-lang-col d-flex align-items-center justify-content-center ">
-                <div class="dropdown w-100">
-                    <button class="btn dropdown-toggle w-100 text-center" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="col-lg-3 col-4 select-lang-col d-flex align-items-center justify-content-end gap-2">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle text-center" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                         English
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="langDropdown">
-                        <li class="dropdown-item"><a href="../ja">にほんご</a></li>
-                        <li class="dropdown-item"><a href="../es">Español</a></li>
+                        <li class="dropdown-item"><a href="#">にほんご</a></li>
+                        <li class="dropdown-item"><a href="#">Español</a></li>
                     </ul>
                 </div>
+                <button id="logoutBtn" class="btn btn-outline-secondary btn-sm" title="Logout">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/>
+                        <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                    </svg>
+                </button>
             </div>
         </div>
     </div>
+
+    <script>
+        const logoutBtn = document.getElementById('logoutBtn');
+        if (logoutBtn) {
+            logoutBtn.addEventListener('click', function() {
+                localStorage.removeItem('isLoggedIn');
+                window.location.href = 'auth.html';
+            });
+        }
+    </script>
 </header>
