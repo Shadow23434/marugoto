@@ -1,0 +1,2133 @@
+{
+  "systemInfo": {
+    "header": "カタカナ",
+    "headerRomaji": "Katakana",
+    "bgImgUrl": [
+      "https://a1.marugotoweb.jp/en/assets/images/katakana/bg_page_title.jpg",
+      "https://a1.marugotoweb.jp/en/assets/images/katakana/bg_page_title_sp.jpg"
+    ]
+  },
+  "groups": [
+    {
+      "groupName": "seidakuon",
+      "totalCharacters": 71,
+      "characters": [
+        {
+          "rowName": "a",
+          "characterName": "ア",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/a.png",
+          "romaji": "a",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/a.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/a_1.jpg",
+              "vocabWord": "アイスクリーム",
+              "vocabRomaji": "aisu-kuriimu",
+              "vocabMeaning": "ice cream"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/a_2.jpg",
+              "vocabWord": "ドア",
+              "vocabRomaji": "doa",
+              "vocabMeaning": "door"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/a.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/a.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/a.png"
+        },
+        {
+          "rowName": "a",
+          "characterName": "イ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/i.png",
+          "romaji": "i",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/i.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/i_1.jpg",
+              "vocabWord": "イギリス",
+              "vocabRomaji": "Igirisu",
+              "vocabMeaning": "U.K."
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/i_2.jpg",
+              "vocabWord": "バイク",
+              "vocabRomaji": "baiku",
+              "vocabMeaning": "bike"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/i.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/i.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/i.png"
+        },
+        {
+          "rowName": "a",
+          "characterName": "ウ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/u.png",
+          "romaji": "u",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/u.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/u_1.jpg",
+              "vocabWord": "ウイスキー",
+              "vocabRomaji": "uisukii",
+              "vocabMeaning": "whisky"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/u_2.jpg",
+              "vocabWord": "マウス",
+              "vocabRomaji": "mausu",
+              "vocabMeaning": "mouse"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/u.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/u.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/u.png"
+        },
+        {
+          "rowName": "a",
+          "characterName": "エ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/e.png",
+          "romaji": "e",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/e.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/e_1.jpg",
+              "vocabWord": "エアコン",
+              "vocabRomaji": "eakon",
+              "vocabMeaning": "air conditioner"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/e_2.jpg",
+              "vocabWord": "エジプト",
+              "vocabRomaji": "Ejiputo",
+              "vocabMeaning": "Egypt"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/e.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/e.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/e.png"
+        },
+        {
+          "rowName": "a",
+          "characterName": "オ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/o.png",
+          "romaji": "o",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/o.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/o_1.jpg",
+              "vocabWord": "オレンジ",
+              "vocabRomaji": "orenji",
+              "vocabMeaning": "orange"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/o_2.jpg",
+              "vocabWord": "カラオケ",
+              "vocabRomaji": "karaoke",
+              "vocabMeaning": "karaoke"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/o.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/o.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/o.png"
+        },
+        {
+          "rowName": "ka",
+          "characterName": "カ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ka.png",
+          "romaji": "ka",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ka.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ka_1.jpg",
+              "vocabWord": "カメラ",
+              "vocabRomaji": "kamera",
+              "vocabMeaning": "camera"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ka_2.jpg",
+              "vocabWord": "カレンダー",
+              "vocabRomaji": "karendaa",
+              "vocabMeaning": "calendar"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ka.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ka.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ka.png"
+        },
+        {
+          "rowName": "ka",
+          "characterName": "キ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ki.png",
+          "romaji": "ki",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ki.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ki_1.jpg",
+              "vocabWord": "ウイスキー",
+              "vocabRomaji": "uisukii",
+              "vocabMeaning": "whisky"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ki_2.jpg",
+              "vocabWord": "ステーキ",
+              "vocabRomaji": "suteeki",
+              "vocabMeaning": "steak"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ki.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ki.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ki.png"
+        },
+        {
+          "rowName": "ka",
+          "characterName": "ク",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ku.png",
+          "romaji": "ku",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ku.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ku_1.jpg",
+              "vocabWord": "クッキー",
+              "vocabRomaji": "kukkii",
+              "vocabMeaning": "cookie"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ku_2.jpg",
+              "vocabWord": "フォーク",
+              "vocabRomaji": "fooku",
+              "vocabMeaning": "fork"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ku.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ku.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ku.png"
+        },
+        {
+          "rowName": "ka",
+          "characterName": "ケ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ke.png",
+          "romaji": "ke",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ke.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ke_1.jpg",
+              "vocabWord": "ケーキ",
+              "vocabRomaji": "keeki",
+              "vocabMeaning": "cake"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ke_2.jpg",
+              "vocabWord": "スケート",
+              "vocabRomaji": "sukeeto",
+              "vocabMeaning": "skating"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ke.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ke.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ke.png"
+        },
+        {
+          "rowName": "ka",
+          "characterName": "コ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ko.png",
+          "romaji": "ko",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ko.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ko_1.jpg",
+              "vocabWord": "コンサート",
+              "vocabRomaji": "konsaato",
+              "vocabMeaning": "concert"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ko_2.jpg",
+              "vocabWord": "コート",
+              "vocabRomaji": "kooto",
+              "vocabMeaning": "coat"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ko.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ko.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ko.png"
+        },
+        {
+          "rowName": "sa",
+          "characterName": "サ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/sa.png",
+          "romaji": "sa",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/sa.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/sa_1.jpg",
+              "vocabWord": "サッカー",
+              "vocabRomaji": "sakkaa",
+              "vocabMeaning": "soccer / football"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/sa_2.jpg",
+              "vocabWord": "サンドイッチ",
+              "vocabRomaji": "sandoicchi",
+              "vocabMeaning": "sandwich"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/sa.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/sa.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/sa.png"
+        },
+        {
+          "rowName": "sa",
+          "characterName": "シ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/shi.png",
+          "romaji": "shi",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/shi.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/shi_1.jpg",
+              "vocabWord": "はブラシ",
+              "vocabRomaji": "haburashi",
+              "vocabMeaning": "toothbrush"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/shi_2.jpg",
+              "vocabWord": "シリアル",
+              "vocabRomaji": "shiriaru",
+              "vocabMeaning": "cereals"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/shi.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/shi.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/shi.png"
+        },
+        {
+          "rowName": "sa",
+          "characterName": "ス",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/su.png",
+          "romaji": "su",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/su.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/su_1.jpg",
+              "vocabWord": "スーツ",
+              "vocabRomaji": "suutsu",
+              "vocabMeaning": "suit"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/su_2.jpg",
+              "vocabWord": "スキー",
+              "vocabRomaji": "sukii",
+              "vocabMeaning": "skiing"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/su.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/su.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/su.png"
+        },
+        {
+          "rowName": "sa",
+          "characterName": "セ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/se.png",
+          "romaji": "se",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/se.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/se_1.jpg",
+              "vocabWord": "セーター",
+              "vocabRomaji": "seetaa",
+              "vocabMeaning": "sweater"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/se_2.jpg",
+              "vocabWord": "アクセサリー",
+              "vocabRomaji": "akusesarii",
+              "vocabMeaning": "accessories"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/se.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/se.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/se.png"
+        },
+        {
+          "rowName": "sa",
+          "characterName": "ソ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/so.png",
+          "romaji": "so",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/so.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/so_1.jpg",
+              "vocabWord": "ソファ",
+              "vocabRomaji": "sofa",
+              "vocabMeaning": "sofa"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/so_2.jpg",
+              "vocabWord": "ソーセージ",
+              "vocabRomaji": "sooseeji",
+              "vocabMeaning": "sausage"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/so.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/so.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/so.png"
+        },
+        {
+          "rowName": "ta",
+          "characterName": "タ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ta.png",
+          "romaji": "ta",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ta.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ta_1.jpg",
+              "vocabWord": "バター",
+              "vocabRomaji": "bataa",
+              "vocabMeaning": "butter"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ta_2.jpg",
+              "vocabWord": "タクシー",
+              "vocabRomaji": "takushii",
+              "vocabMeaning": "taxi"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ta.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ta.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ta.png"
+        },
+        {
+          "rowName": "ta",
+          "characterName": "チ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/chi.png",
+          "romaji": "chi",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/chi.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/chi_1.jpg",
+              "vocabWord": "チーズ",
+              "vocabRomaji": "chiizu",
+              "vocabMeaning": "cheese"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/chi_2.jpg",
+              "vocabWord": "マッチ",
+              "vocabRomaji": "macchi",
+              "vocabMeaning": "match"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/chi.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/chi.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/chi.png"
+        },
+        {
+          "rowName": "ta",
+          "characterName": "ツ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/tsu.png",
+          "romaji": "tsu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/tsu.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/tsu_1.jpg",
+              "vocabWord": "スーツケース",
+              "vocabRomaji": "suutsukeesu",
+              "vocabMeaning": "suitcase"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/tsu_2.jpg",
+              "vocabWord": "Ｔシャツ",
+              "vocabRomaji": "T-shatsu",
+              "vocabMeaning": "t-shirt"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/tsu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/tsu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/tsu.png"
+        },
+        {
+          "rowName": "ta",
+          "characterName": "テ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/te.png",
+          "romaji": "te",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/te.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/te_1.jpg",
+              "vocabWord": "テーブル",
+              "vocabRomaji": "teeburu",
+              "vocabMeaning": "table"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/te_2.jpg",
+              "vocabWord": "テニス",
+              "vocabRomaji": "tenisu",
+              "vocabMeaning": "tennis"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/te.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/te.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/te.png"
+        },
+        {
+          "rowName": "ta",
+          "characterName": "ト",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/to.png",
+          "romaji": "to",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/to.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/to_1.jpg",
+              "vocabWord": "トイレ",
+              "vocabRomaji": "toire",
+              "vocabMeaning": "toilet"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/to_2.jpg",
+              "vocabWord": "トマト",
+              "vocabRomaji": "tomato",
+              "vocabMeaning": "tomato"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/to.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/to.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/to.png"
+        },
+        {
+          "rowName": "na",
+          "characterName": "ナ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/na.png",
+          "romaji": "na",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/na.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/na_1.jpg",
+              "vocabWord": "ナイフ",
+              "vocabRomaji": "naifu",
+              "vocabMeaning": "knife"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/na_2.jpg",
+              "vocabWord": "バナナ",
+              "vocabRomaji": "banana",
+              "vocabMeaning": "banana"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/na.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/na.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/na.png"
+        },
+        {
+          "rowName": "na",
+          "characterName": "ニ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ni.png",
+          "romaji": "ni",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ni.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ni_1.jpg",
+              "vocabWord": "エンジニア",
+              "vocabRomaji": "enjinia",
+              "vocabMeaning": "engineer"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ni_2.jpg",
+              "vocabWord": "ユニホーム",
+              "vocabRomaji": "yunihoomu",
+              "vocabMeaning": "uniform"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ni.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ni.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ni.png"
+        },
+        {
+          "rowName": "na",
+          "characterName": "ヌ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/nu.png",
+          "romaji": "nu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/nu.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/nu_1.jpg",
+              "vocabWord": "カヌー",
+              "vocabRomaji": "kanuu",
+              "vocabMeaning": "canoe"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/nu_2.jpg",
+              "vocabWord": "ヌードル",
+              "vocabRomaji": "nuudoru",
+              "vocabMeaning": "noodle"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/nu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/nu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/nu.png"
+        },
+        {
+          "rowName": "na",
+          "characterName": "ネ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ne.png",
+          "romaji": "ne",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ne.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ne_1.jpg",
+              "vocabWord": "ネクタイ",
+              "vocabRomaji": "nekutai",
+              "vocabMeaning": "necktie"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ne_2.jpg",
+              "vocabWord": "ネックレス",
+              "vocabRomaji": "nekkuresu",
+              "vocabMeaning": "necklace"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ne.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ne.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ne.png"
+        },
+        {
+          "rowName": "na",
+          "characterName": "ノ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/no.png",
+          "romaji": "no",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/no.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/no_1.jpg",
+              "vocabWord": "ノート",
+              "vocabRomaji": "nooto",
+              "vocabMeaning": "notebook"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/no_2.jpg",
+              "vocabWord": "ピアノ",
+              "vocabRomaji": "piano",
+              "vocabMeaning": "piano"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/no.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/no.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/no.png"
+        },
+        {
+          "rowName": "ha",
+          "characterName": "ハ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ha.png",
+          "romaji": "ha",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ha.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ha_1.jpg",
+              "vocabWord": "ハンカチ",
+              "vocabRomaji": "hankachi",
+              "vocabMeaning": "handkerchief"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ha_2.jpg",
+              "vocabWord": "ハンバーガー",
+              "vocabRomaji": "hanbaagaa",
+              "vocabMeaning": "hamburger"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ha.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ha.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ha.png"
+        },
+        {
+          "rowName": "ha",
+          "characterName": "ヒ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/hi.png",
+          "romaji": "hi",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/hi.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/hi_1.jpg",
+              "vocabWord": "コーヒー",
+              "vocabRomaji": "koohii",
+              "vocabMeaning": "coffee"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/hi_2.jpg",
+              "vocabWord": "ハイヒール",
+              "vocabRomaji": "haihiiru",
+              "vocabMeaning": "heel, high-heeled shoes"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/hi.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/hi.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/hi.png"
+        },
+        {
+          "rowName": "ha",
+          "characterName": "フ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/fu.png",
+          "romaji": "fu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/fu.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/fu_1.jpg",
+              "vocabWord": "フランス",
+              "vocabRomaji": "Furansu",
+              "vocabMeaning": "France"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/fu_2.jpg",
+              "vocabWord": "ゴルフ",
+              "vocabRomaji": "gorufu",
+              "vocabMeaning": "golf"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/fu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/fu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/fu.png"
+        },
+        {
+          "rowName": "ha",
+          "characterName": "ヘ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/he.png",
+          "romaji": "he",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/he.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/he_1.jpg",
+              "vocabWord": "ヘッドホン",
+              "vocabRomaji": "heddohon",
+              "vocabMeaning": "headphone"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/he_2.jpg",
+              "vocabWord": "ヘリコプター",
+              "vocabRomaji": "herikoputaa",
+              "vocabMeaning": "helicopter"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/he.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/he.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/he.png"
+        },
+        {
+          "rowName": "ha",
+          "characterName": "ホ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ho.png",
+          "romaji": "ho",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ho.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ho_1.jpg",
+              "vocabWord": "ホテル",
+              "vocabRomaji": "hoteru",
+              "vocabMeaning": "hotel"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ho_2.jpg",
+              "vocabWord": "ホットドッグ",
+              "vocabRomaji": "hottodoggu",
+              "vocabMeaning": "hot dog"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ho.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ho.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ho.png"
+        },
+        {
+          "rowName": "ma",
+          "characterName": "マ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ma.png",
+          "romaji": "ma",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ma.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ma_1.jpg",
+              "vocabWord": "マフラー",
+              "vocabRomaji": "mafuraa",
+              "vocabMeaning": "muffler"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ma_2.jpg",
+              "vocabWord": "マンション",
+              "vocabRomaji": "manshon",
+              "vocabMeaning": "apartment house"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ma.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ma.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ma.png"
+        },
+        {
+          "rowName": "ma",
+          "characterName": "ミ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/mi.png",
+          "romaji": "mi",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/mi.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/mi_1.jpg",
+              "vocabWord": "ミルク",
+              "vocabRomaji": "miruku",
+              "vocabMeaning": "milk"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/mi_2.jpg",
+              "vocabWord": "ミシン",
+              "vocabRomaji": "mishin",
+              "vocabMeaning": "sewing machine"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/mi.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/mi.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/mi.png"
+        },
+        {
+          "rowName": "ma",
+          "characterName": "ム",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/mu.png",
+          "romaji": "mu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/mu.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/mu_1.jpg",
+              "vocabWord": "ジャム",
+              "vocabRomaji": "jamu",
+              "vocabMeaning": "jam"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/mu_2.jpg",
+              "vocabWord": "ベッドルーム",
+              "vocabRomaji": "beddo-ruumu",
+              "vocabMeaning": "bedroom"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/mu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/mu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/mu.png"
+        },
+        {
+          "rowName": "ma",
+          "characterName": "メ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/me.png",
+          "romaji": "me",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/me.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/me_1.jpg",
+              "vocabWord": "メロン",
+              "vocabRomaji": "meron",
+              "vocabMeaning": "melon"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/me_2.jpg",
+              "vocabWord": "カメラ",
+              "vocabRomaji": "kamera",
+              "vocabMeaning": "camera"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/me.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/me.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/me.png"
+        },
+        {
+          "rowName": "ma",
+          "characterName": "モ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/mo.png",
+          "romaji": "mo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/mo.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/mo_1.jpg",
+              "vocabWord": "モノレール",
+              "vocabRomaji": "monoreeru",
+              "vocabMeaning": "monorail"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/mo_2.jpg",
+              "vocabWord": "レモン",
+              "vocabRomaji": "remon",
+              "vocabMeaning": "lemon"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/mo.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/mo.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/mo.png"
+        },
+        {
+          "rowName": "ya",
+          "characterName": "ヤ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ya.png",
+          "romaji": "ya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ya.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ya_1.jpg",
+              "vocabWord": "ダイヤ",
+              "vocabRomaji": "daiya",
+              "vocabMeaning": "diamond"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ya_2.jpg",
+              "vocabWord": "タイヤ",
+              "vocabRomaji": "taiya",
+              "vocabMeaning": "tire"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ya.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ya.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ya.png"
+        },
+        {
+          "rowName": "ya",
+          "characterName": "ユ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/yu.png",
+          "romaji": "yu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/yu.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/yu_1.jpg",
+              "vocabWord": "ユーロ",
+              "vocabRomaji": "yuuro",
+              "vocabMeaning": "Euro"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/yu_2.jpg",
+              "vocabWord": "ユニホーム",
+              "vocabRomaji": "yunihoomu",
+              "vocabMeaning": "uniform"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/yu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/yu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/yu.png"
+        },
+        {
+          "rowName": "ya",
+          "characterName": "ヨ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/yo.png",
+          "romaji": "yo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/yo.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/yo_1.jpg",
+              "vocabWord": "ヨーグルト",
+              "vocabRomaji": "yooguruto",
+              "vocabMeaning": "yogurt"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/yo_2.jpg",
+              "vocabWord": "ヨガ",
+              "vocabRomaji": "yoga",
+              "vocabMeaning": "yoga"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/yo.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/yo.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/yo.png"
+        },
+        {
+          "rowName": "ra",
+          "characterName": "ラ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ra.png",
+          "romaji": "ra",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ra.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ra_1.jpg",
+              "vocabWord": "ラーメン",
+              "vocabRomaji": "raamen",
+              "vocabMeaning": "raamen noodles"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ra_2.jpg",
+              "vocabWord": "ラジオ",
+              "vocabRomaji": "rajio",
+              "vocabMeaning": "radio"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ra.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ra.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ra.png"
+        },
+        {
+          "rowName": "ra",
+          "characterName": "リ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ri.png",
+          "romaji": "ri",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ri.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ri_1.jpg",
+              "vocabWord": "スリッパ",
+              "vocabRomaji": "surippa",
+              "vocabMeaning": "slippers"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ri_2.jpg",
+              "vocabWord": "リボン",
+              "vocabRomaji": "ribon",
+              "vocabMeaning": "ribbon"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ri.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ri.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ri.png"
+        },
+        {
+          "rowName": "ra",
+          "characterName": "ル",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ru.png",
+          "romaji": "ru",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ru.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ru_1.jpg",
+              "vocabWord": "ビール",
+              "vocabRomaji": "biiru",
+              "vocabMeaning": "beer"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ru_2.jpg",
+              "vocabWord": "ベルト",
+              "vocabRomaji": "beruto",
+              "vocabMeaning": "belt"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ru.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ru.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ru.png"
+        },
+        {
+          "rowName": "ra",
+          "characterName": "レ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/re.png",
+          "romaji": "re",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/re.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/re_1.jpg",
+              "vocabWord": "レストラン",
+              "vocabRomaji": "resutoran",
+              "vocabMeaning": "restaurant"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/re_2.jpg",
+              "vocabWord": "レタス",
+              "vocabRomaji": "retasu",
+              "vocabMeaning": "lettuce"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/re.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/re.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/re.png"
+        },
+        {
+          "rowName": "ra",
+          "characterName": "ロ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ro.png",
+          "romaji": "ro",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ro.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ro_1.jpg",
+              "vocabWord": "メロン",
+              "vocabRomaji": "meron",
+              "vocabMeaning": "melon"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ro_2.jpg",
+              "vocabWord": "アイロン",
+              "vocabRomaji": "airon",
+              "vocabMeaning": "clothes iron"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ro.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ro.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ro.png"
+        },
+        {
+          "rowName": "wa",
+          "characterName": "ワ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/wa.png",
+          "romaji": "wa",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/wa.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/wa_1.jpg",
+              "vocabWord": "ワイン",
+              "vocabRomaji": "wain",
+              "vocabMeaning": "wine"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/wa_2.jpg",
+              "vocabWord": "シャワー",
+              "vocabRomaji": "shawaa",
+              "vocabMeaning": "shower"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/wa.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/wa.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/wa.png"
+        },
+        {
+          "rowName": "wa",
+          "characterName": "ヲ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/wo.png",
+          "romaji": "o",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/wo.mp3",
+          "vocabularies": [],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/o.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/o.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/wo.png"
+        },
+        {
+          "rowName": "n",
+          "characterName": "ン",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/n.png",
+          "romaji": "n",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/n.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/n_1.jpg",
+              "vocabWord": "ペン",
+              "vocabRomaji": "pen",
+              "vocabMeaning": "pen"
+            },
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/n_2.jpg",
+              "vocabWord": "ジーンズ",
+              "vocabRomaji": "jiinzu",
+              "vocabMeaning": "jeans"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/n.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/n.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/n.png"
+        },
+        {
+          "rowName": "ga",
+          "characterName": "ガ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ga.png",
+          "romaji": "ga",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ga.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ga_1.jpg",
+              "vocabWord": "ハンバーガー",
+              "vocabRomaji": "hanbaagaa",
+              "vocabMeaning": "hamburger"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ga.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ga.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ga.png"
+        },
+        {
+          "rowName": "ga",
+          "characterName": "ギ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/gi.png",
+          "romaji": "gi",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/gi.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/gi_1.jpg",
+              "vocabWord": "ギター",
+              "vocabRomaji": "gitaa",
+              "vocabMeaning": "guitar"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/gi.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/gi.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/gi.png"
+        },
+        {
+          "rowName": "ga",
+          "characterName": "グ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/gu.png",
+          "romaji": "gu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/gu.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/gu_1.jpg",
+              "vocabWord": "ホットドッグ",
+              "vocabRomaji": "hottodoggu",
+              "vocabMeaning": "hot dog"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/gu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/gu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/gu.png"
+        },
+        {
+          "rowName": "ga",
+          "characterName": "ゲ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ge.png",
+          "romaji": "ge",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ge.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ge_1.jpg",
+              "vocabWord": "スパゲティ",
+              "vocabRomaji": "supagethi",
+              "vocabMeaning": "spaghetti"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ge.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ge.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ge.png"
+        },
+        {
+          "rowName": "ga",
+          "characterName": "ゴ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/go.png",
+          "romaji": "go",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/go.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/go_1.jpg",
+              "vocabWord": "ゴルフ",
+              "vocabRomaji": "gorufu",
+              "vocabMeaning": "golf"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/go.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/go.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/go.png"
+        },
+        {
+          "rowName": "za",
+          "characterName": "ザ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/za.png",
+          "romaji": "za",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/za.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/za_1.jpg",
+              "vocabWord": "ピザ",
+              "vocabRomaji": "piza",
+              "vocabMeaning": "pizza"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/za.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/za.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/za.png"
+        },
+        {
+          "rowName": "za",
+          "characterName": "ジ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ji.png",
+          "romaji": "ji",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ji.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ji_1.jpg",
+              "vocabWord": "エジプト",
+              "vocabRomaji": "Ejiputo",
+              "vocabMeaning": "Egypt"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ji.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ji.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ji.png"
+        },
+        {
+          "rowName": "za",
+          "characterName": "ズ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/zu.png",
+          "romaji": "zu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/zu.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/zu_1.jpg",
+              "vocabWord": "ジーンズ",
+              "vocabRomaji": "jiinzu",
+              "vocabMeaning": "jeans"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/zu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/zu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/zu.png"
+        },
+        {
+          "rowName": "za",
+          "characterName": "ゼ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ze.png",
+          "romaji": "ze",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ze.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ze_1.jpg",
+              "vocabWord": "ゼリー",
+              "vocabRomaji": "zerii",
+              "vocabMeaning": "jelly"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ze.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ze.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ze.png"
+        },
+        {
+          "rowName": "za",
+          "characterName": "ゾ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/zo.png",
+          "romaji": "zo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/zo.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/zo_1.jpg",
+              "vocabWord": "アマゾンがわ",
+              "vocabRomaji": "Amazon-gawa",
+              "vocabMeaning": "the Amazon"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/zo.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/zo.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/zo.png"
+        },
+        {
+          "rowName": "da",
+          "characterName": "ダ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/da.png",
+          "romaji": "da",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/da.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/da_1.jpg",
+              "vocabWord": "サラダ",
+              "vocabRomaji": "sarada",
+              "vocabMeaning": "salad"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/da.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/da.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/da.png"
+        },
+        {
+          "rowName": "da",
+          "characterName": "ヂ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/di.png",
+          "romaji": "ji",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/di.mp3",
+          "vocabularies": [],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ji.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ji.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/di.png"
+        },
+        {
+          "rowName": "da",
+          "characterName": "ヅ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/du.png",
+          "romaji": "zu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/du.mp3",
+          "vocabularies": [],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/zu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/zu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/du.png"
+        },
+        {
+          "rowName": "da",
+          "characterName": "デ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/de.png",
+          "romaji": "de",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/de.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/de_1.jpg",
+              "vocabWord": "ビデオカメラ",
+              "vocabRomaji": "bideo-kamera",
+              "vocabMeaning": "video camera"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/de.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/de.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/de.png"
+        },
+        {
+          "rowName": "da",
+          "characterName": "ド",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/do.png",
+          "romaji": "do",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/do.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/do_1.jpg",
+              "vocabWord": "ドア",
+              "vocabRomaji": "doa",
+              "vocabMeaning": "door"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/do.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/do.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/do.png"
+        },
+        {
+          "rowName": "ba",
+          "characterName": "バ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ba.png",
+          "romaji": "ba",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ba.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/ba_1.jpg",
+              "vocabWord": "バイク",
+              "vocabRomaji": "baiku",
+              "vocabMeaning": "bike"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ba.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/ba.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/ba.png"
+        },
+        {
+          "rowName": "ba",
+          "characterName": "ビ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/bi.png",
+          "romaji": "bi",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/bi.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/bi_1.jpg",
+              "vocabWord": "ビール",
+              "vocabRomaji": "biiru",
+              "vocabMeaning": "beer"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/bi.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/bi.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/bi.png"
+        },
+        {
+          "rowName": "ba",
+          "characterName": "ブ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/bu.png",
+          "romaji": "bu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/bu.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/bu_1.jpg",
+              "vocabWord": "テーブル",
+              "vocabRomaji": "teeburu",
+              "vocabMeaning": "table"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/bu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/bu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/bu.png"
+        },
+        {
+          "rowName": "ba",
+          "characterName": "ベ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/be.png",
+          "romaji": "be",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/be.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/be_1.jpg",
+              "vocabWord": "ベルト",
+              "vocabRomaji": "beruto",
+              "vocabMeaning": "belt"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/be.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/be.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/be.png"
+        },
+        {
+          "rowName": "ba",
+          "characterName": "ボ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/bo.png",
+          "romaji": "bo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/bo.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/bo_1.jpg",
+              "vocabWord": "リボン",
+              "vocabRomaji": "ribon",
+              "vocabMeaning": "ribbon"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/bo.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/bo.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/bo.png"
+        },
+        {
+          "rowName": "pa",
+          "characterName": "パ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/pa.png",
+          "romaji": "pa",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/pa.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/pa_1.jpg",
+              "vocabWord": "スリッパ",
+              "vocabRomaji": "surippa",
+              "vocabMeaning": "slippers"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/pa.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/pa.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/pa.png"
+        },
+        {
+          "rowName": "pa",
+          "characterName": "ピ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/pi.png",
+          "romaji": "pi",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/pi.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/pi_1.jpg",
+              "vocabWord": "ピザ",
+              "vocabRomaji": "piza",
+              "vocabMeaning": "pizza"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/pi.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/pi.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/pi.png"
+        },
+        {
+          "rowName": "pa",
+          "characterName": "プ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/pu.png",
+          "romaji": "pu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/pu.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/pu_1.jpg",
+              "vocabWord": "スプーン",
+              "vocabRomaji": "supuun",
+              "vocabMeaning": "spoon"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/pu.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/pu.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/pu.png"
+        },
+        {
+          "rowName": "pa",
+          "characterName": "ペ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/pe.png",
+          "romaji": "pe",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/pe.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/pe_1.jpg",
+              "vocabWord": "ペン",
+              "vocabRomaji": "pen",
+              "vocabMeaning": "pen"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/pe.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/pe.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/pe.png"
+        },
+        {
+          "rowName": "pa",
+          "characterName": "ポ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/po.png",
+          "romaji": "po",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/po.mp3",
+          "vocabularies": [
+            {
+              "vocabImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/vocabularies/po_1.jpg",
+              "vocabWord": "フライドポテト",
+              "vocabRomaji": "furaido-poteto",
+              "vocabMeaning": "French fries"
+            }
+          ],
+          "animation": {
+            "mp4Url": "https://a1.marugotoweb.jp/en/assets/movies/katakana/po.mp4",
+            "webmUrl": "https://a1.marugotoweb.jp/en/assets/movies/katakana/po.webm"
+          },
+          "orderImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/order/po.png"
+        }
+      ]
+    },
+    {
+      "groupName": "youon",
+      "totalCharacters": 88,
+      "characters": [
+        {
+          "class": "column_kya double"
+        },
+        {
+          "rowName": "kya double",
+          "characterName": "キャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/kya.png",
+          "romaji": "kya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/kya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "キャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/kya.png",
+          "romaji": "kya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/kya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "キュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/kyu.png",
+          "romaji": "kyu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/kyu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "キョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/kyo.png",
+          "romaji": "kyo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/kyo.mp3"
+        },
+        {
+          "class": "column_gya"
+        },
+        {
+          "rowName": "gya",
+          "characterName": "ギャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/gya.png",
+          "romaji": "gya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/gya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ギャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/gya.png",
+          "romaji": "gya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/gya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ギュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/gyu.png",
+          "romaji": "gyu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/gyu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ギョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/gyo.png",
+          "romaji": "gyo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/gyo.mp3"
+        },
+        {
+          "class": "column_sha double"
+        },
+        {
+          "rowName": "sha double",
+          "characterName": "シャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/sha.png",
+          "romaji": "sha",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/sha.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "シャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/sha.png",
+          "romaji": "sha",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/sha.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "シュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/shu.png",
+          "romaji": "shu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/shu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ショ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/sho.png",
+          "romaji": "sho",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/sho.mp3"
+        },
+        {
+          "class": "column_ja"
+        },
+        {
+          "rowName": "ja",
+          "characterName": "ジャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ja.png",
+          "romaji": "ja",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ja.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ジャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ja.png",
+          "romaji": "ja",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ja.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ジュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ju.png",
+          "romaji": "ju",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ju.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ジョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/jo.png",
+          "romaji": "jo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/jo.mp3"
+        },
+        {
+          "class": "column_cha alone"
+        },
+        {
+          "rowName": "cha alone",
+          "characterName": "チャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/cha.png",
+          "romaji": "cha",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/cha.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "チャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/cha.png",
+          "romaji": "cha",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/cha.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "チュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/chu.png",
+          "romaji": "chu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/chu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "チョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/cho.png",
+          "romaji": "cho",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/cho.mp3"
+        },
+        {
+          "class": "column_nya alone"
+        },
+        {
+          "rowName": "nya alone",
+          "characterName": "ニャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/nya.png",
+          "romaji": "nya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/nya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ニャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/nya.png",
+          "romaji": "nya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/nya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ニュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/nyu.png",
+          "romaji": "nyu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/nyu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ニョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/nyo.png",
+          "romaji": "nyo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/nyo.mp3"
+        },
+        {
+          "class": "column_hya double"
+        },
+        {
+          "rowName": "hya double",
+          "characterName": "ヒャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/hya.png",
+          "romaji": "hya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/hya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ヒャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/hya.png",
+          "romaji": "hya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/hya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ヒュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/hyu.png",
+          "romaji": "hyu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/hyu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ヒョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/hyo.png",
+          "romaji": "hyo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/hyo.mp3"
+        },
+        {
+          "class": "column_bya"
+        },
+        {
+          "rowName": "bya",
+          "characterName": "ビャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/bya.png",
+          "romaji": "bya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/bya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ビャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/bya.png",
+          "romaji": "bya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/bya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ビュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/byu.png",
+          "romaji": "byu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/byu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ビョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/byo.png",
+          "romaji": "byo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/byo.mp3"
+        },
+        {
+          "class": "column_pya alone_psound"
+        },
+        {
+          "rowName": "psound",
+          "characterName": "ピャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/pya.png",
+          "romaji": "pya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/pya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ピャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/pya.png",
+          "romaji": "pya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/pya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ピュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/pyu.png",
+          "romaji": "pyu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/pyu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ピョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/pyo.png",
+          "romaji": "pyo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/pyo.mp3"
+        },
+        {
+          "class": "column_mya alone"
+        },
+        {
+          "rowName": "mya alone",
+          "characterName": "ミャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/mya.png",
+          "romaji": "mya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/mya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ミャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/mya.png",
+          "romaji": "mya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/mya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ミュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/myu.png",
+          "romaji": "myu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/myu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "ミョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/myo.png",
+          "romaji": "myo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/myo.mp3"
+        },
+        {
+          "class": "column_rya alone"
+        },
+        {
+          "rowName": "rya alone",
+          "characterName": "リャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/rya.png",
+          "romaji": "rya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/rya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "リャ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/rya.png",
+          "romaji": "rya",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/rya.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "リュ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ryu.png",
+          "romaji": "ryu",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ryu.mp3"
+        },
+        {
+          "class": ""
+        },
+        {
+          "rowName": "",
+          "characterName": "リョ",
+          "characterImgUrl": "https://a1.marugotoweb.jp/en/assets/images/katakana/form/ryo.png",
+          "romaji": "ryo",
+          "audio": "https://a1.marugotoweb.jp/en/assets/sounds/common/ryo.mp3"
+        }
+      ]
+    }
+  ]
+}

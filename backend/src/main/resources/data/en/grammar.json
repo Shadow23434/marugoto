@@ -1,0 +1,683 @@
+{
+  "systemInfo": {
+    "header": "ぶんぽう",
+    "headerRomaji": "Grammar",
+    "bgImgUrl": [
+      "https://a1.marugotoweb.jp/en/assets/images/grammar/bg_page_title.jpg",
+      "https://a1.marugotoweb.jp/en/assets/images/grammar/bg_page_title_sp.jpg"
+    ]
+  },
+  "totaltopics": 8,
+  "topics": [
+    {
+      "heading": {
+        "no": 2,
+        "title": "わたし",
+        "romaji": "Watashi",
+        "meaning": "Myself"
+      },
+      "lessons": [
+        {
+          "title": "Lesson 3",
+          "subtitle": "Nice to meet you",
+          "notes": [
+            {
+              "sentence": "わたしは　カーラです。",
+              "grammarPoints": [
+                "は",
+                "です"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_2_3_1.php"
+            },
+            {
+              "sentence": "わたしは　にほんごが　できます。",
+              "grammarPoints": [
+                "が　できます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_2_3_2.php"
+            },
+            {
+              "sentence": "わたしも　エンジニアです。",
+              "grammarPoints": [
+                "も"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_2_3_3.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic2_3.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic2_3.php"
+        },
+        {
+          "title": "Lesson 4",
+          "subtitle": "There are three people in my family",
+          "notes": [
+            {
+              "sentence": "かぞくは　ちちと　ははと　わたしです。",
+              "grammarPoints": [
+                "と",
+                "と"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_2_4_1.php"
+            },
+            {
+              "sentence": "あねは　おおさかに　すんでいます。",
+              "grammarPoints": [
+                "に　すんでいます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_2_4_2.php"
+            },
+            {
+              "sentence": "あねの　こどもは　２さいです。",
+              "grammarPoints": [
+                "の"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_2_4_3.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic2_4.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic2_4.php"
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 3,
+        "title": "たべもの",
+        "romaji": "Tabemono",
+        "meaning": "Food"
+      },
+      "lessons": [
+        {
+          "title": "Lesson 5",
+          "subtitle": "What kind of food do you like?",
+          "notes": [
+            {
+              "sentence": "にくが　すきです。やさいは　すきじゃないです。",
+              "grammarPoints": [
+                "が　すきです。",
+                "は　すきじゃないです"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_3_5_1.php"
+            },
+            {
+              "sentence": "あさごはんを　たべます。",
+              "grammarPoints": [
+                "を　たべます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_3_5_2.php"
+            },
+            {
+              "sentence": "コーヒーを　よく　のみます。",
+              "grammarPoints": [
+                "　よく　のみます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_3_5_3.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic3_5.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic3_5.php"
+        },
+        {
+          "title": "Lesson 6",
+          "subtitle": "Where are you going to have lunch today?",
+          "notes": [
+            {
+              "sentence": "すきな　りょうりは　カレーです。",
+              "grammarPoints": [
+                "すきな",
+                "は",
+                "です"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_3_6_1.php"
+            },
+            {
+              "sentence": "ラーメンやさんで　ラーメンを　たべます。",
+              "grammarPoints": [
+                "で",
+                "　たべます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_3_6_2.php"
+            },
+            {
+              "sentence": "あの　みせは　おいしいです。",
+              "grammarPoints": [
+                "は　おいしいです"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_3_6_3.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic3_6.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic3_6.php"
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 4,
+        "title": "いえ",
+        "romaji": "Ie",
+        "meaning": "Home"
+      },
+      "lessons": [
+        {
+          "title": "Lesson 7",
+          "subtitle": "There are three rooms in my house",
+          "notes": [
+            {
+              "sentence": "いえに　エアコンが　あります。",
+              "grammarPoints": [
+                "に",
+                "が　あります"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_4_7_1.php"
+            },
+            {
+              "sentence": "いえに　ねこが　います。",
+              "grammarPoints": [
+                "に",
+                "が　います"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_4_7_2.php"
+            },
+            {
+              "sentence": "ベッドが　２つ　あります。",
+              "grammarPoints": [
+                "が　２つ　あります"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_4_7_3.php"
+            },
+            {
+              "sentence": "わたしの　いえは　せまいです。",
+              "grammarPoints": [
+                "は　せまいです"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_4_7_4.php"
+            },
+            {
+              "sentence": "すずきさんは　かぞくと　すんで　います。",
+              "grammarPoints": [
+                "と　すんで　います"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_4_7_5.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic4_7.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic4_7.php"
+        },
+        {
+          "title": "Lesson 8",
+          "subtitle": "It's a nice room",
+          "notes": [
+            {
+              "sentence": "にんぎょうは　たなの　うえです。",
+              "grammarPoints": [
+                "は",
+                "の",
+                "です"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_4_8_1.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic4_8.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic4_8.php"
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 5,
+        "title": "せいかつ",
+        "romaji": "Seekatsu",
+        "meaning": "Daily Life"
+      },
+      "lessons": [
+        {
+          "title": "Lesson 9",
+          "subtitle": "What time do you get up?",
+          "notes": [
+            {
+              "sentence": "いま　なんじですか。９じです。",
+              "grammarPoints": [
+                "　なんじですか",
+                "９じです"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_5_9_1.php"
+            },
+            {
+              "sentence": "わたしは　７じに　おきます。",
+              "grammarPoints": [
+                "　７じに　おきます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_5_9_2.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic5_9.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic5_9.php"
+        },
+        {
+          "title": "Lesson 10",
+          "subtitle": "When is convenient for you?",
+          "notes": [
+            {
+              "sentence": "かいしゃは　９じから　５じまでです。",
+              "grammarPoints": [
+                "から",
+                "まで"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_5_10_1.php"
+            },
+            {
+              "sentence": "７じかん　しごとを　します。",
+              "grammarPoints": [
+                "７じかん",
+                "　します"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_5_10_2.php"
+            },
+            {
+              "sentence": "きんようびが　いいです。",
+              "grammarPoints": [
+                "が　いいです"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_5_10_3.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic5_10.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic5_10.php"
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 6,
+        "title": "やすみのひ1",
+        "romaji": "Yasumi no hi 1",
+        "meaning": "Holidays and Days off 1"
+      },
+      "lessons": [
+        {
+          "title": "Lesson 11",
+          "subtitle": "What's your hobby?",
+          "notes": [
+            {
+              "sentence": "どくしょが　すきです。",
+              "grammarPoints": [
+                "が　すきです"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_6_11_1.php"
+            },
+            {
+              "sentence": "ギターが　できます。",
+              "grammarPoints": [
+                "が　できます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_6_11_2.php"
+            },
+            {
+              "sentence": "うちで　えいがを　みます。",
+              "grammarPoints": [
+                "で",
+                "　みます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_6_11_3.php"
+            },
+            {
+              "sentence": "ときどき　かいものを　します。",
+              "grammarPoints": [
+                "ときどき",
+                "　します"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_6_11_4.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic6_11.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic6_11.php"
+        },
+        {
+          "title": "Lesson 12",
+          "subtitle": "Shall we go together?",
+          "notes": [
+            {
+              "sentence": "１がつに　さっぽろに　いきます。",
+              "grammarPoints": [
+                "に",
+                "いきます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_6_12_1.php"
+            },
+            {
+              "sentence": "どようびに　コンサートが　あります。",
+              "grammarPoints": [
+                "に",
+                "が　あります"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_6_12_2.php"
+            },
+            {
+              "sentence": "こくさいホールで　えいがが　あります。",
+              "grammarPoints": [
+                "で",
+                "が　あります"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_6_12_3.php"
+            },
+            {
+              "sentence": "すもうを　みに　いきます。",
+              "grammarPoints": [
+                "みに　いきます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_6_12_4.php"
+            },
+            {
+              "sentence": "いっしょに　こうえんに　いきませんか。\n                                        いきましょう。",
+              "grammarPoints": [
+                "いきませんか",
+                "いきましょう"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_6_12_5.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic6_12.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic6_12.php"
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 7,
+        "title": "まち",
+        "romaji": "Machi",
+        "meaning": "Town"
+      },
+      "lessons": [
+        {
+          "title": "Lesson 13",
+          "subtitle": "How are you going to get there?",
+          "notes": [
+            {
+              "sentence": "うちから　えきまで　バスで　いきます。",
+              "grammarPoints": [
+                "から",
+                "まで",
+                "で　いきます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_7_13_1.php"
+            },
+            {
+              "sentence": "えきで　でんしゃに　のります。",
+              "grammarPoints": [
+                "で",
+                "に　のります"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_7_13_2.php"
+            },
+            {
+              "sentence": "くうこうは　でんしゃが　いいです。",
+              "grammarPoints": [
+                "は",
+                "が　いいです"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_7_13_3.php"
+            },
+            {
+              "sentence": "くうこうは　でんしゃが　いいです。はやいですから。",
+              "grammarPoints": [
+                "から"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_7_13_4.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic7_13.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic7_13.php"
+        },
+        {
+          "title": "Lesson 14",
+          "subtitle": "It's a famous temple",
+          "notes": [
+            {
+              "sentence": "ふるいじんじゃ、にぎやかなまち",
+              "grammarPoints": [
+                "ふるい",
+                "にぎやかな"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_7_14_1.php"
+            },
+            {
+              "sentence": "さいたまに　ふるい　じんじゃが　あります。",
+              "grammarPoints": [
+                "に",
+                "が　あります"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_7_14_2.php"
+            },
+            {
+              "sentence": "えきの　となり、きっさてんの　まえ",
+              "grammarPoints": [
+                "の　となり",
+                "の　まえ"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_7_14_3.php"
+            },
+            {
+              "sentence": "きっさてんは　えきの　となりに　あります。\n                                        わたしは　きっさてんの　まえに　います。",
+              "grammarPoints": [
+                "は",
+                "に　あります",
+                "は",
+                "に　います"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_7_14_4.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic7_14.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic7_14.php"
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 8,
+        "title": "かいもの",
+        "romaji": "Kaimono",
+        "meaning": "Shopping"
+      },
+      "lessons": [
+        {
+          "title": "Lesson 15",
+          "subtitle": "Cute!",
+          "notes": [
+            {
+              "sentence": "わたしは　アクセサリーが　ほしいです。",
+              "grammarPoints": [
+                "が　ほしいです"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_8_15_1.php"
+            },
+            {
+              "sentence": "わたしは　カーラさんに　はなを　あげます。",
+              "grammarPoints": [
+                "に",
+                "を　あげます"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_8_15_2.php"
+            },
+            {
+              "sentence": "カーラさんは　ホセさんに　チョコレートを　もらいました。",
+              "grammarPoints": [
+                "に",
+                "を　<br>もらいました"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_8_15_3.php"
+            },
+            {
+              "sentence": "きょねん　にほんで　とけいを　かいました。",
+              "grammarPoints": [
+                "かいました"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_8_15_4.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic8_15.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic8_15.php"
+        },
+        {
+          "title": "Lesson 16",
+          "subtitle": "I'll take this",
+          "notes": [
+            {
+              "sentence": "これは　いくらですか。",
+              "grammarPoints": [
+                "これは　いくらですか"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_8_16_1.php"
+            },
+            {
+              "sentence": "この　Ｔシャツを　ください。",
+              "grammarPoints": [
+                "この",
+                "を　ください"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_8_16_2.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic8_16.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic8_16.php"
+        }
+      ]
+    },
+    {
+      "heading": {
+        "no": 9,
+        "title": "やすみのひ2",
+        "romaji": "Yasumi no hi 2",
+        "meaning": "Holidays and Days off 2"
+      },
+      "lessons": [
+        {
+          "title": "Lesson 17",
+          "subtitle": "It was fun",
+          "notes": [
+            {
+              "sentence": "きのう　デパートに　いきました。",
+              "grammarPoints": [
+                "　いきました"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_9_17_1.php"
+            },
+            {
+              "sentence": "かいものは　たのしかったです。デパートは　にぎやかでした。",
+              "grammarPoints": [
+                "　たのしかったです",
+                "にぎやかでした"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_9_17_2.php"
+            },
+            {
+              "sentence": "わたしは　どこにも　いきませんでした。",
+              "grammarPoints": [
+                "　どこにも　いきませんでした"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_9_17_3.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic9_17.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic9_17.php"
+        },
+        {
+          "title": "Lesson 18",
+          "subtitle": "I would like to visit Kyoto next time",
+          "notes": [
+            {
+              "sentence": "おてらを　みました。それから、おみやげを　かいました。",
+              "grammarPoints": [
+                "それから"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_9_18_1.php"
+            },
+            {
+              "sentence": "おすしは　おいしかったです。でも、たかかったです。\n                                        かぶきは　きれいでした。そして、おもしろかったです。",
+              "grammarPoints": [
+                "<br class=\"oo_pcrev\">でも",
+                "そして"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_9_18_2.php"
+            },
+            {
+              "sentence": "きょうとに　いきたいです。",
+              "grammarPoints": [
+                "　いきたいです"
+              ],
+              "href": "https://a1.marugotoweb.jp/en/note_9_18_3.php"
+            },
+            {
+              "sentence": "Practice",
+              "grammarPoints": [],
+              "href": "https://a1.marugotoweb.jp/en/grammar_topic9_18.php"
+            }
+          ],
+          "practiceLink": "https://a1.marugotoweb.jp/en/grammar_topic9_18.php"
+        }
+      ]
+    }
+  ]
+}

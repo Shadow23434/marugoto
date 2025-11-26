@@ -10,10 +10,12 @@ import lombok.NoArgsConstructor;
 public class TopicRequest {
     private String slug;
     private String title;
+    private String titleRomaji;
+    private String titleEn;
     private String description;
     private String thumbnail;
     private String language;
     private String type;
     private Integer orderIndex;
+    private String hexColor;
 }
-
