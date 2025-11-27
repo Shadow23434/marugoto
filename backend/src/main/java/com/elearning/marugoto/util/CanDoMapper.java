@@ -12,10 +12,10 @@ public class CanDoMapper {
         CanDoResponse dto = new CanDoResponse();
         BeanUtils.copyProperties(entity, dto);
 
-        // Map Lesson ID
         if (entity.getLesson() != null) {
             dto.setLessonId(entity.getLesson().getId());
         }
+
         return dto;
     }
 

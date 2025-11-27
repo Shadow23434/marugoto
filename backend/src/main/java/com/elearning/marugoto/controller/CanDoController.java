@@ -2,7 +2,6 @@ package com.elearning.marugoto.controller;
 
 import com.elearning.marugoto.model.dto.request.CanDoRequest;
 import com.elearning.marugoto.model.dto.response.CanDoResponse;
-import com.elearning.marugoto.model.dto.response.LessonResponse;
 import com.elearning.marugoto.service.CanDoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +19,8 @@ public class CanDoController {
 
     private final CanDoService canDoService;
 
-    // --- PUBLIC ---
+    // ==================== PUBLIC (GET) ====================
+
     @GetMapping("/{id}")
     public ResponseEntity<CanDoResponse> getById(@PathVariable Long id) {
         return ResponseEntity.ok(canDoService.getById(id));
@@ -31,7 +31,8 @@ public class CanDoController {
         return ResponseEntity.ok(canDoService.getByLessonId(lessonId));
     }
 
-    // --- ADMIN ---
+    // ==================== ADMIN (POST/PUT/DELETE) ====================
+
     @PostMapping
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<CanDoResponse> create(@RequestBody CanDoRequest req) {

@@ -9,7 +9,6 @@ import com.elearning.marugoto.repository.jpa.CanDoRepository;
 import com.elearning.marugoto.repository.jpa.LessonRepository;
 import com.elearning.marugoto.service.CanDoService;
 import com.elearning.marugoto.util.CanDoMapper;
-import com.elearning.marugoto.util.LessonMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -33,18 +32,17 @@ public class CanDoServiceImpl implements CanDoService {
 
     @Override
     public List<CanDoResponse> getByLessonId(Long lessonId) {
-        return canDoRepository.findByLessonIdOrderByOrderGlobalAsc(lessonId).stream()
+        List<CanDo> entities = canDoRepository.findByLessonIdOrderByOrderGlobalAsc(lessonId);
+        return entities.stream()
                 .map(CanDoMapper::toResponse)
                 .collect(Collectors.toList());
     }
 
     @Override
     public CanDoResponse create(CanDoRequest req) {
-        // 1. Tìm Lesson cha
         Lesson lesson = lessonRepository.findById(req.getLessonId())
                 .orElseThrow(() -> new AppException("Lesson not found", HttpStatus.NOT_FOUND));
 
-        // 2. Map & Save
         CanDo canDo = CanDoMapper.toEntity(req);
         canDo.setLesson(lesson);
 
@@ -57,9 +55,10 @@ public class CanDoServiceImpl implements CanDoService {
                 .orElseThrow(() -> new AppException("CanDo not found", HttpStatus.NOT_FOUND));
 
         existing.setContent(req.getContent());
+        existing.setSubtitle(req.getSubtitle());
         existing.setOrderGlobal(req.getOrderGlobal());
+        existing.setSteps(req.getSteps());
 
-        // Nếu muốn chuyển CanDo sang bài học khác
         if (req.getLessonId() != null && !req.getLessonId().equals(existing.getLesson().getId())) {
             Lesson newLesson = lessonRepository.findById(req.getLessonId())
                     .orElseThrow(() -> new AppException("Lesson not found", HttpStatus.NOT_FOUND));
