@@ -150,7 +150,7 @@
 
     return data.map((cd) => ({
       no: cd.orderGlobal,
-      title: cd.content,
+      title: cd.subtitle,
       id: cd.id,
     }));
   }

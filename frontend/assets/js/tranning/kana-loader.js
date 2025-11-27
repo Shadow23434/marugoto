@@ -1,11 +1,3 @@
-/**
- * kana-loader.js
- * Tải và render danh sách Kana từ API.
- * UPDATE:
- * 1. Fix lỗi thiếu ký tự do API trả về rowName rỗng.
- * 2. Bổ sung logic tự động phân loại hàng (Row) dựa trên Romaji.
- * 3. Sắp xếp đúng thứ tự a-i-u-e-o và ya-yu-yo.
- */
 (function () {
   "use strict";
 
@@ -15,10 +7,6 @@
   if (!hiraganaContainer && !katakanaContainer) return;
 
   const KANA_TYPE = hiraganaContainer ? "hiragana" : "katakana";
-
-  // ==========================================
-  // 1. CẤU HÌNH HIỂN THỊ (ORDER & CSS CLASSES)
-  // ==========================================
 
   const SEIDAKUON_ORDER = [
     { key: "a", cls: "alone" },
@@ -53,11 +41,6 @@
     { key: "rya", cls: "alone" },
   ];
 
-  // ==========================================
-  // 2. LOGIC XỬ LÝ DỮ LIỆU
-  // ==========================================
-
-  // Hàm đoán Row Key từ Romaji nếu API trả về rowName rỗng
   function detectRowKey(char) {
     if (char.rowName && char.rowName.trim() !== "") {
       return char.rowName.split(" ")[0];
