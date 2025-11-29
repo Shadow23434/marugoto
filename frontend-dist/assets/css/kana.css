@@ -1,0 +1,466 @@
+/* Page navigation */
+.page_nav .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page_nav .container ul li ~ li {
+    margin-left: 1rem;
+}
+
+.page_nav .container ul li.btn-outline-primary a {
+    color: var(--bs-primary);
+}
+
+.page_nav .container ul li.btn-primary a {
+    color: #fff;
+}
+
+.page_nav .container ul li.btn-outline-primary a:hover {
+    color: #fff
+}
+
+/* Character list */
+.char_list .seidakuon>ul, .char_list .youon>ul, .char_list .kanji>ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.char_list .seidakuon>ul>li, .char_list .youon>ul>li, .char_list .kanji>ul>li {
+    width: 440px;
+    margin-bottom: 24px;
+}
+
+.char_list .seidakuon>ul>li.alone, .char_list .seidakuon>ul>li.alone_psound, .char_list .youon>ul>li.alone, .char_list .youon>ul>li.alone_psound, .char_list .kanji>ul>li.alone, .char_list .kanji>ul>li.alone_psound {
+    margin-right: 560px !important;
+    margin-left: 0 !important;
+}
+
+.char_list .seidakuon>ul>li.double, .char_list .youon>ul>li.double, .char_list .kanji>ul>li.double {
+    margin-left: 0;
+}
+
+.char_list .seidakuon>ul>li.double+li, .char_list .youon>ul>li.double+li, .char_list .kanji>ul>li.double+li {
+    margin-left: 120px;
+}
+
+.char_list .seidakuon>ul>li ul, .char_list .youon>ul>li ul, .char_list .kanji>ul>li ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.char_list .seidakuon>ul>li ul li, .char_list .youon>ul>li ul li, .char_list .kanji>ul>li ul li {
+    width: 70px;
+}
+
+.char_list .seidakuon>ul>li ul li a, .char_list .seidakuon>ul>li ul li>span, .char_list .youon>ul>li ul li a, .char_list .youon>ul>li ul li>span, .char_list .kanji>ul>li ul li a, .char_list .kanji>ul>li ul li>span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 13px 12px 13px 13px;
+    border: 1px solid #666;
+    background-color: #fff;
+}
+
+main#hiragana .char_list .seidakuon>ul>li ul li a, main#hiragana .char_list .seidakuon>ul>li ul li>span {
+    padding: 13px 12px 13px;
+}
+
+main#hiragana .char_list .youon>ul>li ul li a, main#hiragana .char_list .youon>ul>li ul li>span {
+    padding: 10px 0 15px 2px;
+}
+
+.char_list .seidakuon>ul>li ul li button img, .char_list .youon>ul>li ul li button img, .char_list .kanji>ul>li ul li button img {
+    width: 23px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.char_list .seidakuon>ul>li ul li button, .char_list .youon>ul>li ul li button, .char_list .kanji>ul>li ul li button {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-top: 8px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-size: 16px;
+    color: #666;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: opacity 0.35s ease;
+    -o-transition: opacity 0.35s ease;
+    transition: opacity 0.35s ease;
+}
+
+.char_list .seidakuon>ul>li ul li button img, .char_list .youon>ul>li ul li button img, .char_list .kanji>ul>li ul li button img {
+    width: 23px;
+    height: 14px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Modal set up */
+#modal_setup { 
+    padding: 0;
+    display: none; 
+}
+
+#modal_setup.is-open {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    max-width: 520px;
+    width: 90%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 1000;
+}
+
+#modal_setup .modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 24px;
+    line-height: 1;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #666;
+}
+
+#modal_setup .modal-close-btn:hover { color: var(--bs-primary); }
+
+.setup_inner {
+    padding: 25px 30px 40px;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #666666;
+}
+
+.setup_inner strong {
+    display: block;
+    font-size: 30px;
+    color: var(--bs-primary);
+}
+
+.setup_inner p {
+    margin-top: 13px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.setup_inner small {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.setup_inner dl {
+    font-size: 20px;
+    color: var(--bs-primary);
+}
+
+.setup_inner dl dt {
+    margin-top: 17px;
+}
+
+.setup_inner dl dd {
+    margin-top: 6px;
+}
+
+.setup_inner dl dd ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.setup_inner dl dd ul li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.setup_inner dl dd a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 160px;
+    min-height: 90px;
+    border: 2px solid var(--bs-primary);
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
+    color: var(--bs-primary);
+    padding: 0.5rem;
+}
+
+.setup_inner dl dd a small {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+/* =========================================================
+   Character Modal (Hiragana)
+   Sections:
+     1. Container & base
+     2. Layout grid
+     3. Left column (glyph + practice)
+     4. Animation area
+     5. Vocabulary slider
+     6. Row tabs (character switching)
+   ========================================================= */
+
+/* 1. Container & base */
+#character_modal { display: none; }
+#character_modal.is-open {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    max-width: 1000px;
+    width: 96%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.3);
+    max-height: 90vh;
+    overflow: auto;
+}
+
+#character_modal .modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 24px;
+    line-height: 1;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #666;
+}
+
+#character_modal .modal-close-btn:hover { color: var(--bs-primary); }
+#character_modal .detail_inner {
+    padding: 22px 22px 16px;
+}
+
+/* 2. Layout grid */
+#character_modal .hm-grid {
+    display: grid;
+    grid-template-columns: 32% 30% 34%;
+    gap: 18px;
+    align-items: start;
+}
+
+/* 3. Left column (glyph + practice) */
+#character_modal .hm-left .hm-glyph { font-size: 100px; line-height: 1; color: #444; }
+#character_modal .hm-left .hm-roman {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    color: #0b7487;
+    margin: 6px 0 12px;
+}
+
+.js-audio-btn {
+    width: 43px;
+    background: none;
+}
+
+#character_modal .hm-left .hm-roman .hm-sound {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#character_modal .hm-left .hm-practice {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+#character_modal .hm-left .hm-practice img {
+    width: 100%;
+}
+
+/* 4. Animation area */
+#character_modal .hm-anim strong, #character_modal .hm-vocab strong { 
+    display: block; 
+    margin-bottom: 8px; 
+    color: #0b7487; 
+    letter-spacing: .5px; 
+    font-size: 1rem;
+}
+
+#character_modal .hm-anim .anim-box {
+    position: relative;
+    border: 2px solid #0b7487;
+    border-radius: 6px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f9fa;
+    overflow: hidden;
+}
+#character_modal .hm-anim .hm-play {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: none;
+    background: #0b7487;
+    color: #fff;
+    font-size: 42px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#character_modal .hm-anim video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: transparent;
+    display: none;
+}
+#character_modal .hm-anim video.is-playing {
+    display: block;
+}
+
+/* 5. Vocabulary slider */
+#character_modal .hm-slider { position: relative; border: 2px solid #0b7487; border-radius: 6px; padding: 10px 38px; background: #f7f9fa; }
+#character_modal .hm-slider {
+    position: relative;
+    border: 2px solid #0b7487;
+    border-radius: 6px;
+    padding: 10px 38px;
+    background: #f7f9fa;
+}
+#character_modal .hm-slider .viewport {
+    overflow: hidden;
+}
+#character_modal .hm-slider .track {
+    display: flex;
+    transition: transform .35s ease;
+    will-change: transform;
+}
+#character_modal .hm-slider .slide {
+    width: 100%;
+    flex: 0 0 100%;
+    padding: 4px;
+}
+#character_modal .hm-slider .image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+#character_modal .hm-slider .caption {
+    margin-top: 6px;
+}
+#character_modal .hm-slider .caption span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+#character_modal .hm-slider .caption i {
+    display: block;
+    color: #b41e22;
+}
+#character_modal .hm-slider .meaning {
+    color: #333;
+}
+#character_modal .hm-slider button.prev,
+#character_modal .hm-slider button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #0b7487;
+    background: #fff;
+    color: #0b7487;
+    cursor: pointer;
+}
+#character_modal .hm-slider button.prev {
+    left: 6px;
+}
+#character_modal .hm-slider button.next {
+    right: 6px;
+}
+#character_modal .hm-slider button:disabled {
+    opacity: .4;
+    cursor: default;
+}
+
+/* 6. Row tabs */
+#character_modal .hm-rowtabs { margin-top: 18px; display: flex; gap: 12px; }
+#character_modal .hm-rowtabs .js-rowtab {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 40px;
+    line-height: 1;
+    color: #444;
+    cursor: pointer;
+}
+
+#character_modal .hm-rowtabs .js-rowtab.is-active {
+    outline: 3px solid #0b7487;
+    border: none;
+}

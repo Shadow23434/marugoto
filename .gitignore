@@ -146,15 +146,9 @@ log/
 /tmp
 /out-tsc
 
-### Frontend (nếu frontend-dist là build output) ###
-# Bỏ comment dòng dưới nếu frontend-dist được generate tự động
-# frontend-dist/
-
 ### Docker ###
 docker-compose.override.yml
 docker-compose.local.yml
-docker-compose.prod.yml
-.dockerignore
 
 ### Configuration files ###
 # Nginx configs with sensitive data
@@ -170,4 +164,3 @@ nginx.prod.conf
 
 ### Project specific ###
 resolvedMainClassName
-

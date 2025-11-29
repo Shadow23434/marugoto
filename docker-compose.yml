@@ -7,8 +7,8 @@ services:
     container_name: marugoto_postgres
     environment:
       POSTGRES_DB: dev_marugoto
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 1
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:
@@ -39,12 +39,14 @@ services:
     build: .
     container_name: marugoto_backend
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/dev_marugoto
-      - SPRING_DATASOURCE_USERNAME=postgres
-      - SPRING_DATASOURCE_PASSWORD=1
-      - SPRING_DATA_REDIS_HOST=redis
-      - SPRING_ELASTICSEARCH_URIS=http://elasticsearch:9200
-      - JWT_SECRET=5367566B59703373367639792F423F4528482B4D6251655468576D5A71347437
+      - SPRING_JPA_OPEN_IN_VIEW=true
+      - SPRING_DATASOURCE_URL=${DB_URL}
+      - SPRING_DATASOURCE_USERNAME=${DB_USERNAME}
+      - SPRING_DATASOURCE_PASSWORD=${DB_PASSWORD}
+      - SPRING_DATA_REDIS_HOST=${REDIS_HOST}
+      - SPRING_ELASTICSEARCH_URIS=${ELASTIC_URI}
+      - JWT_SECRET=${JWT_SECRET}
+      - SPRING_PROFILES_ACTIVE=${SPRING_PROFILES_ACTIVE}
     depends_on:
       - postgres
     #      - redis
