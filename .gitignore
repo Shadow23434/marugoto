@@ -1,81 +1,173 @@
-# .gitignore for marugoto project
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Gradle
-.gradle/
-**/build/
-/build/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 
-# Gradle wrapper
-gradle-wrapper.jar
-
-# IntelliJ / JetBrains
+### IntelliJ IDEA ###
 .idea/
-*.iml
 *.iws
-workspace.xml
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/dbnavigator.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/modules/
+.idea/*.iml
+.idea/modules.xml
+.idea/vcs.xml
 
-# VS Code
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
 .vscode/
 
-# OS files
+### macOS ###
 .DS_Store
-Thumbs.db
+.AppleDouble
+.LSOverride
 
-# Java
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+### Linux ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### Java ###
 *.class
+*.ctxt
+.mtj.tmp/
 *.jar
 *.war
+*.nar
 *.ear
-*.log
-*.keystore
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
 
-# Eclipse
-.classpath
-.project
-.settings/
+### Gradle ###
+.gradle/
+**/build/
+!src/**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
 
-# Node
+### Spring Boot ###
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+### Node.js (for frontend) ###
 node_modules/
 npm-debug.log*
+yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# Frontend build outputs
-frontend/dist/
-frontend/build/
-
-# Temporary files
-tmp/
-temp/
-*.tmp
-
-# Environment
+### Environment variables ###
 .env
-.env.*
+.env.local
+.env.*.local
+
+### Temporary files ###
+*.tmp
+*.temp
+*.swp
+*.swo
+*~.nib
 local.properties
 
-# Docker
+### Logs ###
+logs/
+*.log
+log/
+
+### Database ###
+*.db
+*.sqlite
+*.sqlite3
+
+### Compiled output ###
+/dist
+/tmp
+/out-tsc
+
+### Frontend (nếu frontend-dist là build output) ###
+# Bỏ comment dòng dưới nếu frontend-dist được generate tự động
+# frontend-dist/
+
+### Docker ###
 docker-compose.override.yml
+docker-compose.local.yml
+docker-compose.prod.yml
+.dockerignore
 
-# Coverage
-coverage/
-*.lcov
+### Configuration files ###
+# Nginx configs with sensitive data
+nginx.local.conf
+nginx.prod.conf
+# Keep example configs
+!nginx.conf.example
 
-# Misc
-*.swp
-*~
+# Any config files with credentials
+*-credentials.conf
+*-credentials.yml
+*-credentials.properties
 
-# Ignore IDE run configs and local settings
-.idea/*workspace.xml
-.idea/*tasks.xml
-.idea/dictionaries/
-
-# Allow keeping lockfiles and important project files
-!package.json
-!yarn.lock
-!package-lock.json
-
-# Project-specific
-backend/*.jar
-
-# Keep by exception - if you want to track specific files, remove their lines above
+### Project specific ###
+resolvedMainClassName
 

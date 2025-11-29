@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/kana.css">
+    <title>MARUGOTO Plus (Starter A1)</title>
+    <script>
+        if (!localStorage.getItem('isLoggedIn')) {
+            window.location.href = 'auth.html';
+        }
+    </script>
+</head>
+
+<body>
+    <div data-include="common/header.html"></div>
+
+    <main id="katakana">
+        <div class="nav_container py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <nav style="--bs-breadcrumb-divider: ''" aria-label="breadcrumb">
+                        <ol class="breadcrumb custom-breadcrumb">
+                            <li class="breadcrumb-item home"><a href="index.html" aria-label="Home">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="M3 11.5L12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-8.5z" fill="#fff"/></svg>
+                            <span class="label">HOME</span></a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Katakana</li>
+                        </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="title_container" style="--accent-color:#b41e22; background-image:url('assets/images/katakana/bg/bg_page_title.jpg');">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="page_title col-6">
+                        <span>
+                            <strong>カタカナ</strong>
+                            <br><i></i>
+                            Katakana
+                        </span>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="page_nav">
+            <div class="container py-3">
+                <ul>
+                    <li class="btn btn-outline-primary"><a href="katakana_drill.html"><span>Katakana drill</span></a></li>
+                    <li class="btn btn-outline-primary"><a href="hiragana.html"><span>Hiragana</span></a></li>
+                    <li class="btn btn-primary"><a href="#modal_setup" class="inline_modal cboxElement"><span>Set up</span></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container">
+                <div class="char_list">
+                    <div class="d-flex justify-content-center py-5">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div data-include="common/footer.html"></div>
+
+    <div id="modal_setup">
+        <div class="setup_inner">
+            <strong>Set up</strong>
+            <p>You can perform a simple set up on your own PC to <br class="oo_sprev">enable you to type Japanese characters.<br>
+            Please see the link below for details.</p>
+            <small>※External site opens in a new window</small>
+            <dl class="detail">
+                <dt>Windows</dt>
+                <dd>
+                    <ul>
+                        <li><a href="https://support.microsoft.com/en-us/windows/language-packs-for-windows-a5094319-a92d-18de-5b53-1cfc697cfca8#WindowsVersion=Windows_10" target="_blank">Windows<br>
+                        10</a></li>
+                        <li><a href="https://support.microsoft.com/en-us/windows/manage-display-language-settings-in-windows-219f28b0-9881-cd4c-75ca-dba919c52321#ID0EBD=Windows_11" target="_blank">Windows<br>
+                        11</a></li>
+                    </ul>
+                </dd>
+                <dt class="mac">Mac</dt>
+                <dd class="mac">
+                    <ul>
+                        <li><a href="https://support.apple.com/kb/PH25082?locale=en_US&amp;viewlocale=en_US" target="_blank">Mac OS<br><small>13.7(Ventura) / 14.7(Sonoma)<br>15.4(Sequoia)</small></a></li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <!-- Floating back-to-top button -->
+    <button id="backToTopBtn" class="btn btn-primary" aria-label="Back to top" hidden>
+        <span class="visually-hidden">Back to top</span>
+        <span aria-hidden="true">🡩</span>
+    </button>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/common/include-html.js" defer></script>
+    <script src="assets/js/api-config.js"></script>
+    <script src="assets/js/common/toast.js"></script>
+    <script src="assets/js/common/error-handler.js"></script>
+    <script src="assets/js/tranning/kana-service.js"></script>
+    <script src="assets/js/tranning/kana-loader.js"></script>
+    <script src="assets/js/tranning/kana-modal.js"></script>
+    <script src="assets/js/tranning/audio-buttons.js" defer></script>
+    <script src="assets/js/common/back-to-top.js" defer></script>
+    <script src="assets/js/tranning/modal-setup.js" defer></script>
+</body>
+</html>
